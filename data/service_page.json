@@ -1,0 +1,86 @@
+{
+  "breadcrumbTitle": "Szolgáltatások",
+  "sectionTitleSubtitle": "Mit csinálunk",
+  "sectionTitleMain": "Szolgáltatási területeink",
+  "services": [
+    {
+      "key": 1,
+      "background": "/assets/img/services/services_item01.jpg",
+      "icon": "/assets/img/icon/services_icon01.svg",
+      "title": "Tetőfedés",
+      "number": "01",
+      "overlayTitle": "Tetőfedés",
+      "overlayText": "Professzionális tetőfedési szolgáltatások minőségi anyagokkal és tapasztalt szakemberekkel.",
+      "readMoreText": "Tovább"
+    },
+    {
+      "key": 2,
+      "background": "/assets/img/services/services_item02.jpg",
+      "icon": "/assets/img/icon/services_icon02.svg",
+      "title": "Tetőjavítás",
+      "number": "02",
+      "overlayTitle": "Tetőjavítás",
+      "overlayText": "Tetők gyors és hatékony javítása a legkorszerűbb technológiákkal.",
+      "readMoreText": "Tovább"
+    },
+    {
+      "key": 3,
+      "background": "/assets/img/services/services_item03.jpg",
+      "icon": "/assets/img/icon/services_icon03.svg",
+      "title": "Tetőszigetelés",
+      "number": "03",
+      "overlayTitle": "Tetőszigetelés",
+      "overlayText": "Energiahatékony tetőszigetelési megoldások minden típusú épületre.",
+      "readMoreText": "Tovább"
+    },
+    {
+      "key": 4,
+      "background": "/assets/img/services/services_item04.jpg",
+      "icon": "/assets/img/icon/services_icon04.svg",
+      "title": "Bádogos munkák",
+      "number": "04",
+      "overlayTitle": "Bádogos munkák",
+      "overlayText": "Magas minőségű bádogos munkák, precíz kivitelezéssel.",
+      "readMoreText": "Tovább"
+    },
+    {
+      "key": 5,
+      "background": "/assets/img/services/services_item05.jpg",
+      "icon": "/assets/img/icon/services_icon05.svg",
+      "title": "Tetőkarbantartás",
+      "number": "05",
+      "overlayTitle": "Tetőkarbantartás",
+      "overlayText": "Rendszeres tetőkarbantartás a hosszú élettartam biztosítása érdekében.",
+      "readMoreText": "Tovább"
+    }
+  ],
+  "appointmentTitleSubtitle": "A tetőjének szakértői figyelemre van szüksége",
+  "appointmentTitleMain": "Foglaljon időpontot",
+  "formLabels": {
+    "firstName": "Keresztnév",
+    "lastName": "Vezetéknév",
+    "phoneNumber": "Telefonszám",
+    "emailAddress": "Email cím",
+    "address": "Cím",
+    "city": "Város",
+    "state": "Állam"
+  },
+  "appointmentButtonText": "Küldje el most",
+  "supportItems": [
+    {
+      "icon": "/assets/img/icon/support_icon01.svg",
+      "title": "Gyors válasz",
+      "text": "Gyors és hatékony kommunikáció minden ügyféllel."
+    },
+    {
+      "icon": "/assets/img/icon/support_icon02.svg",
+      "title": "Szakértelem",
+      "text": "Magasan képzett szakemberek a legjobb eredményekért."
+    },
+    {
+      "icon": "/assets/img/icon/support_icon03.svg",
+      "title": "Megbízhatóság",
+      "text": "Megbízható szolgáltatások, amelyekben megbízhat."
+    }
+  ]
+}

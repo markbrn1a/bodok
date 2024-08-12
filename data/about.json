@@ -1,0 +1,47 @@
+{
+  "aboutSection": {
+    "title": "We’re Committed to Roofing Excellence",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majori have suffered alteration in some form, by injected humour, or randomised word which don't look even slightly believable.",
+    "list": [
+      "32k Partners have worked us.",
+      "Professional and experienced human resources.",
+      "Provide the best roof services"
+    ],
+    "buttonText": "Learn More"
+  },
+  "workSection": {
+    "title": "Roof Plan Working Process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Plan for Roofing",
+        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+      },
+      {
+        "number": "02",
+        "title": "Schedule Estimate",
+        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+      },
+      {
+        "number": "03",
+        "title": "Install New Roof",
+        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+      },
+      {
+        "number": "04",
+        "title": "Enjoy Roofing",
+        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+      }
+    ]
+  },
+  "historySection": {
+    "title": "Roofing when an unknown printer took to make type book",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majori our as have suffered alteration in some form, by injected humour, or randomised word which don't look even slightly believable.",
+    "list": [
+      "Technology management",
+      "Roofing Solutions",
+      "Modern Worker Working here",
+      "Quick Response"
+    ]
+  }
+}

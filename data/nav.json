@@ -1,0 +1,108 @@
+{
+  "navigationLinks": {
+    "home": { "href": "/", "text": "Főoldal" },
+    "about": { "href": "/rolunk", "text": "Rólunk" },
+    "services": {
+      "href": "/szolgaltatasok",
+      "text": "szolgáltatások",
+      "subLinks": [
+        {
+          "text": "Tetőfedés",
+          "href": "/szolgaltatasok/tetofedes",
+          "subLinks": [
+            {
+              "href": "/szolgaltatasok/tetofedes",
+              "text": "Tetőfedés"
+            },
+            {
+              "href": "/szolgaltatasok/tetofedes/lindab-tetofedes",
+              "text": "Lindab Tetőfedés"
+            },
+            {
+              "href": "/szolgaltatasok/tetofedes/tondach-tetofedes",
+              "text": "Tondach Tetőfedés"
+            },
+            {
+              "href": "/szolgaltatasok/tetofedes/allokorcos-tetofedes",
+              "text": "Állókorcos Tetőfedés"
+            },
+            {
+              "href": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel",
+              "text": "Cserepeslemezes Tetőfedés"
+            },
+            {
+              "href": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes",
+              "text": "Kerámiacserepes Tetőfedés"
+            },
+            {
+              "href": "/szolgaltatasok/tetofedes/ipari-tetofedes",
+              "text": "Ipari Tetőfedés"
+            }
+          ]
+        },
+        {
+          "text": "Ácsmunkák",
+          "href": "/szolgaltatasok/acsmunkak",
+          "subLinks": [
+            { "href": "/szolgaltatasok/acsmunkak", "text": "Ácsmunkák" },
+            {
+              "href": "/szolgaltatasok/acsmunkak/konnyuszerkezetes-fahazak-epitese",
+              "text": "Könnyűszerkezetes Faházak Építése"
+            }
+          ]
+        },
+        {
+          "text": "Bádogos Munkák",
+          "href": "/szolgaltatasok/badogosmunkak",
+          "subLinks": [
+            {
+              "href": "/szolgaltatasok/badogosmunkak",
+              "text": "Bádogos Munkák"
+            },
+            {
+              "href": "/szolgaltatasok/badogosmunkak/ereszcsatorna-szereles",
+              "text": "Ereszcsatorna Szerelés"
+            },
+            {
+              "href": "/szolgaltatasok/badogosmunkak/ereszcsatorna-felujitas",
+              "text": "Ereszcsatorna Felújítás"
+            }
+          ]
+        },
+        {
+          "text": "Tetőfelújítás",
+          "href": "/szolgaltatasok/tetofelujitas",
+          "subLinks": [
+            {
+              "href": "/szolgaltatasok/tetofelujitas",
+              "text": "Tetőfelújítás"
+            },
+            {
+              "href": "/szolgaltatasok/tetofelujitas/beazasok-es-viharkarok-javitasa",
+              "text": "Beázások és Viharkárok Javítása"
+            },
+            {
+              "href": "/szolgaltatasok/tetofelujitas/palateto-felujitas",
+              "text": "Palatető Felújítás"
+            }
+          ]
+        },
+        { "href": "/szolgaltatasok/tetomosas", "text": "Tetőmosás" }
+      ]
+    },
+    "projects": { "href": "/munkaink", "text": "Munkáink" },
+    "contact": { "href": "/kapcsolat", "text": "Kapcsolat" },
+    "legal": { "href": "/imprint", "text": "Impresszum" },
+    "gdpr": { "href": "/gdpr", "text": "Adatvédelmi irányelvek" }
+  },
+  "headerAction": {
+    "contactButton": { "href": "/kapcsolat", "text": "Kérjen ajánlatot" }
+  },
+  "socialLinks": [
+    { "href": "#", "iconClass": "fab fa-facebook-f" },
+    { "href": "#", "iconClass": "fab fa-twitter" },
+    { "href": "#", "iconClass": "fab fa-instagram" },
+    { "href": "#", "iconClass": "fab fa-linkedin-in" },
+    { "href": "#", "iconClass": "fab fa-youtube" }
+  ]
+}

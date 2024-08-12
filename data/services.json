@@ -1,0 +1,1715 @@
+[
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (5).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (17).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (12).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (8).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (4).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "lindab-tetofedes",
+    "breadcrumbTitle": "Lindab Tetőfedés",
+    "servicesDetails": {
+      "title": "Lindab Tetőfedés: Tartós és Megbízható Megoldás",
+      "description1": "A Lindab tetőfedés kombinálja a kerámiacserepes tetők megjelenését a modern acél előnyeivel, így tökéletesen alkalmas új építésekhez és tetőfelújításokhoz. A Lindab cserepeslemezek könnyűek, tartósak, és gyorsan telepíthetők, akár közvetlenül a régi tetőfedésre is.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "A Lindab tetőfedés környezetbarát és fenntartható megoldást kínál, amit a GreenCoat® acél alapanyagainak használata biztosít. Szakembereink garantáltan minőségi munkát végeznek, amely tartós és megbízható eredményt biztosít.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A Lindab cserepeslemezek könnyűek, tartósak, és ideálisak új és felújított tetők számára is.",
+        "benefitsList": [
+          "Könnyű és tartós anyag",
+          "Gyors kivitelezés",
+          "Környezetbarát megoldás",
+          "Teljeskörű garancia"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/services_details01_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/sb_img02_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/sp_img01_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/h4_services_img02_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/h4_services_img03_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "tetofedes",
+    "breadcrumbTitle": "Tetőfedés",
+    "servicesDetails": {
+      "title": "Tetőfedés: Minőségi és Megbízható Tetőmegoldások",
+      "description1": "A Bodok Tetőfedő Mester több évtizedes tapasztalattal kínál kiváló minőségű tetőfedési szolgáltatásokat. A csapat kizárólag a legjobb anyagokat használja, és teljes körű garanciát nyújt minden elvégzett munkára és felhasznált anyagra. A szolgáltatások közé tartozik a cserepeslemezes, kerámiacserepes, és állókorcos tetőfedés, valamint ipari tetőmegoldások és ácsmunkák.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "A Bodok Tetőfedő Mester csapata elkötelezett a minőségi munkavégzés mellett. Tapasztalt szakembereink precízen dolgoznak, és mindig reális árakkal, rejtett költségek nélkül szolgálják ki ügyfeleinket. Ráadásul segítünk az állami támogatások megigénylésében is.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A Bodok Tetőfedő Mester több évtizedes tapasztalatával és teljes körű garanciájával kiemelkedik a piacon. Szakértelmünk és rugalmasságunk biztosítja, hogy az ügyfél elégedett legyen a végeredménnyel.",
+        "benefitsList": [
+          "Rugalmasság és alkalmazkodás az ügyfél igényeihez",
+          "Teljes körű garancia minden munkára",
+          "Rejtett költségek nélküli árajánlat",
+          "Magyar tulajdonban lévő vállalkozás"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (27).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/tetofedes/bodok-teto (7)_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/h4_services_img01_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/sp_img02_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/tetofedes/bodok-teto (2)_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "tondach-tetofedes",
+    "breadcrumbTitle": "Tondach Tetőfedés",
+    "servicesDetails": {
+      "title": "Tondach Tetőfedés: Időtálló és Sokoldalú Megoldás",
+      "description1": "A Tondach kerámiacserepekkel történő tetőfedés ideális választás minden típusú tetőhöz. Ezek a cserepek rendkívül időtállóak és ellenállnak a környezeti hatásoknak, így hosszú élettartamot biztosítanak. A Tondach cserepek széles szín- és formaválasztékban elérhetők, így mindenki megtalálhatja a számára megfelelőt, legyen szó régi vagy modern épületekről.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "A Tondach kerámiacserepek természetes légzést és mikroklímát biztosítanak a tető számára, emellett környezetbarátak és újrahasznosíthatók. Szakértő csapatunk biztosítja a szakszerű kivitelezést és a tartós, esztétikus végeredményt.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A Tondach kerámiacserepek kiválóan védenek a zord időjárási viszonyok ellen, hő- és tűzállóak, valamint sav- és lúgállóak.",
+        "benefitsList": [
+          "Hosszú élettartam",
+          "Környezetbarát anyagok",
+          "Széles szín- és formaválaszték",
+          "Magas szintű védelem a környezeti hatásokkal szemben"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (3).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (1).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (26).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (25).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (16).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "allokorcos-tetofedes",
+    "breadcrumbTitle": "Állókorcos Tetőfedés",
+    "servicesDetails": {
+      "title": "Állókorcos Tetőfedés: Modern és Tartós Megoldás",
+      "description1": "Az állókorcos lemezfedés kiváló választás nagy felületű tetők lefedéséhez, különösen ott, ahol erős szélnek vannak kitéve az épületek. Az anyag tartós, hő- és tűzálló, valamint könnyen karbantartható. Az állókorcos tetőfedés modern és esztétikus megjelenést biztosít, amely alkalmazható szinte bármilyen formájú és lejtésű tetőnél.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "Az állókorcos tetőfedés időtálló, modern megoldást kínál, amely ellenáll a szélsőséges időjárási viszonyoknak. Szakértő csapatunk garantálja a magas színvonalú kivitelezést és a teljeskörű garanciát minden elvégzett munkára.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "Az állókorcos tetőfedés időtálló és megbízható megoldást kínál, amely modern megjelenést biztosít, és ellenáll a zord időjárási viszonyoknak.",
+        "benefitsList": [
+          "Erős szélállóság",
+          "Modern és esztétikus megjelenés",
+          "Magas minőségű anyagok",
+          "Teljeskörű garancia"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (12).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (14).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (11).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (8).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/tetofedes/bodok-teto (4)_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "tetofedes-cserepeslemezzel",
+    "breadcrumbTitle": "Cserepeslemezes Tetőfedés",
+    "servicesDetails": {
+      "title": "Cserepeslemezes Tetőfedés: Gazdaságos és Gyors Megoldás",
+      "description1": "A cserepeslemezes tetőfedés gyors és költséghatékony megoldást kínál, amely kiválóan ellenáll az időjárási viszontagságoknak. A cserepeslemezek többféle színben és mintázatban elérhetők, könnyen karbantarthatók, és minimális karbantartást igényelnek hosszú évekig.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "A cserepeslemezes tetőfedés gyors kivitelezést és tartós megoldást nyújt, környezetbarát anyagokból készül, és hosszú élettartammal bír. Csapatunk garantálja a magas színvonalú munkát és a teljeskörű garanciát minden projektre.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A cserepeslemezes tetőfedés költséghatékony megoldást kínál, gyors kivitelezéssel és könnyű karbantarthatósággal.",
+        "benefitsList": [
+          "Gyors Kivitelezés",
+          "Időtálló Munka",
+          "Minőségi Anyagok",
+          "Környezetbarát Megoldás"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (22).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/tetofedes/bodok-badogozas (0).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (27).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/sb_img02_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/h4_services_img01_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "keramia-cserepes-tetofedes",
+    "breadcrumbTitle": "Kerámiacserepes Tetőfedés",
+    "servicesDetails": {
+      "title": "Kerámiacserepes Tetőfedés: Hagyományos és Tartós Megoldás",
+      "description1": "A kerámiacserepes tetőfedés a legrégebbi és legidőtállóbb tetőfedési módszer. A természetes anyagokból készült cserepek kiváló hő- és hangszigetelő tulajdonságokkal rendelkeznek, valamint fagy- és tűzállóak. Az ilyen tetőfedés ideális választás mind új, mind régi épületek számára, különösen akkor, ha fontos a természetes megjelenés és a környezetbarát megoldás.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "A kerámiacserepes tetőfedés természetes anyagokat használ, amelyek teljes mértékben újrahasznosíthatók. Szakértő csapatunk biztosítja a szakszerű kivitelezést és a tartós, esztétikus végeredményt, amely hosszú élettartammal rendelkezik.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A kerámiacserepes tetőfedés számos előnyt kínál, köztük a hő- és tűzállóságot, valamint a kiváló szellőzést és vízelvezetést.",
+        "benefitsList": [
+          "Hő- és tűzálló",
+          "Természetes anyagok",
+          "Időtálló megoldás",
+          "Környezetbarát és újrahasznosítható"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (19).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (16).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (6).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (26).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/tetofedes/bodok-tetofedes (25).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "ipari-tetofedes",
+    "breadcrumbTitle": "Ipari Tetőfedés",
+    "servicesDetails": {
+      "title": "Ipari Tetőfedés: Biztonságos és Tartós Megoldások",
+      "description1": "Az ipari tetőfedés során a tartósság és a biztonság elsődleges szempontok. A Bodok Tetőfedő Mester szakemberei tapasztalattal és hozzáértéssel biztosítják a stabil tetőszerkezetek felépítését és karbantartását különféle ipari épületek számára. Az ipari környezetben használt tetőfedő anyagok fokozottan ellenállnak a vegyi anyagoknak, kipufogógázoknak és egyéb ipari szennyeződéseknek, ezzel garantálva a hosszú élettartamot.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "Az ipari tetőfedések során a megfelelő anyagválasztás és a szakszerű kivitelezés elengedhetetlen. Csapatunk nemcsak a tetőszerkezetek telepítésében jártas, hanem a rendszeres karbantartásban és szükség esetén a gyors javításokban is, így minimalizálva az üzemi leállásokat és biztosítva a zavartalan működést.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "Az ipari tetőfedés kiemelkedő előnyei közé tartozik a magas szintű védelem az ipari szennyeződések ellen, a tartósság és a biztonságos szerkezetek kialakítása.",
+        "benefitsList": [
+          "Ellenálló anyagok ipari környezetben",
+          "Fokozott biztonsági megoldások",
+          "Hosszú élettartam",
+          "Rugalmas karbantartási szerződések"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/acsmunkak/bodok-acsmunkak (2).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/acsmunkak/bodok-acsmunkak (1).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/acsmunkak/bodok-acsmunkak (3).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/acsmunkak/bodok-acsmunkak (5).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/acsmunkak/bodok-acsmunkak (7).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "acsmunkak",
+    "breadcrumbTitle": "Ácsmunkák",
+    "servicesDetails": {
+      "title": "Ácsmunkák: Precíz és Biztonságos Tetőszerkezetek",
+      "description1": "Ácsmunkák során stabil és biztonságos faszerkezeteket építünk és újítunk fel. Tapasztalt szakembereink garantálják a hosszú élettartamú, időtálló tetőszerkezeteket. Legyen szó tetőszerkezet építéséről, felújításáról, vagy könnyűszerkezetes faházak építéséről, minden projektünkre teljes körű garanciát vállalunk.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "Több évtizedes tapasztalatunkkal és professzionális hozzáállásunkkal garantáljuk a minőségi kivitelezést. Szakembereink precíz munkát végeznek, hogy ügyfeleink elégedettek legyenek a végeredménnyel.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A Bodok Tetőfedő Mester ácsmunkái során kizárólag magas minőségű anyagokat használunk, amelyek hosszú élettartamot és tartós védelmet biztosítanak.",
+        "benefitsList": [
+          "Precíz és időtálló munka",
+          "Teljes körű garancia",
+          "Tapasztalt szakemberek",
+          "Korrekt árak"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/acsmunkak/bodok-teto (6)_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/sb_img01_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/sp_img02_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/services_item02_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/services_item05_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "konnyuszerkezetes-fahazak-epitese",
+    "breadcrumbTitle": "Könnyűszerkezetes Faházak Építése",
+    "servicesDetails": {
+      "title": "Könnyűszerkezetes Faházak Építése: Gyors és Környezetbarát Megoldás",
+      "description1": "A könnyűszerkezetes faházak gyors kivitelezést és alacsony fenntartási költségeket kínálnak. Ezek a szerkezetek ideálisak hétvégi házak, irodák, garázsok, és melléképületek számára. A kiváló hő- és hangszigetelő tulajdonságoknak köszönhetően a faházak egész évben kényelmesen használhatók, és jelentősen csökkentik a fűtési és hűtési költségeket.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "A könnyűszerkezetes faházak kiváló választást jelentenek, ha fontos a gyors kivitelezés, a környezetbarát anyagok használata, és a tartósság. Csapatunk gondoskodik arról, hogy az építkezés zökkenőmentesen történjen, és az eredmény hosszú távon is megfeleljen az elvárásoknak.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A könnyűszerkezetes faházak előnyei közé tartozik a gyors építési idő, a kiváló hőszigetelés, és az alacsony fenntartási költségek.",
+        "benefitsList": [
+          "Gyors kivitelezés",
+          "Környezetbarát anyagok",
+          "Jó hőszigetelés",
+          "Rugalmas és tartós szerkezet"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (10).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (2).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (3).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (8).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (9).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "badogosmunkak",
+    "breadcrumbTitle": "Bádogos Munkák",
+    "servicesDetails": {
+      "title": "Bádogos Munkák: Minőségi és Tartós Megoldások",
+      "description1": "Bádogos munkáink során teljes körű szolgáltatást nyújtunk, beleértve a tetődíszek, kéményszegélyek, ablakkönyöklők, ereszcsatornák szerelését és javítását. Csapatunk tapasztalt szakemberekből áll, akik garantálják a minőségi kivitelezést és a hosszú élettartamot. Bádogos munkáink nemcsak esztétikai értéket adnak a tetőnek, hanem hozzájárulnak a szerkezet élettartamának meghosszabbításához is.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "Válasszon minket, ha minőségi és megbízható bádogos szolgáltatásokat keres. Tapasztalt csapatunk minden munkára és anyagra teljeskörű garanciát vállal, és biztosítja a reális árakat és a megbízható kivitelezést.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "Bádogos munkáink során kizárólag minőségi anyagokat használunk, amelyek hosszú élettartamot és tartós védelmet biztosítanak a tető számára.",
+        "benefitsList": [
+          "Időtálló kivitelezés",
+          "Teljes körű garancia",
+          "Tapasztalt szakemberek",
+          "Korrekt árak"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (14).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (4).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/sp_img01_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (13).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (0).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "ereszcsatorna-szereles",
+    "breadcrumbTitle": "Ereszcsatorna Szerelés",
+    "servicesDetails": {
+      "title": "Ereszcsatorna Szerelés: Precíz és Tartós Megoldások",
+      "description1": "Ereszcsatorna szerelés során magas minőségű anyagokkal dolgozunk, beleértve a réz, alumínium és műanyag csatornákat. A kiváló vízelvezetés érdekében választhat a félkör és négyzet alakú formák közül. Tapasztalt szakembereink garantálják az időtálló munkát és a teljes körű garanciát minden projektünkre.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "A minőségi ereszcsatornák biztosítják a megfelelő vízelvezetést és a tetőszerkezet hosszú élettartamát. Csapatunk minden munkára és anyagra teljeskörű garanciát vállal, így Ön biztos lehet abban, hogy a kivitelezés magas színvonalú és tartós lesz.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "Az ereszcsatorna szerelés során csak időtálló anyagokat használunk, amelyek garantálják a tartósságot és a hatékony vízelvezetést.",
+        "benefitsList": [
+          "Tartós anyagok",
+          "Precíz kivitelezés",
+          "Teljes körű garancia",
+          "Rövid határidők"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (1).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (11).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (14).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (12).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/badogozas/bodok-badogozas (7).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "ereszcsatorna-felujitas",
+    "breadcrumbTitle": "Ereszcsatorna Felújítás",
+    "servicesDetails": {
+      "title": "Ereszcsatorna Felújítás: Hatékony és Tartós Megoldások",
+      "description1": "Az ereszcsatorna felújítása kritikus jelentőségű, mivel a rossz állapotú vagy eltömődött csatornák komoly károkat okozhatnak az épületben. Csapatunk több évtizedes tapasztalattal és minőségi anyagokkal vállalja minden típusú ereszcsatorna felújítását, biztosítva a hatékony vízelvezetést és a szerkezet hosszú élettartamát.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "Válasszon minket, ha megbízható és tartós ereszcsatorna felújítást szeretne. Tapasztalatunk és elkötelezettségünk garantálja a minőségi munkát és a teljeskörű garanciát minden elvégzett projektre.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "Az ereszcsatorna felújítás során kizárólag minőségi anyagokat használunk, hogy hosszú élettartamot és hatékony vízelvezetést biztosítsunk.",
+        "benefitsList": [
+          "Tartós megoldások",
+          "Minőségi anyagok",
+          "Teljes körű garancia",
+          "Gyors kivitelezés"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofedes (14).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofedes (9).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofedes (2).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofelujitas (1).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofelujitas (2).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "tetofelujitas",
+    "breadcrumbTitle": "Tetőfelújítás",
+    "servicesDetails": {
+      "title": "Tetőfelújítás: Teljeskörű Megoldások a Biztonságért",
+      "description1": "A tetőfelújítás során biztosítjuk a teljeskörű javítást, beleértve a tetőszerkezetek megerősítését, beázások és viharkárok javítását. Több évtizedes tapasztalattal és szakértő csapattal garantáljuk a minőségi munkát és a teljes körű garanciát. Legyen szó bármilyen típusú tetőről, szolgáltatásaink lefedik az összes szükséges felújítási munkálatot.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "Tetőfelújításaink során hosszú távra szóló, megbízható megoldásokat kínálunk. Vállaljuk a teljeskörű garanciát az elvégzett munkára és az általunk használt anyagokra is, így biztosítva a megrendelőink elégedettségét.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A tetőfelújítási szolgáltatásaink előnyei közé tartozik a hosszú távú garancia, a kiváló minőségű anyagok használata, és a tapasztalt szakemberek által végzett precíz munka.",
+        "benefitsList": [
+          "Hosszú távú garancia",
+          "Magas minőségű anyagok",
+          "Sürgős esetek gyors kezelése",
+          "Teljeskörű megoldások"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofedes (12).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofelujitas (6).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofelujitas (5).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofelujitas (1).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofelujitas (2).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "beazasok-es-viharkarok-javitasa",
+    "breadcrumbTitle": "Beázások és Viharkárok Javítása",
+    "servicesDetails": {
+      "title": "Beázások és Viharkárok Javítása: Gyors és Hatékony Megoldások",
+      "description1": "Beázások és viharkárok esetén az azonnali beavatkozás kritikus jelentőségű. Csapatunk az ország teljes területén, akár azonnali kiszállással vállalja a sérült tetők javítását. Több évtizedes tapasztalattal és minőségi anyagokkal biztosítjuk, hogy otthona védve legyen a további károsodásoktól.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "Szolgáltatásaink biztosítják a gyors és megbízható megoldást a beázások és viharkárok által okozott problémákra. Garantáljuk a precíz munkát, minőségi anyagok használatát és a teljeskörű garanciát minden projektre.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A beázások és viharkárok javítása során gyors beavatkozást és tartós megoldásokat kínálunk, amely megvédi otthonát a további károktól.",
+        "benefitsList": [
+          "Gyors kiszállás és beavatkozás",
+          "Minőségi anyagok",
+          "Teljes körű garancia",
+          "Sürgős esetek kezelése"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofedes (2).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofelujitas (4).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/tetofelujitas/services_item01_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofelujitas (1).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/tetofelujitas/bodok-tetofelujitas (2).webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "palateto-felujitas",
+    "breadcrumbTitle": "Palatető Felújítás",
+    "servicesDetails": {
+      "title": "Palatető Felújítás: Biztonságos és Hatékony Megoldások",
+      "description1": "A palatetők felújítása során kiemelten fontos a megfelelő eljárás kiválasztása, hiszen a régi palák gyakran tartalmaznak azbesztet, amely veszélyes hulladéknak számít. A felújítás lehetőséget kínál az elöregedett tető helyreállítására, a beázások és szerkezeti problémák megszüntetésére, valamint az egészségre káros anyagok eltávolítására.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "A palatető felújításánál fontos a megfelelő technika és anyagok kiválasztása. Csapatunk garantálja a biztonságos, hosszú távú megoldásokat, amelyek megfelelnek a legmagasabb minőségi és biztonsági elvárásoknak.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A palatető felújítás során tapasztalatunk és szakértelmünk biztosítja a hosszú élettartamot és a hatékony vízelvezetést.",
+        "benefitsList": [
+          "Biztonságos azbeszt eltávolítás",
+          "Hosszú élettartam",
+          "Gyors és hatékony kivitelezés",
+          "Teljes körű garancia"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  },
+  {
+    "images": {
+      "main": {
+        "src": "/assets/img/services/services_details01_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_one": {
+        "src": "/assets/img/services/services_item03_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_two": {
+        "src": "/assets/img/services/services_item04_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_three": {
+        "src": "/assets/img/services/sw_bg_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      },
+      "detail_four": {
+        "src": "/assets/img/services/sp_img01_result.webp",
+        "alt": "Ereszcsatorna Szerelés"
+      }
+    },
+    "slug": "tetomosas",
+    "breadcrumbTitle": "Tetőmosás",
+    "servicesDetails": {
+      "title": "Tetőmosás: Hosszú Élettartam és Esztétika",
+      "description1": "A tetőmosás során korszerű technológiával tisztítjuk meg otthona tetőszerkezetét, eltávolítva a penészt, mohát, algát, zuzmót és más típusú baktériumokat. Ezzel nemcsak a tető esztétikai megjelenését javítjuk, hanem meghosszabbítjuk annak élettartamát is. A nyomásmentes, lágy mosási módszerünk biztosítja a tető anyagának védelmét a tisztítás során.",
+      "serviceProcess": {
+        "title": "Szolgáltatási Folyamatunk",
+        "steps": [
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Egyeztetés",
+            "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon02.svg",
+            "title": "Felmérés",
+            "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+          },
+          {
+            "icon": "/assets/img/icon/sp_icon01.svg",
+            "title": "Kivitelezés és Átadás",
+            "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+          }
+        ]
+      },
+      "conclusionTitle": "Miért Minket Válasszon?",
+      "description2": "A tetőmosás szolgáltatásunk segít megőrizni a tető szerkezetének épségét és megjelenését, miközben távol tartja a kártevőket, és csökkenti a karbantartási költségeket. Garantáljuk a minőségi kivitelezést és a teljes körű garanciát.",
+      "serviceBenefits": {
+        "title": "Szolgáltatásaink Előnyei",
+        "description": "A tetőmosás során korszerű és kíméletes technológiát alkalmazunk, amely megőrzi a tető anyagának épségét és hosszabb élettartamot biztosít.",
+        "benefitsList": [
+          "Nyomásmentes tisztítás",
+          "Hosszú élettartam",
+          "Esztétikus megjelenés",
+          "Teljes körű garancia"
+        ]
+      }
+    },
+    "servicesSidebar": {
+      "allServicesTitle": "Szolgáltatásaink",
+      "servicesList": [
+        {
+          "name": "Tetőfedés cserepeslemezzel",
+          "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+        },
+        {
+          "name": "Kerámiacserepes tetőfedés",
+          "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+        },
+        {
+          "name": "Bádogozás",
+          "link": "/szolgaltatasok/badogosmunkak"
+        },
+        {
+          "name": "Tetőfelújítás",
+          "link": "/szolgaltatasok/tetofelujitas"
+        },
+        {
+          "name": "Ácsmunkák",
+          "link": "/szolgaltatasok/acsmunkak"
+        }
+      ],
+      "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+      "formFields": {
+        "namePlaceholder": "Név",
+        "phonePlaceholder": "Telefonszám",
+        "messagePlaceholder": "Üzenet",
+        "buttonText": "Küldés"
+      },
+      "brochuresTitle": "További Információk",
+      "brochuresList": [
+        {
+          "text": "Tetőfelújítás Információ.pdf",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-cloud-download-alt"
+        },
+        {
+          "text": "Tetőfedési minták.doc",
+          "link": "/assets/img/services/services_details01.jpg",
+          "icon": "fas fa-file-pdf"
+        }
+      ]
+    }
+  }
+]

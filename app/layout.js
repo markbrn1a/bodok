@@ -1,6 +1,18 @@
 import { Inter } from "next/font/google";
+import Layout from "@/components/layout/Layout";
 import "./globals.css";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../public/assets/css/bootstrap.min.css";
+import "../public/assets/css/animate.min.css";
+import "../public/assets/css/magnific-popup.css";
+import "../public/assets/css/fontawesome-all.min.css";
+import "../public/assets/css/odometer.css";
+import "../public/assets/css/tg-cursor.css";
+import "../public/assets/css/default.css";
+import "../public/assets/css/jarallax.css";
+import "../public/assets/css/style.css";
+import "../public/assets/css/responsive.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -11,7 +23,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <link rel="shortcut icon" href="/assets/img/favicon.png" />
+        <link rel="preconnect" href="https://fonts.bunny.net" />
+        <link
+          href="https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i|poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
+          rel="stylesheet"
+        />
+      </head>
+      <body className={inter.className}>
+        <Layout headerCls="transparent-header">{children}</Layout>
+      </body>
     </html>
   );
 }

@@ -1,0 +1,59 @@
+{
+  "footer": {
+    "backgroundImage": "/assets/img/bg/footer_bg.jpg",
+    "aboutUsTitle": "Rólunk",
+    "aboutUsText": "Számos variációja létezik a Lorem Ipsum szövegrészleteknek, de a többségük valamilyen formában változtatott, humorral kiegészített, vagy véletlenszerűen generált szavakkal, amelyek nem tűnnek hihetőnek.",
+    "newsletterTitle": "Iratkozzon fel hírlevelünkre",
+    "newsletterPlaceholder": "Adja meg e-mail címét",
+    "newsletterButton": "Feliratkozás",
+    "servicesTitle": "Szolgáltatásaink",
+    "services": [
+      "Egyrétegű tetőfedés",
+      "Módosított tetőfedés",
+      "Rétegezett tetőfedés",
+      "Fém tetőfedés",
+      "Zöldtető",
+      "Speciális fémek"
+    ],
+    "quickLinksTitle": "Gyors linkek",
+    "quickLinks": [
+      "Felhasználási feltételek",
+      "Adók és ÁFA",
+      "Visszatérítési politika",
+      "Általános megoldások",
+      "Munkafolyamatunk",
+      "Kapcsolat"
+    ],
+    "instagramTitle": "Instagram Bejegyzések",
+    "instagramImages": [
+      "/assets/img/instagram/f_insta_img01.jpg",
+      "/assets/img/instagram/f_insta_img02.jpg",
+      "/assets/img/instagram/f_insta_img03.jpg",
+      "/assets/img/instagram/f_insta_img04.jpg",
+      "/assets/img/instagram/f_insta_img05.jpg",
+      "/assets/img/instagram/f_insta_img06.jpg"
+    ],
+    "logoImage": "/assets/img/logo/w_logo.png",
+    "phoneIcon": "fas fa-phone-alt",
+    "phoneText": "Telefonszám",
+    "phoneNumber": "+000 (123) 456 88",
+    "socialTitle": "Kövessen minket:",
+    "socialIcons": [
+      "fab fa-facebook-f",
+      "fab fa-twitter",
+      "fab fa-linkedin-in",
+      "fab fa-youtube"
+    ],
+    "copyrightText": "© Szerzői jog {year}. Minden jog fenntartva",
+    "footerMenu": [
+      {
+        "title": "Adatvédelmi irányelvek",
+        "link": "/gdpr"
+      },
+      {
+        "title": "Impresszum",
+        "link": "/imprint"
+      }
+    ]
+  }
+}

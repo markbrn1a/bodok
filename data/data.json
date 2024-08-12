@@ -1,0 +1,321 @@
+{
+  "about": {
+    "images": [
+      "/assets/img/images/about_img01.jpg",
+      "/assets/img/images/about_img02.jpg"
+    ],
+    "experiences": [
+      {
+        "icon": "/assets/img/icon/about_icon01.svg",
+        "title": "Több mint 15 éves tapasztalat"
+      },
+      {
+        "icon": "/assets/img/icon/about_icon02.svg",
+        "title": "Szakértelem és megbízhatóság"
+      }
+    ],
+    "sectionTitle": {
+      "subTitle": "Cégünkről",
+      "title": "Elkötelezettek vagyunk a tetőfedés kiválósága iránt"
+    },
+    "description": "A Bodok Tetőfedő Mester több évtizede foglalkozik tetőfedéssel és felújítással. Szakértelemmel, garanciával és megbízhatósággal állunk ügyfeleink szolgálatában.",
+    "listItems": [
+      "100%-ban magyar tulajdonú vállalat.",
+      "Garancia minden elvégzett munkára és anyagra.",
+      "Teljeskörű támogatás az állami pályázatokhoz."
+    ],
+    "link": {
+      "href": "/about",
+      "text": "Tudjon meg többet"
+    }
+  },
+  "features": [
+    {
+      "title": "Minőségi Anyagok",
+      "description": "Csak időtálló, kiváló minőségű anyagokat használunk.",
+      "link": {
+        "href": "/services-details",
+        "text": "További információ"
+      },
+      "icon": "/assets/img/icon/features_icon01.svg"
+    },
+    {
+      "title": "Szakértő Munkatársak",
+      "description": "Tapasztalt szakemberek biztosítják a kiváló munkavégzést.",
+      "link": {
+        "href": "/services-details",
+        "text": "További információ"
+      },
+      "icon": "/assets/img/icon/features_icon02.svg"
+    },
+    {
+      "title": "Teljeskörű Kivitelezés",
+      "description": "A tervezéstől a kivitelezésig minden munkafázist lefedünk.",
+      "link": {
+        "href": "/services-details",
+        "text": "További információ"
+      },
+      "icon": "/assets/img/icon/features_icon03.svg"
+    }
+  ],
+  "banner": {
+    "shapeImage": "/assets/img/banner/banner_shape.jpg",
+    "backgroundImage": "/assets/img/banner/banner_bg.jpg",
+    "title": "Legjobb Tetőfedési Szolgáltatások",
+    "description": "Családi házak tetőfedését kivitelezzük a legkorszerűbb technológiákkal, tapasztalt szakemberek bevonásával és időtálló, minőségi anyagok felhasználásával.",
+    "link": {
+      "href": "/project",
+      "text": "Fedezze fel"
+    },
+    "tooltips": [
+      {
+        "title": "Tetőfedési Szolgáltatások",
+        "description": "Minőségi tetőfedés több évtizedes tapasztalattal."
+      },
+      {
+        "title": "Tető Felújítás",
+        "description": "Viharkárok és beázások javítása teljeskörű garanciával."
+      },
+      {
+        "title": "Bádogos Munkák",
+        "description": "Bádogozás, ereszcsatornák szerelése és tisztítása."
+      }
+    ]
+  },
+  "header": {
+    "subTitle": "Szolgáltatásaink",
+    "title": "Tetőfedési és Felújítási Szolgáltatások"
+  },
+  "services": [
+    {
+      "title": "Cserepeslemezes Tetőfedés",
+      "description": "Gyors és időtálló tetőfedés cserepeslemezzel.",
+      "image": "/assets/img/services/services_item01.jpg",
+      "icon": "/assets/img/icon/services_icon01.svg",
+      "link": "/services-details",
+      "number": "01"
+    },
+    {
+      "title": "Kerámiacserepes Tetőfedés",
+      "description": "Időtálló és strapabíró tetőfedés kerámiacserepekkel.",
+      "image": "/assets/img/services/services_item02.jpg",
+      "icon": "/assets/img/icon/services_icon02.svg",
+      "link": "/services-details",
+      "number": "02"
+    },
+    {
+      "title": "Tetőszerkezet Építése",
+      "description": "Tetőszerkezetek építése és felújítása garanciával.",
+      "image": "/assets/img/services/services_item03.jpg",
+      "icon": "/assets/img/icon/services_icon03.svg",
+      "link": "/services-details",
+      "number": "03"
+    },
+    {
+      "title": "Bádogos Munkák",
+      "description": "Ereszcsatornák szerelése és tisztítása, bádogozás.",
+      "image": "/assets/img/services/services_item04.jpg",
+      "icon": "/assets/img/icon/services_icon04.svg",
+      "link": "/services-details",
+      "number": "04"
+    },
+    {
+      "title": "Faházak Építése",
+      "description": "Könnyűszerkezetes faházak építése és karbantartása.",
+      "image": "/assets/img/services/services_item05.jpg",
+      "icon": "/assets/img/icon/services_icon05.svg",
+      "link": "/services-details",
+      "number": "05"
+    },
+    {
+      "title": "Tetőjavítás és Felújítás",
+      "description": "Viharkárok és beázások javítása teljeskörű garanciával.",
+      "image": "/assets/img/services/services_item06.jpg",
+      "icon": "/assets/img/icon/services_icon06.svg",
+      "link": "/services-details",
+      "number": "06"
+    }
+  ],
+  "project": {
+    "sectionTitle": "Legújabb Projektek",
+    "sectionSubtitle": "Fedezze Fel Legújabb Projektjeinket",
+    "viewAllProjects": "Összes Projekt Megtekintése",
+    "viewAllProjectsLink": "/project",
+    "projects": [
+      {
+        "version": "Projektek V1",
+        "title": "Alacsony Épületek és Tetőjavítás",
+        "detailsLink": "/project-details",
+        "description": "Kiváló minőségű tetőjavítás és építés alacsony épületeken.",
+        "image": "/assets/img/project/project_img01.jpg"
+      },
+      {
+        "version": "Projektek V2",
+        "title": "Világszínvonalú Tetőfedés",
+        "detailsLink": "/project-details",
+        "description": "Világszínvonalú tetőfedés kiváló minőségű anyagokkal.",
+        "image": "/assets/img/project/project_img02.jpg"
+      },
+      {
+        "version": "Projektek V3",
+        "title": "Minőség Ellenőrzési Rendszer",
+        "detailsLink": "/project-details",
+        "description": "Tetőfedési projektek minőségellenőrzési rendszere.",
+        "image": "/assets/img/project/project_img03.jpg"
+      },
+      {
+        "version": "Projektek V3",
+        "title": "Alacsony Épületek és Tetőjavítás",
+        "detailsLink": "/project-details",
+        "description": "Kiváló minőségű tetőjavítás és építés alacsony épületeken.",
+        "image": "/assets/img/project/project_img04.jpg"
+      }
+    ]
+  },
+
+  "team": {
+    "sectionTitle": "Professzionális Csapat",
+    "sectionSubtitle": "Professzionális Csapattagok",
+    "teamMembers": [
+      {
+        "name": "Bodok István",
+        "role": "Tetőfedő Mester",
+        "detailsLink": "/team-details",
+        "image": "/assets/img/team/team_img01.jpg",
+        "socialLinks": {
+          "facebook": "#",
+          "linkedin": "#",
+          "twitter": "#",
+          "instagram": "#"
+        }
+      },
+      {
+        "name": "Szakács Péter",
+        "role": "Tetőszerkezet Építő",
+        "detailsLink": "/team-details",
+        "image": "/assets/img/team/team_img02.jpg",
+        "socialLinks": {
+          "facebook": "#",
+          "linkedin": "#",
+          "twitter": "#",
+          "instagram": "#"
+        }
+      },
+      {
+        "name": "Kiss Gábor",
+        "role": "Bádogos",
+        "detailsLink": "/team-details",
+        "image": "/assets/img/team/team_img03.jpg",
+        "socialLinks": {
+          "facebook": "#",
+          "linkedin": "#",
+          "twitter": "#",
+          "instagram": "#"
+        }
+      },
+      {
+        "name": "Nagy Lajos",
+        "role": "Ács",
+        "detailsLink": "/team-details",
+        "image": "/assets/img/team/team_img04.jpg",
+        "socialLinks": {
+          "facebook": "#",
+          "linkedin": "#",
+          "twitter": "#",
+          "instagram": "#"
+        }
+      }
+    ]
+  },
+
+  "counterItems": [
+    {
+      "icon": "/assets/img/icon/counter_icon01.svg",
+      "count": 1500,
+      "description": "Elvégzett Projekt"
+    },
+    {
+      "icon": "/assets/img/icon/counter_icon02.svg",
+      "count": 8562,
+      "description": "Elégedett Ügyfelek"
+    },
+    {
+      "icon": "/assets/img/icon/counter_icon03.svg",
+      "count": 450,
+      "description": "Tapasztalt Szakemberek"
+    },
+    {
+      "icon": "/assets/img/icon/counter_icon04.svg",
+      "count": 38,
+      "description": "Díjak"
+    }
+  ],
+  "testimonialSection": {
+    "sectionTitle": "Visszajelzések",
+    "sectionSubtitle": "Elégedett Ügyfeleink Véleménye",
+    "image": "/assets/img/images/testimonial_img.jpg",
+    "testimonials": [
+      {
+        "quote": "Kiváló minőségű munka, a tetőnk most már teljesen új! Mindenkinek ajánlom a Bodok Tetőfedő Mestert.",
+        "avatar": "/assets/img/images/testi_avatar01.png",
+        "name": "Kovács János",
+        "role": "Ügyfél"
+      },
+      {
+        "quote": "Gyors és precíz munkavégzés. Nagyon elégedett vagyok a végeredménnyel.",
+        "avatar": "/assets/img/images/testi_avatar02.png",
+        "name": "Nagy Péter",
+        "role": "Ügyfél"
+      },
+      {
+        "quote": "A csapat profi módon végezte a munkát. Köszönöm!",
+        "avatar": "/assets/img/images/testi_avatar03.png",
+        "name": "Szabó Anna",
+        "role": "Ügyfél"
+      }
+    ]
+  },
+  "blogSection": {
+    "sectionTitle": "Hírek",
+    "sectionSubtitle": "Olvassa el legújabb híreinket",
+    "posts": [
+      {
+        "image": "/assets/img/blog/blog_img01.jpg",
+        "tag": "Tetőfedés",
+        "author": "Admin",
+        "date": "2023. augusztus 15.",
+        "title": "Új tetőfedési technológiák",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      },
+      {
+        "image": "/assets/img/blog/blog_img02.jpg",
+        "tag": "Felújítás",
+        "author": "Admin",
+        "date": "2023. július 22.",
+        "title": "Tippek a tetőfelújításhoz",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      },
+      {
+        "image": "/assets/img/blog/blog_img03.jpg",
+        "tag": "Bádogozás",
+        "author": "Admin",
+        "date": "2023. június 10.",
+        "title": "A bádogozás fontossága",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      }
+    ]
+  },
+  "newsletterSection": {
+    "backgroundImage": "/assets/img/bg/newsletter_bg.jpg",
+    "subTitle": "Minőségi Tetőfedés",
+    "title": "Szüksége van Tetőfedésre?",
+    "formPlaceholders": {
+      "name": "Név*",
+      "phone": "Telefon*"
+    },
+    "submitButton": "Küldje El"
+  }
+}

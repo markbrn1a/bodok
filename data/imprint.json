@@ -1,0 +1,15 @@
+{
+  "provider": {
+    "name": "Colari Bau Center Kft.",
+    "address": "1141 Budapest, Szugló utca 82.",
+    "email": "info@bodok-tetofedo-mester.hu",
+    "taxNumber": "32259557-2-42"
+  },
+  "hostingProvider": {
+    "name": "Liquidnet Limited",
+    "address": "The Clockhouse, 87 Paines Ln, Pinner HA5 3BY, Egyesült Királyság",
+    "companyNumber": "Company No. 04654498",
+    "vat": "VAT: GB 926 7812 95",
+    "phone": "+44-20-7993-2673"
+  }
+}

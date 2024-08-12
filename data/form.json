@@ -1,0 +1,19 @@
+{
+  "placeholders": {
+    "firstName": "First Name*",
+    "lastName": "Last Name*",
+    "email": "Email Address*",
+    "phone": "Phone Number*",
+    "subject": "Subject",
+    "message": "Your Message here"
+  },
+  "errorMessages": {
+    "phone": "Phone number must be between 6 and 13 digits.",
+    "email": "Invalid email format.",
+    "required": "This field is required."
+  },
+  "thankYouMessage": {
+    "title": "Thank you for your message!",
+    "body": "We will get back to you shortly."
+  }
+}
