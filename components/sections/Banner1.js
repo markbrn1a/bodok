@@ -1,7 +1,9 @@
 import Link from "next/link";
-import Brand1 from "./Brand1";
-import DataBg from "../elements/DataBg"; // Import DataBg
-import Tooltip from "../elements/Tooltip";
+import dynamic from "next/dynamic";
+
+const DataBg = dynamic(() => import("../elements/DataBg"), { ssr: false });
+const Tooltip = dynamic(() => import("../elements/Tooltip"), { ssr: false });
+const Brand1 = dynamic(() => import("./Brand1"), { ssr: false });
 
 export default function Banner1({ content }) {
   return (
@@ -37,31 +39,12 @@ export default function Banner1({ content }) {
           <div className="banner-tooltip-wrap">
             {content.banner.tooltips.map((tooltip, index) => (
               <Tooltip key={index} index={index} tooltip={tooltip} />
-              // <div
-              //   key={index}
-              //   className={
-              //     isActive.key == index + 1
-              //       ? "tooltip-item top active"
-              //       : "tooltip-item top"
-              //   }
-              //   onClick={() => handleToggle(index + 1)}
-              // >
-              //   <div className="tooltip-btn pulse">
-              //     <i className="fas fa-plus" />
-              //   </div>
-              //   <div className="tooltip-content">
-              //     <h2 className="title">{tooltip.title}</h2>
-              //     <p>{tooltip.description}</p>
-              //   </div>
-              // </div>
             ))}
           </div>
         </div>
-        {/* brand-area */}
         <Brand1 />
-        {/* brand-area-end */}
       </section>
-      <DataBg /> {/* Add DataBg component */}
+      <DataBg />
     </>
   );
 }
