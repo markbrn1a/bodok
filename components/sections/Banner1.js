@@ -36,7 +36,7 @@ export default function Banner1({ content }) {
           </div>
           <div className="banner-tooltip-wrap">
             {content.banner.tooltips.map((tooltip, index) => (
-              <Tooltip index={index} tooltip={tooltip} />
+              <Tooltip key={index} index={index} tooltip={tooltip} />
               // <div
               //   key={index}
               //   className={
