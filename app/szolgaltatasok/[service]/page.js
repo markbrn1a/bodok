@@ -10,8 +10,8 @@ export default async function ServiceDetails({ params }) {
   // Dynamically import the JSON file based on the slug
   let content;
   try {
-    const module = await import(`@/data/services/${slug}.json`);
-    content = module.default;
+    const mod = await import(`@/data/services/${slug}.json`);
+    content = mod.default;
   } catch (error) {
     console.error(`Error loading JSON for slug: ${slug}`, error);
     return {
