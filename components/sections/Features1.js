@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Features1({ content }) {
@@ -21,7 +22,7 @@ export default function Features1({ content }) {
                       </Link>
                     </div>
                     <div className="features-icon">
-                      <img src={feature.icon} alt="" />
+                      <Image width={50} height={50} src={feature.icon} alt="" />
                     </div>
                   </div>
                 </div>

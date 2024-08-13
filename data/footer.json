@@ -3,9 +3,9 @@
     "backgroundImage": "/assets/img/bg/footer_bg.jpg",
     "aboutUsTitle": "Rólunk",
     "aboutUsText": "Számos variációja létezik a Lorem Ipsum szövegrészleteknek, de a többségük valamilyen formában változtatott, humorral kiegészített, vagy véletlenszerűen generált szavakkal, amelyek nem tűnnek hihetőnek.",
-    "newsletterTitle": "Iratkozzon fel hírlevelünkre",
-    "newsletterPlaceholder": "Adja meg e-mail címét",
-    "newsletterButton": "Feliratkozás",
+    "newsletterTitle": "Kérjen visszahívást",
+    "newsletterPlaceholder": "Telefonszám",
+    "newsletterButton": "Küldés",
     "servicesTitle": "Szolgáltatásaink",
     "services": [
       "Egyrétegű tetőfedés",

@@ -1,7 +1,8 @@
 import Link from "next/link";
 import content from "../../data/footer.json";
 import { phoneCall } from "@/utils/conversion";
-import FooterForm from "../elements/FooterForm";
+import FooterForm from "../elements/forms/FooterForm";
+import Image from "next/image";
 
 export default function Footer1() {
   return (
@@ -9,7 +10,9 @@ export default function Footer1() {
       <footer>
         <div
           className="footer-area footer-bg"
-          data-background={content.footer.backgroundImage}
+          style={{ backgroundImage: `url(${content.footer.backgroundImage})` }}
+
+          // data-background={content.footer.backgroundImage}
         >
           <div className="footer-top">
             <div className="container">
@@ -74,7 +77,12 @@ export default function Footer1() {
                         {content.footer.instagramImages.map((image, index) => (
                           <li key={index}>
                             <Link href="/#">
-                              <img src={image} alt="" />
+                              <Image
+                                width={100}
+                                height={100}
+                                src={image}
+                                alt=""
+                              />
                             </Link>
                           </li>
                         ))}
@@ -88,7 +96,12 @@ export default function Footer1() {
                   <div className="col-xl-3 col-lg-3 col-md-12">
                     <div className="logo">
                       <Link href="/index">
-                        <img src={content.footer.logoImage} alt="" />
+                        <Image
+                          width={200}
+                          height={200}
+                          src={content.footer.logoImage}
+                          alt=""
+                        />
                       </Link>
                     </div>
                   </div>

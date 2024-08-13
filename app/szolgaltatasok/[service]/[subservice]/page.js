@@ -1,17 +1,35 @@
-import Layout from "@/components/layout/Layout";
 import Brand3 from "@/components/sections/Brand3";
 import Link from "next/link";
-// import content from "@/data/service_details_content.json"; // Assuming the JSON file is saved in the "data" folder
-import services from "@/data/services.json"; // Assuming the JSON file is saved in the "data" folder
 import Image from "next/image";
-import ServiceForm from "@/components/elements/ServicesForm";
+import ServiceForm from "@/components/elements/forms/ServicesForm";
 
-export default function ServiceDetails({ params }) {
-  const content = services.find((service) =>
-    params.subservice
-      ? service.slug === params.subservice
-      : service.slug === params.service
-  );
+export default async function ServiceDetails({ params }) {
+  const { service, subservice } = params;
+  const slug = subservice || service;
+
+  let content;
+  try {
+    const module = await import(`@/data/services/${slug}.json`);
+    content = module.default;
+  } catch (error) {
+    console.error(`Error loading JSON for slug: ${slug}`, error);
+    return {
+      notFound: true,
+    };
+  }
+
+  if (typeof content !== "object" || content === null) {
+    console.error(`Invalid content for slug: ${slug}`);
+    return {
+      notFound: true,
+    };
+  }
+
+  // const content = services.find((service) =>
+  //   params.subservice
+  //     ? service.slug === params.subservice
+  //     : service.slug === params.service
+  // );
   return (
     <>
       <div>
@@ -72,7 +90,12 @@ export default function ServiceDetails({ params }) {
                                   <li key={index}>
                                     <div className="services-process-item">
                                       <div className="icon">
-                                        <img src={step.icon} alt="" />
+                                        <Image
+                                          width={50}
+                                          height={50}
+                                          src={step.icon}
+                                          alt=""
+                                        />
                                       </div>
                                       <div className="content">
                                         <h4 className="title">{step.title}</h4>

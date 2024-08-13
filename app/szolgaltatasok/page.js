@@ -1,11 +1,12 @@
 "use client";
-import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 import { useState } from "react";
 import Counter2 from "@/components/sections/Counter2";
 import text from "@/data/service_page.json";
-import ServicePageForm from "@/components/elements/ServicePageForm";
+import ServicePageForm from "@/components/elements/forms/ServicePageForm";
+import Form from "@/components/elements/forms/Form";
 import { useEffect } from "react";
+import Image from "next/image";
 
 export default function Service() {
   const [isActive, setIsActive] = useState({
@@ -53,7 +54,8 @@ export default function Service() {
                   <div
                     className="services-item wow fadeInUp"
                     data-wow-delay={`.${service.key * 0.2}s`}
-                    data-background={service.background}
+                    // data-background={service.background}
+                    style={{ backgroundImage: `url(${service.background})` }}
                     onMouseEnter={() => handleToggle(service.key)}
                     onMouseLeave={() => handleToggle(service.key)}
                   >
@@ -65,7 +67,7 @@ export default function Service() {
                         }`,
                       }}
                     >
-                      <img src={service.icon} alt="" />
+                      <Image width={50} height={50} src={service.icon} alt="" />
                     </div>
                     <div className="services-content">
                       <h2
@@ -108,7 +110,9 @@ export default function Service() {
         <div className="area-bg">
           <div
             className="area-background-img jarallax"
-            data-background="/assets/img/bg/area_bg01.jpg"
+            style={{
+              backgroundImage: `url(${"/assets/img/bg/area_bg01.jpg"})`,
+            }}
           />
           <Counter2 />
           <section className="appointment-area pt-115">
@@ -125,17 +129,21 @@ export default function Service() {
               </div>
               <div
                 className="appointment-inner"
-                data-background="/assets/img/bg/appointment_bg.jpg"
+                style={{
+                  backgroundImage: `url(${"/assets/img/bg/appointment_bg.jpg"})`,
+                }}
               >
                 <div className="row">
                   <div className="col-xl-7">
                     <div className="appointment-form">
-                      <ServicePageForm text={text} />
+                      <Form text={text} />
                     </div>
                   </div>
                   <div className="col-xl-5">
                     <div className="appointment-img">
-                      <img
+                      <Image
+                        width={500}
+                        height={500}
                         src="/assets/img/images/appointment_img.png"
                         alt=""
                       />

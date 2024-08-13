@@ -1,17 +1,36 @@
-import Layout from "@/components/layout/Layout";
 import Brand3 from "@/components/sections/Brand3";
 import Link from "next/link";
-// import content from "@/data/service_details_content.json"; // Assuming the JSON file is saved in the "data" folder
-import services from "@/data/services.json"; // Assuming the JSON file is saved in the "data" folder
 import Image from "next/image";
-import ServiceForm from "@/components/elements/ServicesForm";
+import ServiceForm from "@/components/elements/forms/ServicesForm";
 
-export default function ServiceDetails({ params }) {
-  const content = services.find((service) =>
-    params.subservice
-      ? service.slug === params.subservice
-      : service.slug === params.service
-  );
+export default async function ServiceDetails({ params }) {
+  const { service, subservice } = params;
+  const slug = subservice || service;
+
+  // Dynamically import the JSON file based on the slug
+  let content;
+  try {
+    const module = await import(`@/data/services/${slug}.json`);
+    content = module.default;
+  } catch (error) {
+    console.error(`Error loading JSON for slug: ${slug}`, error);
+    return {
+      notFound: true,
+    };
+  }
+
+  // Ensure content is a plain object
+  if (typeof content !== "object" || content === null) {
+    console.error(`Invalid content for slug: ${slug}`);
+    return {
+      notFound: true,
+    };
+  }
+  // const content = services.find((service) =>
+  //   params.subservice
+  //     ? service.slug === params.subservice
+  //     : service.slug === params.service
+  // );
   return (
     <>
       <div>
@@ -72,7 +91,12 @@ export default function ServiceDetails({ params }) {
                                   <li key={index}>
                                     <div className="services-process-item">
                                       <div className="icon">
-                                        <img src={step.icon} alt="" />
+                                        <Image
+                                          width={50}
+                                          height={50}
+                                          src={step.icon}
+                                          alt=""
+                                        />
                                       </div>
                                       <div className="content">
                                         <h4 className="title">{step.title}</h4>
@@ -98,14 +122,14 @@ export default function ServiceDetails({ params }) {
                             <Image
                               src={content.images.detail_three?.src}
                               alt={content.images.detail_three?.alt}
-                              width={250}
-                              height={300}
+                              width={200}
+                              height={200}
                             />
                             <Image
                               src={content.images.detail_four?.src}
                               alt={content.images.detail_four?.alt}
-                              width={250}
-                              height={300}
+                              width={200}
+                              height={200}
                             />
                           </div>
                         </div>
@@ -160,7 +184,9 @@ export default function ServiceDetails({ params }) {
                   </div>
                   <div
                     className="services-widget widget-bg"
-                    data-background="/assets/img/services/sw_bg.jpg"
+                    style={{
+                      backgroundImage: `url(${"/assets/img/services/sw_bg.jpg"})`,
+                    }}
                   >
                     <h4 className="widget-title">
                       {content.servicesSidebar.getFreeQuoteTitle}

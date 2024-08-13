@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -25,7 +26,9 @@ export default function Project1({ content }) {
     <>
       <section
         className="project-area project-bg"
-        data-background="/assets/img/bg/project_bg.jpg"
+        style={{
+          backgroundImage: `url(${"/assets/img/bg/project_bg.jpg"})`,
+        }}
       >
         <div className="container">
           <div className="row align-items-end">
@@ -65,7 +68,12 @@ export default function Project1({ content }) {
                       }`,
                     }}
                   >
-                    <img src={project.image} alt="" />
+                    <Image
+                      width={500}
+                      height={500}
+                      src={project.image}
+                      alt=""
+                    />
                   </div>
                   <div className="project-content">
                     <div className="left-side-content">

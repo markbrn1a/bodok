@@ -1,0 +1,107 @@
+{
+    "images": {
+        "main": {
+            "src": "/assets/img/services/badogozas/bodok-badogozas (14).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_one": {
+            "src": "/assets/img/services/badogozas/bodok-badogozas (4).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_two": {
+            "src": "/assets/img/services/sp_img01_result.webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_three": {
+            "src": "/assets/img/services/badogozas/bodok-badogozas (13).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_four": {
+            "src": "/assets/img/services/badogozas/bodok-badogozas (0).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        }
+    },
+    "slug": "ereszcsatorna-szereles",
+    "breadcrumbTitle": "Ereszcsatorna Szerelés",
+    "servicesDetails": {
+        "title": "Ereszcsatorna Szerelés: Precíz és Tartós Megoldások",
+        "description1": "Ereszcsatorna szerelés során magas minőségű anyagokkal dolgozunk, beleértve a réz, alumínium és műanyag csatornákat. A kiváló vízelvezetés érdekében választhat a félkör és négyzet alakú formák közül. Tapasztalt szakembereink garantálják az időtálló munkát és a teljes körű garanciát minden projektünkre.",
+        "serviceProcess": {
+            "title": "Szolgáltatási Folyamatunk",
+            "steps": [
+                {
+                    "icon": "/assets/img/icon/sp_icon01.svg",
+                    "title": "Egyeztetés",
+                    "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+                },
+                {
+                    "icon": "/assets/img/icon/sp_icon02.svg",
+                    "title": "Felmérés",
+                    "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+                },
+                {
+                    "icon": "/assets/img/icon/sp_icon01.svg",
+                    "title": "Kivitelezés és Átadás",
+                    "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+                }
+            ]
+        },
+        "conclusionTitle": "Miért Minket Válasszon?",
+        "description2": "A minőségi ereszcsatornák biztosítják a megfelelő vízelvezetést és a tetőszerkezet hosszú élettartamát. Csapatunk minden munkára és anyagra teljeskörű garanciát vállal, így Ön biztos lehet abban, hogy a kivitelezés magas színvonalú és tartós lesz.",
+        "serviceBenefits": {
+            "title": "Szolgáltatásaink Előnyei",
+            "description": "Az ereszcsatorna szerelés során csak időtálló anyagokat használunk, amelyek garantálják a tartósságot és a hatékony vízelvezetést.",
+            "benefitsList": [
+                "Tartós anyagok",
+                "Precíz kivitelezés",
+                "Teljes körű garancia",
+                "Rövid határidők"
+            ]
+        }
+    },
+    "servicesSidebar": {
+        "allServicesTitle": "Szolgáltatásaink",
+        "servicesList": [
+            {
+                "name": "Tetőfedés cserepeslemezzel",
+                "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+            },
+            {
+                "name": "Kerámiacserepes tetőfedés",
+                "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+            },
+            {
+                "name": "Bádogozás",
+                "link": "/szolgaltatasok/badogosmunkak"
+            },
+            {
+                "name": "Tetőfelújítás",
+                "link": "/szolgaltatasok/tetofelujitas"
+            },
+            {
+                "name": "Ácsmunkák",
+                "link": "/szolgaltatasok/acsmunkak"
+            }
+        ],
+        "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+        "formFields": {
+            "namePlaceholder": "Név",
+            "phonePlaceholder": "Telefonszám",
+            "messagePlaceholder": "Üzenet",
+            "buttonText": "Küldés"
+        },
+        "brochuresTitle": "További Információk",
+        "brochuresList": [
+            {
+                "text": "Tetőfelújítás Információ.pdf",
+                "link": "/assets/img/services/services_details01.jpg",
+                "icon": "fas fa-cloud-download-alt"
+            },
+            {
+                "text": "Tetőfedési minták.doc",
+                "link": "/assets/img/services/services_details01.jpg",
+                "icon": "fas fa-file-pdf"
+            }
+        ]
+    }
+}

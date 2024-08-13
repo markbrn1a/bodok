@@ -1,8 +1,8 @@
 {
   "about": {
     "images": [
-      "/assets/img/images/about_img01.jpg",
-      "/assets/img/images/about_img02.jpg"
+      "/assets/img/images/about_img01_result.webp",
+      "/assets/img/images/about_img02_result.webp"
     ],
     "experiences": [
       {
@@ -59,8 +59,8 @@
     }
   ],
   "banner": {
-    "shapeImage": "/assets/img/banner/banner_shape.jpg",
-    "backgroundImage": "/assets/img/banner/banner_bg.jpg",
+    "shapeImage": "/assets/img/banner/banner_shape_result.webp",
+    "backgroundImage": "/assets/img/banner/banner_bg_result.webp",
     "title": "Legjobb Tetőfedési Szolgáltatások",
     "description": "Családi házak tetőfedését kivitelezzük a legkorszerűbb technológiákkal, tapasztalt szakemberek bevonásával és időtálló, minőségi anyagok felhasználásával.",
     "link": {
@@ -90,7 +90,7 @@
     {
       "title": "Cserepeslemezes Tetőfedés",
       "description": "Gyors és időtálló tetőfedés cserepeslemezzel.",
-      "image": "/assets/img/services/services_item01.jpg",
+      "image": "/assets/img/services/services_item01_result.webp",
       "icon": "/assets/img/icon/services_icon01.svg",
       "link": "/services-details",
       "number": "01"
@@ -98,7 +98,7 @@
     {
       "title": "Kerámiacserepes Tetőfedés",
       "description": "Időtálló és strapabíró tetőfedés kerámiacserepekkel.",
-      "image": "/assets/img/services/services_item02.jpg",
+      "image": "/assets/img/services/services_item02_result.webp",
       "icon": "/assets/img/icon/services_icon02.svg",
       "link": "/services-details",
       "number": "02"
@@ -106,7 +106,7 @@
     {
       "title": "Tetőszerkezet Építése",
       "description": "Tetőszerkezetek építése és felújítása garanciával.",
-      "image": "/assets/img/services/services_item03.jpg",
+      "image": "/assets/img/services/services_item03_result.webp",
       "icon": "/assets/img/icon/services_icon03.svg",
       "link": "/services-details",
       "number": "03"
@@ -114,7 +114,7 @@
     {
       "title": "Bádogos Munkák",
       "description": "Ereszcsatornák szerelése és tisztítása, bádogozás.",
-      "image": "/assets/img/services/services_item04.jpg",
+      "image": "/assets/img/services/services_item04_result.webp",
       "icon": "/assets/img/icon/services_icon04.svg",
       "link": "/services-details",
       "number": "04"
@@ -122,7 +122,7 @@
     {
       "title": "Faházak Építése",
       "description": "Könnyűszerkezetes faházak építése és karbantartása.",
-      "image": "/assets/img/services/services_item05.jpg",
+      "image": "/assets/img/services/services_item05_result.webp",
       "icon": "/assets/img/icon/services_icon05.svg",
       "link": "/services-details",
       "number": "05"
@@ -130,7 +130,7 @@
     {
       "title": "Tetőjavítás és Felújítás",
       "description": "Viharkárok és beázások javítása teljeskörű garanciával.",
-      "image": "/assets/img/services/services_item06.jpg",
+      "image": "/assets/img/services/services_item06_result.webp",
       "icon": "/assets/img/icon/services_icon06.svg",
       "link": "/services-details",
       "number": "06"
@@ -147,28 +147,28 @@
         "title": "Alacsony Épületek és Tetőjavítás",
         "detailsLink": "/project-details",
         "description": "Kiváló minőségű tetőjavítás és építés alacsony épületeken.",
-        "image": "/assets/img/project/project_img01.jpg"
+        "image": "/assets/img/project/project_img01_result.webp"
       },
       {
         "version": "Projektek V2",
         "title": "Világszínvonalú Tetőfedés",
         "detailsLink": "/project-details",
         "description": "Világszínvonalú tetőfedés kiváló minőségű anyagokkal.",
-        "image": "/assets/img/project/project_img02.jpg"
+        "image": "/assets/img/project/project_img02_result.webp"
       },
       {
         "version": "Projektek V3",
         "title": "Minőség Ellenőrzési Rendszer",
         "detailsLink": "/project-details",
         "description": "Tetőfedési projektek minőségellenőrzési rendszere.",
-        "image": "/assets/img/project/project_img03.jpg"
+        "image": "/assets/img/project/project_img03_result.webp"
       },
       {
         "version": "Projektek V3",
         "title": "Alacsony Épületek és Tetőjavítás",
         "detailsLink": "/project-details",
         "description": "Kiváló minőségű tetőjavítás és építés alacsony épületeken.",
-        "image": "/assets/img/project/project_img04.jpg"
+        "image": "/assets/img/project/project_img04_result.webp"
       }
     ]
   },
@@ -181,7 +181,7 @@
         "name": "Bodok István",
         "role": "Tetőfedő Mester",
         "detailsLink": "/team-details",
-        "image": "/assets/img/team/team_img01.jpg",
+        "image": "/assets/img/team/team_img01_result.webp",
         "socialLinks": {
           "facebook": "#",
           "linkedin": "#",
@@ -193,7 +193,7 @@
         "name": "Szakács Péter",
         "role": "Tetőszerkezet Építő",
         "detailsLink": "/team-details",
-        "image": "/assets/img/team/team_img02.jpg",
+        "image": "/assets/img/team/team_img02_result.webp",
         "socialLinks": {
           "facebook": "#",
           "linkedin": "#",
@@ -205,7 +205,7 @@
         "name": "Kiss Gábor",
         "role": "Bádogos",
         "detailsLink": "/team-details",
-        "image": "/assets/img/team/team_img03.jpg",
+        "image": "/assets/img/team/team_img03_result.webp",
         "socialLinks": {
           "facebook": "#",
           "linkedin": "#",
@@ -217,7 +217,7 @@
         "name": "Nagy Lajos",
         "role": "Ács",
         "detailsLink": "/team-details",
-        "image": "/assets/img/team/team_img04.jpg",
+        "image": "/assets/img/team/team_img04_result.webp",
         "socialLinks": {
           "facebook": "#",
           "linkedin": "#",
@@ -253,23 +253,23 @@
   "testimonialSection": {
     "sectionTitle": "Visszajelzések",
     "sectionSubtitle": "Elégedett Ügyfeleink Véleménye",
-    "image": "/assets/img/images/testimonial_img.jpg",
+    "image": "/assets/img/images/testimonial_img_result.webp",
     "testimonials": [
       {
         "quote": "Kiváló minőségű munka, a tetőnk most már teljesen új! Mindenkinek ajánlom a Bodok Tetőfedő Mestert.",
-        "avatar": "/assets/img/images/testi_avatar01.png",
+        "avatar": "/assets/img/images/h2_testi_avatar01.png",
         "name": "Kovács János",
         "role": "Ügyfél"
       },
       {
         "quote": "Gyors és precíz munkavégzés. Nagyon elégedett vagyok a végeredménnyel.",
-        "avatar": "/assets/img/images/testi_avatar02.png",
+        "avatar": "/assets/img/images/h2_testi_avatar02.png",
         "name": "Nagy Péter",
         "role": "Ügyfél"
       },
       {
         "quote": "A csapat profi módon végezte a munkát. Köszönöm!",
-        "avatar": "/assets/img/images/testi_avatar03.png",
+        "avatar": "/assets/img/images/h2_testi_avatar03.png",
         "name": "Szabó Anna",
         "role": "Ügyfél"
       }
@@ -280,7 +280,7 @@
     "sectionSubtitle": "Olvassa el legújabb híreinket",
     "posts": [
       {
-        "image": "/assets/img/blog/blog_img01.jpg",
+        "image": "/assets/img/blog/blog_img01_result.webp",
         "tag": "Tetőfedés",
         "author": "Admin",
         "date": "2023. augusztus 15.",
@@ -289,7 +289,7 @@
         "tagLink": "/blog"
       },
       {
-        "image": "/assets/img/blog/blog_img02.jpg",
+        "image": "/assets/img/blog/blog_img02_result.webp",
         "tag": "Felújítás",
         "author": "Admin",
         "date": "2023. július 22.",
@@ -298,7 +298,7 @@
         "tagLink": "/blog"
       },
       {
-        "image": "/assets/img/blog/blog_img03.jpg",
+        "image": "/assets/img/blog/blog_img03_result.webp",
         "tag": "Bádogozás",
         "author": "Admin",
         "date": "2023. június 10.",
@@ -309,7 +309,7 @@
     ]
   },
   "newsletterSection": {
-    "backgroundImage": "/assets/img/bg/newsletter_bg.jpg",
+    "backgroundImage": "/assets/img/bg/newsletter_bg_result.webp",
     "subTitle": "Minőségi Tetőfedés",
     "title": "Szüksége van Tetőfedésre?",
     "formPlaceholders": {

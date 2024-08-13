@@ -2,7 +2,7 @@
 import { useState } from "react";
 import sendMail from "@/actions/email";
 import formContent from "@/data/form";
-import InputField from "./Input";
+import InputField from "../Input";
 import { validateInput } from "@/utils/validation";
 import { formSubmit } from "@/utils/conversion";
 

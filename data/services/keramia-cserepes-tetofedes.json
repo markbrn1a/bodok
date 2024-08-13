@@ -1,0 +1,107 @@
+{
+    "images": {
+        "main": {
+            "src": "/assets/img/services/tetofedes/bodok-tetofedes (22).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_one": {
+            "src": "/assets/img/services/tetofedes/bodok-badogozas (0).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_two": {
+            "src": "/assets/img/services/tetofedes/bodok-tetofedes (27).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_three": {
+            "src": "/assets/img/services/sb_img02_result.webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_four": {
+            "src": "/assets/img/services/h4_services_img01_result.webp",
+            "alt": "Ereszcsatorna Szerelés"
+        }
+    },
+    "slug": "keramia-cserepes-tetofedes",
+    "breadcrumbTitle": "Kerámiacserepes Tetőfedés",
+    "servicesDetails": {
+        "title": "Kerámiacserepes Tetőfedés: Hagyományos és Tartós Megoldás",
+        "description1": "A kerámiacserepes tetőfedés a legrégebbi és legidőtállóbb tetőfedési módszer. A természetes anyagokból készült cserepek kiváló hő- és hangszigetelő tulajdonságokkal rendelkeznek, valamint fagy- és tűzállóak. Az ilyen tetőfedés ideális választás mind új, mind régi épületek számára, különösen akkor, ha fontos a természetes megjelenés és a környezetbarát megoldás.",
+        "serviceProcess": {
+            "title": "Szolgáltatási Folyamatunk",
+            "steps": [
+                {
+                    "icon": "/assets/img/icon/sp_icon01.svg",
+                    "title": "Egyeztetés",
+                    "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+                },
+                {
+                    "icon": "/assets/img/icon/sp_icon02.svg",
+                    "title": "Felmérés",
+                    "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+                },
+                {
+                    "icon": "/assets/img/icon/sp_icon01.svg",
+                    "title": "Kivitelezés és Átadás",
+                    "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+                }
+            ]
+        },
+        "conclusionTitle": "Miért Minket Válasszon?",
+        "description2": "A kerámiacserepes tetőfedés természetes anyagokat használ, amelyek teljes mértékben újrahasznosíthatók. Szakértő csapatunk biztosítja a szakszerű kivitelezést és a tartós, esztétikus végeredményt, amely hosszú élettartammal rendelkezik.",
+        "serviceBenefits": {
+            "title": "Szolgáltatásaink Előnyei",
+            "description": "A kerámiacserepes tetőfedés számos előnyt kínál, köztük a hő- és tűzállóságot, valamint a kiváló szellőzést és vízelvezetést.",
+            "benefitsList": [
+                "Hő- és tűzálló",
+                "Természetes anyagok",
+                "Időtálló megoldás",
+                "Környezetbarát és újrahasznosítható"
+            ]
+        }
+    },
+    "servicesSidebar": {
+        "allServicesTitle": "Szolgáltatásaink",
+        "servicesList": [
+            {
+                "name": "Tetőfedés cserepeslemezzel",
+                "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+            },
+            {
+                "name": "Kerámiacserepes tetőfedés",
+                "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+            },
+            {
+                "name": "Bádogozás",
+                "link": "/szolgaltatasok/badogosmunkak"
+            },
+            {
+                "name": "Tetőfelújítás",
+                "link": "/szolgaltatasok/tetofelujitas"
+            },
+            {
+                "name": "Ácsmunkák",
+                "link": "/szolgaltatasok/acsmunkak"
+            }
+        ],
+        "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+        "formFields": {
+            "namePlaceholder": "Név",
+            "phonePlaceholder": "Telefonszám",
+            "messagePlaceholder": "Üzenet",
+            "buttonText": "Küldés"
+        },
+        "brochuresTitle": "További Információk",
+        "brochuresList": [
+            {
+                "text": "Tetőfelújítás Információ.pdf",
+                "link": "/assets/img/services/services_details01.jpg",
+                "icon": "fas fa-cloud-download-alt"
+            },
+            {
+                "text": "Tetőfedési minták.doc",
+                "link": "/assets/img/services/services_details01.jpg",
+                "icon": "fas fa-file-pdf"
+            }
+        ]
+    }
+}

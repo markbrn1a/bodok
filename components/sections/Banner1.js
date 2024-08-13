@@ -28,11 +28,15 @@ export default function Banner1({ content }) {
       <section className="banner-area">
         <div
           className="banner-shape"
-          data-background={content.banner.shapeImage}
+          style={{
+            backgroundImage: `url(${content.banner.shapeImage})`,
+          }}
         />
         <div
           className="banner-bg"
-          data-background={content.banner.backgroundImage}
+          style={{
+            backgroundImage: `url(${content.banner.backgroundImage})`,
+          }}
         >
           <div className="banner-content">
             <h2 className="title wow fadeInDown" data-wow-delay=".2s">

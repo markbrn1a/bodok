@@ -1,4 +1,5 @@
 "use clinet";
+import Image from "next/image";
 import VideoPopup from "@/components/elements/VideoPopup";
 import Layout from "@/components/layout/Layout";
 import Brand3 from "@/components/sections/Brand3";
@@ -22,7 +23,7 @@ export default function About() {
           <div className="row align-items-center">
             <div className="col-xl-7 col-lg-6 order-0 order-lg-2">
               <div className="about-img-wrap">
-                <img
+                {/* <img
                   src="/assets/img/images/about_img01.jpg"
                   alt=""
                   className="wow fadeInRight"
@@ -33,11 +34,33 @@ export default function About() {
                   alt=""
                   className="wow fadeInRight"
                   data-wow-delay=".2s"
+                /> */}
+                <Image
+                  src="/assets/img/images/about_img01.jpg"
+                  alt=""
+                  className="wow fadeInRight"
+                  width={500}
+                  height={500}
+                  dataWowDelay=".4s"
+                />
+                <Image
+                  src="/assets/img/images/about_img02.jpg"
+                  alt=""
+                  className="wow fadeInRight"
+                  width={300}
+                  height={300}
+                  dataWowDelay=".2s"
                 />
                 <div className="about-experiences-wrap">
                   <div className="experiences-item">
                     <div className="icon">
-                      <img src="/assets/img/icon/about_icon01.svg" alt="" />
+                      {/* <img src="/assets/img/icon/about_icon01.svg" alt="" /> */}
+                      <Image
+                        src="/assets/img/icon/about_icon01.svg"
+                        alt=""
+                        width={50}
+                        height={50}
+                      />
                     </div>
                     <div className="content">
                       <h6 className="title">
@@ -47,7 +70,13 @@ export default function About() {
                   </div>
                   <div className="experiences-item">
                     <div className="icon">
-                      <img src="/assets/img/icon/about_icon02.svg" alt="" />
+                      {/* <img src="/assets/img/icon/about_icon02.svg" alt="" /> */}
+                      <Image
+                        src="/assets/img/icon/about_icon02.svg"
+                        alt=""
+                        width={50}
+                        height={50}
+                      />
                     </div>
                     <div className="content">
                       <h6 className="title">
@@ -100,9 +129,15 @@ export default function About() {
               <div className="col-xl-3 col-md-6" key={index}>
                 <div className="work-item">
                   <div className="work-thumb">
-                    <img
+                    {/* <img
                       src={`/assets/img/images/work_img0${index + 1}.png`}
                       alt=""
+                    /> */}
+                    <Image
+                      src={`/assets/img/images/work_img0${index + 1}.png`}
+                      alt=""
+                      width={300}
+                      height={300}
                     />
                     <h4 className="number">{step.number}</h4>
                   </div>
@@ -125,14 +160,29 @@ export default function About() {
               <div className="history-img-wrap">
                 <ul className="list-wrap">
                   <li>
-                    <img src="/assets/img/images/history_img01.jpg" alt="" />
+                    <Image
+                      src="/assets/img/images/history_img01.jpg"
+                      alt=""
+                      width={500}
+                      height={500}
+                    />
                   </li>
                   <li>
-                    <img src="/assets/img/images/history_img02.jpg" alt="" />
+                    <Image
+                      width={200}
+                      height={200}
+                      src="/assets/img/images/history_img02.jpg"
+                      alt=""
+                    />
                     <VideoPopup />
                   </li>
                   <li>
-                    <img src="/assets/img/images/history_img03.jpg" alt="" />
+                    <Image
+                      width={300}
+                      height={300}
+                      src="/assets/img/images/history_img03.jpg"
+                      alt=""
+                    />
                   </li>
                 </ul>
               </div>

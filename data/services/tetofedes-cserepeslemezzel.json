@@ -1,0 +1,107 @@
+{
+    "images": {
+        "main": {
+            "src": "/assets/img/services/tetofedes/bodok-tetofedes (12).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_one": {
+            "src": "/assets/img/services/tetofedes/bodok-tetofedes (14).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_two": {
+            "src": "/assets/img/services/tetofedes/bodok-tetofedes (11).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_three": {
+            "src": "/assets/img/services/tetofedes/bodok-tetofedes (8).webp",
+            "alt": "Ereszcsatorna Szerelés"
+        },
+        "detail_four": {
+            "src": "/assets/img/services/tetofedes/bodok-teto (4)_result.webp",
+            "alt": "Ereszcsatorna Szerelés"
+        }
+    },
+    "slug": "tetofedes-cserepeslemezzel",
+    "breadcrumbTitle": "Cserepeslemezes Tetőfedés",
+    "servicesDetails": {
+        "title": "Cserepeslemezes Tetőfedés: Gazdaságos és Gyors Megoldás",
+        "description1": "A cserepeslemezes tetőfedés gyors és költséghatékony megoldást kínál, amely kiválóan ellenáll az időjárási viszontagságoknak. A cserepeslemezek többféle színben és mintázatban elérhetők, könnyen karbantarthatók, és minimális karbantartást igényelnek hosszú évekig.",
+        "serviceProcess": {
+            "title": "Szolgáltatási Folyamatunk",
+            "steps": [
+                {
+                    "icon": "/assets/img/icon/sp_icon01.svg",
+                    "title": "Egyeztetés",
+                    "description": "Az első lépés az ügyfél igényeinek és elvárásainak alapos megértése."
+                },
+                {
+                    "icon": "/assets/img/icon/sp_icon02.svg",
+                    "title": "Felmérés",
+                    "description": "Részletes felmérés a helyszínen, amely alapján pontos árajánlat készül."
+                },
+                {
+                    "icon": "/assets/img/icon/sp_icon01.svg",
+                    "title": "Kivitelezés és Átadás",
+                    "description": "A munka elvégzése a legmagasabb színvonalon, az ügyféllel előre egyeztetett határidőre."
+                }
+            ]
+        },
+        "conclusionTitle": "Miért Minket Válasszon?",
+        "description2": "A cserepeslemezes tetőfedés gyors kivitelezést és tartós megoldást nyújt, környezetbarát anyagokból készül, és hosszú élettartammal bír. Csapatunk garantálja a magas színvonalú munkát és a teljeskörű garanciát minden projektre.",
+        "serviceBenefits": {
+            "title": "Szolgáltatásaink Előnyei",
+            "description": "A cserepeslemezes tetőfedés költséghatékony megoldást kínál, gyors kivitelezéssel és könnyű karbantarthatósággal.",
+            "benefitsList": [
+                "Gyors Kivitelezés",
+                "Időtálló Munka",
+                "Minőségi Anyagok",
+                "Környezetbarát Megoldás"
+            ]
+        }
+    },
+    "servicesSidebar": {
+        "allServicesTitle": "Szolgáltatásaink",
+        "servicesList": [
+            {
+                "name": "Tetőfedés cserepeslemezzel",
+                "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel"
+            },
+            {
+                "name": "Kerámiacserepes tetőfedés",
+                "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes"
+            },
+            {
+                "name": "Bádogozás",
+                "link": "/szolgaltatasok/badogosmunkak"
+            },
+            {
+                "name": "Tetőfelújítás",
+                "link": "/szolgaltatasok/tetofelujitas"
+            },
+            {
+                "name": "Ácsmunkák",
+                "link": "/szolgaltatasok/acsmunkak"
+            }
+        ],
+        "getFreeQuoteTitle": "Kérjen Ingyenes Árajánlatot",
+        "formFields": {
+            "namePlaceholder": "Név",
+            "phonePlaceholder": "Telefonszám",
+            "messagePlaceholder": "Üzenet",
+            "buttonText": "Küldés"
+        },
+        "brochuresTitle": "További Információk",
+        "brochuresList": [
+            {
+                "text": "Tetőfelújítás Információ.pdf",
+                "link": "/assets/img/services/services_details01.jpg",
+                "icon": "fas fa-cloud-download-alt"
+            },
+            {
+                "text": "Tetőfedési minták.doc",
+                "link": "/assets/img/services/services_details01.jpg",
+                "icon": "fas fa-file-pdf"
+            }
+        ]
+    }
+}

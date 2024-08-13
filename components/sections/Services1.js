@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -42,7 +43,9 @@ export default function Services1({ content }) {
                 <div
                   className="services-item wow fadeInUp"
                   data-wow-delay={`.${index * 2 + 2}s`}
-                  data-background={service.image}
+                  style={{
+                    backgroundImage: `url(${service.image})`,
+                  }}
                   onMouseEnter={() => handleToggle(index + 1)}
                   onMouseLeave={() => handleToggle(index + 1)}
                 >
@@ -52,7 +55,7 @@ export default function Services1({ content }) {
                       display: `${isActive.key == index + 1 ? "none" : "flex"}`,
                     }}
                   >
-                    <img src={service.icon} alt="" />
+                    <Image width={50} height={50} src={service.icon} alt="" />
                   </div>
                   <div className="services-content">
                     <h2

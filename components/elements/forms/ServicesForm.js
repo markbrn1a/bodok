@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import InputField from "./Input";
+import InputField from "../Input";
 import sendMail from "@/actions/email";
 import { validateInput } from "@/utils/validation";
 import { formSubmit } from "@/utils/conversion";

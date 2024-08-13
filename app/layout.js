@@ -13,6 +13,11 @@ import "../public/assets/css/default.css";
 import "../public/assets/css/jarallax.css";
 import "../public/assets/css/style.css";
 import "../public/assets/css/responsive.css";
+import DataBg from "@/components/elements/DataBg";
+import { headers } from "next/headers";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -32,7 +37,13 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={inter.className}>
-        <Layout headerCls="transparent-header">{children}</Layout>
+        <Header />
+        <Layout headerCls="transparent-header">
+          {/* <DataBg /> */}
+
+          {children}
+        </Layout>
+        <Footer />
       </body>
     </html>
   );

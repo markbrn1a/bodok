@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function About1({ content }) {
@@ -8,13 +9,17 @@ export default function About1({ content }) {
           <div className="row align-items-center">
             <div className="col-xl-7 col-lg-6 order-0 order-lg-2">
               <div className="about-img-wrap">
-                <img
+                <Image
+                  width={500}
+                  height={500}
                   src={content.about.images[0]}
                   alt=""
                   className="wow fadeInRight"
                   data-wow-delay=".4s"
                 />
-                <img
+                <Image
+                  width={500}
+                  height={500}
                   src={content.about.images[1]}
                   alt=""
                   className="wow fadeInRight"
@@ -24,7 +29,12 @@ export default function About1({ content }) {
                   {content.about.experiences.map((experience, index) => (
                     <div key={index} className="experiences-item">
                       <div className="icon">
-                        <img src={experience.icon} alt="" />
+                        <Image
+                          width={50}
+                          height={50}
+                          src={experience.icon}
+                          alt=""
+                        />
                       </div>
                       <div className="content">
                         <h6 className="title">{experience.title}</h6>

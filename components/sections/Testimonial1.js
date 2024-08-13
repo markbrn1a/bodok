@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Slider from "react-slick";
 
 const settings = {
@@ -19,7 +20,12 @@ export default function Testimonial1({ content }) {
           <div className="row align-items-center">
             <div className="col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
               <div className="testimonial-img">
-                <img src={content.testimonialSection.image} alt="" />
+                <Image
+                  width={500}
+                  height={500}
+                  src={content.testimonialSection.image}
+                  alt=""
+                />
               </div>
             </div>
             <div className="col-lg-6">
@@ -44,7 +50,9 @@ export default function Testimonial1({ content }) {
                         </div>
                         <div className="testimonial-avatar">
                           <div className="avatar-thumb">
-                            <img
+                            <Image
+                              width={50}
+                              height={50}
                               src={testimonial.avatar}
                               alt={testimonial.name}
                             />

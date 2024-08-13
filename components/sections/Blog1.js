@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Blog1({ content }) {
@@ -23,7 +24,7 @@ export default function Blog1({ content }) {
                 <div className="blog-post-item">
                   <div className="blog-post-thumb">
                     <Link href={post.detailsLink}>
-                      <img src={post.image} alt="" />
+                      <Image width={370} height={370} src={post.image} alt="" />
                     </Link>
                   </div>
                   <div className="blog-post-content">

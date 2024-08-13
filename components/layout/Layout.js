@@ -1,15 +1,12 @@
 "use client";
 import { useEffect } from "react";
-import { usePathname } from "next/navigation";
 import BackToTop from "../elements/BackToTop";
-import DataBg from "../elements/DataBg";
 import Breadcrumb from "./Breadcrumb";
 import Footer from "./Footer";
-import Header from "./Header";
 import PageHead from "./PageHead";
-import links from "../../data/nav.json";
+import { usePathname } from "next/navigation";
+import links from "@/data/nav.json";
 
-import { denyConsent, acceptCookies, initiateCMP } from "@/utils/conversion";
 import ConsentBanner from "../elements/ConsentBanner";
 
 export default function Layout({
@@ -19,7 +16,7 @@ export default function Layout({
   children,
   footer = true,
 }) {
-  const pathname = usePathname();
+  const path = usePathname();
   useEffect(() => {
     const WOW = require("wowjs");
     window.wow = new WOW.WOW({
@@ -27,7 +24,9 @@ export default function Layout({
     });
     window.wow.init();
   }, []);
-  // Helper function to flatten the nested links structure
+  function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
   const flattenLinks = (obj) => {
     let flatLinks = [];
     const traverse = (node) => {
@@ -41,13 +40,10 @@ export default function Layout({
     Object.values(obj).forEach(traverse);
     return flatLinks;
   };
-  function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-  }
+
   const flatLinks = flattenLinks(links.navigationLinks);
-  const breadcrumbTitle = flatLinks.filter(
-    (link) => link.href === pathname
-  )[0] || {
+
+  const breadcrumbTitle = flatLinks.filter((link) => link.href === path)[0] || {
     href: "/404",
     text: "404",
   };
@@ -55,12 +51,8 @@ export default function Layout({
   return (
     <>
       <PageHead headTitle={headTitle} />
-      <DataBg />
+      {/* <DataBg /> */}
 
-      <Header
-        headerCls={breadcrumbTitle.href === "/" ? headerCls : ""}
-        headerTop={breadcrumbTitle.href === "/" ? headerTop : ""}
-      />
       <div>
         <ConsentBanner />
         {breadcrumbTitle.href === "/" ? (
@@ -72,7 +64,7 @@ export default function Layout({
         )}
         {children}
       </div>
-      {footer && <Footer />}
+      {/* {footer && <Footer />} */}
       <BackToTop />
     </>
   );

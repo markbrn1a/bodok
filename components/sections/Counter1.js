@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import CountUp from "../elements/CountUp";
+import Image from "next/image";
 
 export default function Counter1({ content }) {
   const [inViewport, setInViewport] = useState(false);
@@ -34,7 +35,7 @@ export default function Counter1({ content }) {
                 <div key={index} className="col-lg-3 col-sm-6">
                   <div className="counter-item">
                     <div className="counter-icon">
-                      <img src={item.icon} alt="" />
+                      <Image width={50} height={50} src={item.icon} alt="" />
                     </div>
                     <div className="counter-content">
                       {inViewport && <CountUp end={item.count} duration={10} />}

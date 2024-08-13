@@ -7,6 +7,7 @@ export default function InputField({
   onChange,
   isValid,
   errorMessage,
+  disabled = false,
 }) {
   const handleKeyPress = (e) => {
     const { name, value } = e.target;
@@ -37,13 +38,14 @@ export default function InputField({
           id={id}
           name={name}
           type={type}
+          disabled={disabled}
           placeholder={placeholder}
           onKeyPress={handleKeyPress}
           className={!isValid ? "error-input " : ""}
           onChange={onChange}
         />
       )}
-      {!isValid && <p className="error-message">{errorMessage}</p>}
+      {/* {!isValid && <p className="error-message">{errorMessage}</p>} */}
     </div>
   );
 }

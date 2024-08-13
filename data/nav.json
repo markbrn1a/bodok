@@ -92,8 +92,12 @@
     },
     "projects": { "href": "/munkaink", "text": "Munkáink" },
     "contact": { "href": "/kapcsolat", "text": "Kapcsolat" },
-    "legal": { "href": "/imprint", "text": "Impresszum" },
-    "gdpr": { "href": "/gdpr", "text": "Adatvédelmi irányelvek" }
+    "legal": { "href": "/imprint", "text": "Impresszum", "hidden": true },
+    "gdpr": {
+      "href": "/gdpr",
+      "text": "Adatvédelmi irányelvek",
+      "hidden": true
+    }
   },
   "headerAction": {
     "contactButton": { "href": "/kapcsolat", "text": "Kérjen ajánlatot" }
@@ -104,5 +108,35 @@
     { "href": "#", "iconClass": "fab fa-instagram" },
     { "href": "#", "iconClass": "fab fa-linkedin-in" },
     { "href": "#", "iconClass": "fab fa-youtube" }
+  ],
+  "logo": {
+    "main": "/assets/img/logo/logo.png",
+    "secondary": "/assets/img/logo/logo_02.png"
+  },
+  "contactInfo": {
+    "phone": "0123456789",
+    "phoneDisplay": "+88 ( 5548 ) 6548",
+    "email": "infoyour@gmail.com"
+  },
+  "language": {
+    "icon": "/assets/img/icon/united-states.jpg",
+    "name": "English"
+  },
+  "languages": [
+    {
+      "href": "/",
+      "icon": "/assets/img/icon/russia.jpg",
+      "name": "Russia"
+    },
+    {
+      "href": "/",
+      "icon": "/assets/img/icon/india.jpg",
+      "name": "India"
+    },
+    {
+      "href": "/",
+      "icon": "/assets/img/icon/bangladesh.jpg",
+      "name": "Bangla"
+    }
   ]
 }

@@ -1,11 +1,13 @@
-import CallBackForm from "../elements/CallBackForm";
+import CallBackForm from "../elements/forms/CallBackForm";
 
 export default function Newsletter1({ content }) {
   return (
     <>
       <section
         className="newsletter-area jarallax newsletter-bg"
-        data-background={content.newsletterSection.backgroundImage}
+        style={{
+          backgroundImage: `url(${content.newsletterSection.backgroundImage})`,
+        }}
       >
         <div className="container">
           <div className="row align-items-center">

@@ -1,7 +1,10 @@
+"use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
 import links from "../../data/nav.json";
+import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function Header({ headerCls, headerTop }) {
   const [scroll, setScroll] = useState(0);
@@ -9,9 +12,14 @@ export default function Header({ headerCls, headerTop }) {
   const navigationLinks = links.navigationLinks;
   const headerAction = links.headerAction;
   const socialLinks = links.socialLinks;
+  const pathName = usePathname();
+
   const handleToggled = () => {
-    setToggled(!isToggled);
-    document.body.classList.toggle("mobile-menu-visible", isToggled);
+    setToggled((prevState) => {
+      const newToggledState = !prevState;
+      document.body.classList.toggle("mobile-menu-visible", newToggledState);
+      return newToggledState;
+    });
   };
 
   useEffect(() => {
@@ -20,7 +28,52 @@ export default function Header({ headerCls, headerTop }) {
     };
     document.addEventListener("scroll", onScroll);
     return () => document.removeEventListener("scroll", onScroll);
-  }, [scroll]);
+  }, []);
+
+  const flattenLinks = (obj) => {
+    let flatLinks = [];
+    const traverse = (node) => {
+      if (node.href) {
+        flatLinks.push(node);
+      }
+      if (node.subLinks) {
+        node.subLinks.forEach(traverse);
+      }
+    };
+    Object.values(obj).forEach(traverse);
+    return flatLinks;
+  };
+
+  const flatLinks = flattenLinks(navigationLinks);
+
+  const breadcrumbTitle = flatLinks.find((link) => link.href === pathName) || {
+    href: "/404",
+    text: "404",
+  };
+
+  const isRoot = breadcrumbTitle?.href === "/";
+  headerCls = isRoot ? "transparent-header" : "";
+
+  const renderMenuItems = (linksObj) => {
+    return Object.values(linksObj).map((link, index) => {
+      const isActive = link.href === pathName;
+      const hasSubmenu = link.subLinks && link.subLinks.length > 0;
+      if (link.hidden) return null;
+      return (
+        <li
+          key={`${link.href}-${index}`}
+          className={`${isActive ? "active" : ""} ${
+            hasSubmenu ? "menu-item-has-children" : ""
+          }`}
+        >
+          <Link href={link.href || "#"}>{link.text}</Link>
+          {hasSubmenu && (
+            <ul className="sub-menu">{renderMenuItems(link.subLinks)}</ul>
+          )}
+        </li>
+      );
+    });
+  };
 
   return (
     <>
@@ -34,12 +87,14 @@ export default function Header({ headerCls, headerTop }) {
                     <li>Welcome to Roofx Construction</li>
                     <li>
                       <i className="fas fa-phone-alt" />
-                      <Link href="tel:0123456789">+88 ( 5548 ) 6548</Link>
+                      <Link href={`tel:${links.contactInfo.phone}`}>
+                        {links.contactInfo.phoneDisplay}
+                      </Link>
                     </li>
                     <li>
                       <i className="fas fa-envelope" />
-                      <Link href="mailto:infoyour@gmail.com">
-                        infoyour@gmail.com
+                      <Link href={`mailto:${links.contactInfo.email}`}>
+                        {links.contactInfo.email}
                       </Link>
                     </li>
                   </ul>
@@ -57,50 +112,45 @@ export default function Header({ headerCls, headerTop }) {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        <img src="assets/img/icon/united-states.jpg" alt="" />{" "}
-                        English
+                        <Image
+                          width={20}
+                          height={20}
+                          src={links.language.icon}
+                          alt={links.language.name}
+                        />{" "}
+                        {links.language.name}
                       </button>
                       <div
                         className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton1"
                       >
-                        <Link className="dropdown-item" href="/">
-                          <img src="assets/img/icon/russia.jpg" alt="" />
-                          Russia
-                        </Link>
-                        <Link className="dropdown-item" href="/">
-                          <img src="assets/img/icon/india.jpg" alt="" />
-                          India
-                        </Link>
-                        <Link className="dropdown-item" href="/">
-                          <img src="assets/img/icon/bangladesh.jpg" alt="" />
-                          Bangla
-                        </Link>
+                        {links.languages.map((lang, index) => (
+                          <Link
+                            key={index}
+                            className="dropdown-item"
+                            href={lang.href}
+                          >
+                            <Image
+                              width={20}
+                              height={20}
+                              src={lang.icon}
+                              alt={lang.name}
+                            />
+                            {lang.name}
+                          </Link>
+                        ))}
                       </div>
                     </div>
                   </div>
                   <div className="header-social">
                     <ul className="list-wrap">
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-youtube" />
-                        </Link>
-                      </li>
+                      {socialLinks.map((link, index) => (
+                        <li key={index}>
+                          <Link href={link.href}>
+                            <i className={link.iconClass} />
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -109,12 +159,10 @@ export default function Header({ headerCls, headerTop }) {
           </div>
         </div>
       )}
-      <header>
+      <div>
         <div
           id="sticky-header"
-          className={`menu-area ${scroll ? "sticky-menu" : ""} ${
-            headerCls || ""
-          }`}
+          className={`menu-area ${scroll ? "sticky-menu" : ""} ${headerCls}`}
         >
           <div className="container">
             <div className="row">
@@ -126,68 +174,27 @@ export default function Header({ headerCls, headerTop }) {
                   <nav className="menu-nav">
                     <div className="logo different-logo">
                       <Link href="/">
-                        <img src="/assets/img/logo/logo.png" alt="Logo" />
+                        <Image
+                          width={200}
+                          height={200}
+                          src={links.logo.main}
+                          alt="Logo"
+                        />
                       </Link>
                     </div>
                     <div className="logo d-none">
                       <Link href="/">
-                        <img src="/assets/img/logo/logo_02.png" alt="Logo" />
+                        <Image
+                          width={200}
+                          height={200}
+                          src={links.logo.secondary}
+                          alt="Logo"
+                        />
                       </Link>
                     </div>
                     <div className="navbar-wrap main-menu d-none d-lg-flex">
                       <ul className="navigation">
-                        <li className="active menu-item-has-children">
-                          <Link href={navigationLinks.home.href}>
-                            {navigationLinks.home.text}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href={navigationLinks.about.href}>
-                            {navigationLinks.about.text}
-                          </Link>
-                        </li>
-                        <li className="menu-item-has-children">
-                          <Link href={navigationLinks.services.href}>
-                            {navigationLinks.services.text}
-                          </Link>
-                          <ul className="sub-menu">
-                            {navigationLinks.services.subLinks.map(
-                              (subLink, index) => (
-                                <li
-                                  key={index}
-                                  className="menu-item-has-children"
-                                >
-                                  <Link href={subLink.href || "#"}>
-                                    {subLink.text}
-                                  </Link>
-                                  {subLink.subLinks && (
-                                    <ul className="sub-menu">
-                                      {subLink.subLinks.map(
-                                        (nestedSubLink, nestedIndex) => (
-                                          <li key={nestedIndex}>
-                                            <Link href={nestedSubLink.href}>
-                                              {nestedSubLink.text}
-                                            </Link>
-                                          </li>
-                                        )
-                                      )}
-                                    </ul>
-                                  )}
-                                </li>
-                              )
-                            )}
-                          </ul>
-                        </li>
-                        <li>
-                          <Link href={navigationLinks.projects.href}>
-                            {navigationLinks.projects.text}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href={navigationLinks.contact.href}>
-                            {navigationLinks.contact.text}
-                          </Link>
-                        </li>
+                        {renderMenuItems(navigationLinks)}
                       </ul>
                     </div>
                     <div className="header-action d-none d-md-block">
@@ -209,7 +216,20 @@ export default function Header({ headerCls, headerTop }) {
                     <div className="close-btn" onClick={handleToggled}>
                       <i className="fas fa-times" />
                     </div>
-                    <div className="nav-logo">
+                    <div className=" logo flex pl-6 pt-4">
+                      <Link href="/">
+                        <Image
+                          src={links.logo.main}
+                          alt="Logo"
+                          width={200}
+                          height={200}
+                        />
+                      </Link>
+                    </div>
+                    <div className="menu-outer mt-80">
+                      <Sidebar handleToggled={handleToggled} />
+                    </div>
+                    <div className="flex justify-center pt-4">
                       <Link
                         href={headerAction.contactButton.href}
                         className="btn"
@@ -217,9 +237,7 @@ export default function Header({ headerCls, headerTop }) {
                         {headerAction.contactButton.text}
                       </Link>
                     </div>
-                    <div className="menu-outer">
-                      <Sidebar handleToggled={handleToggled} />
-                    </div>
+
                     <div className="social-links">
                       <ul className="clearfix list-wrap">
                         {socialLinks.map((link, index) => (
@@ -238,7 +256,7 @@ export default function Header({ headerCls, headerTop }) {
             </div>
           </div>
         </div>
-      </header>
+      </div>
     </>
   );
 }

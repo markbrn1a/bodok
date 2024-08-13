@@ -1,8 +1,9 @@
+"use client";
 import { useState } from "react";
 import { validateInput } from "@/utils/validation";
 import sendMail from "@/actions/email";
 import { formSubmit } from "@/utils/conversion";
-
+import InputField from "../Input";
 export default function FooterForm({ content }) {
   function validatePhoneNumber(number) {
     const phoneRegex = /^\+?\d{6,13}$/;
@@ -44,24 +45,34 @@ export default function FooterForm({ content }) {
       sendMail({ phone: phone.value });
       setIsSubmitted(true);
       formSubmit();
-      setPhone({ value: "", isValid: true, errorMessage: "" });
+      setPhone({});
     } else {
       console.log("Form is invalid. Please correct the errors and try again.");
     }
   };
-
   return (
     <form onSubmit={handleSubmit}>
-      <input
+      <InputField
+        id="phone"
+        name="phone"
+        type="tel"
+        placeholder={content.footer.newsletterPlaceholder}
+        onChange={handleChange}
+        value={phone.value}
+        isValid={phone.isValid}
+        errorMessage={phone.errorMessage}
+        disabled={isSubmitted}
+      />
+      {/* <input
         type="text"
         placeholder={content.footer.newsletterPlaceholder}
         value={phone.value}
         onChange={handleChange}
         onKeyPress={handleKeyPress}
-      />
+      /> */}
 
-      <button type="submit" className="btn btn-two">
-        {content.footer.newsletterButton}
+      <button disabled={isSubmitted} type="submit" className="btn btn-two">
+        {!isSubmitted ? content.footer.newsletterButton : "Köszönjük!"}
       </button>
     </form>
   );

@@ -1,10 +1,8 @@
 "use client";
-import Form from "@/components/elements/Form";
-import Layout from "@/components/layout/Layout";
+import Form from "@/components/elements/forms/Form";
 import contactContent from "@/data/contactContent";
 import Link from "next/link";
 import { emailClick, phoneCall } from "@/utils/conversion";
-import bg from "@/public/assets/img/images/contact_form_bg.jpg";
 
 export default function Contact() {
   contactContent.contactInfo.address = process.env.NEXT_PUBLIC_COMPANY_ADDRESS;
@@ -28,7 +26,10 @@ export default function Contact() {
             <div className="col-xl-6 col-lg-10">
               <div
                 className="contact-form-wrap"
-                data-background={"/assets/img/images/contact_form_bg.jpg"}
+                style={{
+                  backgroundImage: `url(${"/assets/img/images/contact_form_bg.jpg"})`,
+                }}
+                // data-background={"/assets/img/images/contact_form_bg.jpg"}
               >
                 <h2 className="title">{contactContent.contactForm.title}</h2>
                 <p>{contactContent.contactForm.description}</p>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Team1({ content }) {
@@ -23,7 +24,12 @@ export default function Team1({ content }) {
                 <div className="team-item">
                   <div className="team-thumb">
                     <Link href={member.detailsLink}>
-                      <img src={member.image} alt={member.name} />
+                      <Image
+                        width={370}
+                        height={370}
+                        src={member.image}
+                        alt={member.name}
+                      />
                     </Link>
                     <div className="team-social">
                       <ul className="list-wrap">
