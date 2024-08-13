@@ -1,9 +1,10 @@
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
 export default function BlogCard1({ item }) {
-    return (
-        <>
-            {/* <div className="inner-blog-item">
+  return (
+    <>
+      {/* <div className="inner-blog-item">
                 <div className="inner-blog-thumb">
                     <Link href={`/blog/${item.id}`}><img src={`/assets/img/blog/${item.img}`} alt="" /></Link>
                 </div>
@@ -22,26 +23,44 @@ export default function BlogCard1({ item }) {
                 </div>
             </div> */}
 
-            <div className="col-lg-6 col-md-6">
-                <div className="blog-post-item">
-                    <div className="blog-post-thumb">
-                        <Link href={`/blog/${item.id}`}><img src={`/assets/img/blog/${item.img}`} alt="" /></Link>
-                    </div>
-                    <div className="blog-post-content">
-                        <Link href="/blog" className="tag">{item.category}</Link>
-                        <div className="blog-meta">
-                            <ul className="list-wrap">
-                                <li><i className="far fa-user" /> By <Link href={`/blog/${item.id}`}>{item.author}</Link></li>
-                                <li><i className="fas fa-calendar-alt" />23 Dec {new Date().getFullYear()}</li>
-                            </ul>
-                        </div>
-                        <h2 className="title"><Link href={`/blog/${item.id}`}>{item.title}</Link>
-                        </h2>
-                        <Link href={`/blog/${item.id}`} className="link-btn">Read More<i className="fas fa-arrow-right" /></Link>
-                    </div>
-                </div>
+      <div className="col-lg-6 col-md-6">
+        <div className="blog-post-item">
+          <div className="blog-post-thumb">
+            <Link href={`/blog/${item.id}`}>
+              <Image
+                height={200}
+                width={200}
+                src={`/assets/img/blog/${item.img}`}
+                alt=""
+              />
+            </Link>
+          </div>
+          <div className="blog-post-content">
+            <Link href="/blog" className="tag">
+              {item.category}
+            </Link>
+            <div className="blog-meta">
+              <ul className="list-wrap">
+                <li>
+                  <i className="far fa-user" /> By{" "}
+                  <Link href={`/blog/${item.id}`}>{item.author}</Link>
+                </li>
+                <li>
+                  <i className="fas fa-calendar-alt" />
+                  23 Dec {new Date().getFullYear()}
+                </li>
+              </ul>
             </div>
-
-        </>
-    )
+            <h2 className="title">
+              <Link href={`/blog/${item.id}`}>{item.title}</Link>
+            </h2>
+            <Link href={`/blog/${item.id}`} className="link-btn">
+              Read More
+              <i className="fas fa-arrow-right" />
+            </Link>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }

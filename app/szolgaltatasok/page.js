@@ -161,7 +161,7 @@ export default function Service() {
                 <div key={index} className="col-xl-4 col-md-6">
                   <div className="support-item">
                     <div className="support-icon">
-                      <img src={item.icon} alt="" />
+                      <Image width={50} height={50} src={item.icon} alt="" />
                     </div>
                     <div className="support-content">
                       <h4 className="title">{item.title}</h4>
