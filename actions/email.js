@@ -3,12 +3,12 @@ import nodemailer from "nodemailer";
 import sanitizeHtml from "sanitize-html";
 
 const transporter = nodemailer.createTransport({
-  host: "mail.weblabstudio.hu",
-  port: 465,
-  secure: true, // Use `true` for port 465, `false` for all other ports
+  host: process.env.MAIL_SERVER,
+  port: process.env.MAIL_PORT,
+  secure: process.env.MAIL_PORT == 465, // Use `true` for port 465, `false` for all other ports
   auth: {
-    user: "localtest@weblabstudio.hu",
-    pass: "_Ye63tO[Tdf9",
+    user: process.env.MAIL_USER,
+    pass: process.env.MAIL_PASS,
   },
 });
 

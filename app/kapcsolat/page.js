@@ -47,17 +47,12 @@ export default function Contact() {
                         <i className="fas fa-phone-alt" />
                       </div>
                       <div className="content text-center">
-                        {contactContent.contactInfo.phoneNumbers.map(
-                          (phone, index) => (
-                            <Link
-                              onClick={phoneCall}
-                              key={index}
-                              href={phone.href}
-                            >
-                              {phone.text}
-                            </Link>
-                          )
-                        )}
+                        <Link
+                          onClick={phoneCall}
+                          href={process.env.NEXT_PUBLIC_COMPANY_PHONE_LINK}
+                        >
+                          {process.env.NEXT_PUBLIC_COMPANY_PHONE}
+                        </Link>
                       </div>
                     </div>
                   </li>
@@ -67,17 +62,12 @@ export default function Contact() {
                         <i className="fas fa-envelope" />
                       </div>
                       <div className="content text-center">
-                        {contactContent.contactInfo.emails.map(
-                          (email, index) => (
-                            <Link
-                              onClick={emailClick}
-                              key={index}
-                              href={email.href}
-                            >
-                              {email.text}
-                            </Link>
-                          )
-                        )}
+                        <Link
+                          onClick={emailClick}
+                          href={process.env.NEXT_PUBLIC_COMPANY_EMAIL}
+                        >
+                          {process.env.NEXT_PUBLIC_COMPANY_EMAIL}
+                        </Link>
                       </div>
                     </div>
                   </li>

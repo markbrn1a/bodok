@@ -176,7 +176,7 @@ export default function Header({ headerCls, headerTop }) {
                       <Link href="/">
                         <Image
                           width={200}
-                          height={200}
+                          height={60}
                           src={links.logo.main}
                           alt="Logo"
                         />
@@ -186,7 +186,7 @@ export default function Header({ headerCls, headerTop }) {
                       <Link href="/">
                         <Image
                           width={200}
-                          height={200}
+                          height={60}
                           src={links.logo.secondary}
                           alt="Logo"
                         />

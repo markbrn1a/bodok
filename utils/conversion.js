@@ -47,28 +47,68 @@ export function handleConsentUpdate(consentStatus) {
 
 export function phoneCall(phoneNumber) {
   initializeGtag();
-  gtag("event", "phone_call", {
-    phone_number: phoneNumber,
-  });
+  function gtag_report_conversion(url) {
+    const callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-10798536299/jnioCPjploEDEOuskp0o",
+      event_callback: callback,
+    });
+    return false;
+  }
+  gtag_report_conversion();
 }
 
 export function emailClick(email) {
   initializeGtag();
-  gtag("event", "email_click", {
-    email: email,
-  });
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-10798536299/U3HsCMLlrsoZEOuskp0o",
+      event_callback: callback,
+    });
+    return false;
+  }
+  gtag_report_conversion();
 }
 
 export function formSubmit(formName) {
   initializeGtag();
-  gtag("event", "form_submit", {
-    form_name: formName,
-  });
+  function gtag_report_conversion(url) {
+    const callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-10798536299/O_bTCLGamLoYEOuskp0o",
+      event_callback: callback,
+    });
+    return false;
+  }
+  gtag_report_conversion();
 }
 
 export function requestCallBack(formName) {
   initializeGtag();
-  gtag("event", "call_back", {
-    form_name: formName,
-  });
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof url != "undefined") {
+        window.location = url;
+      }
+    };
+    gtag("event", "conversion", {
+      send_to: "AW-10798536299/GeBACPSr_P8CEOuskp0o",
+      event_callback: callback,
+    });
+    return false;
+  }
+  gtag_report_conversion();
 }

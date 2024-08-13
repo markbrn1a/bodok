@@ -1,5 +1,6 @@
 import Link from "next/link";
 import content from "../../data/footer.json";
+import contact from "../../data/brand.json";
 import { phoneCall } from "@/utils/conversion";
 import FooterForm from "../elements/forms/FooterForm";
 import Image from "next/image";
@@ -91,8 +92,8 @@ export default function Footer1() {
                   </div>
                 </div>
               </div>
-              <div className="footer-logo-area">
-                <div className="row align-items-center">
+              <div className="footer-logo-area ">
+                <div className="row align-items-center justify-around">
                   <div className="col-xl-3 col-lg-3 col-md-12">
                     <div className="logo">
                       <Link href="/index">
@@ -114,14 +115,14 @@ export default function Footer1() {
                         <span>{content.footer.phoneText}</span>
                         <Link
                           onClick={phoneCall}
-                          href={`tel:${content.footer.phoneNumber}`}
+                          href={`tel:${process.env.NEXT_PUBLIC_COMPANY_PHONE_LINK}`}
                         >
-                          {content.footer.phoneNumber}
+                          {process.env.NEXT_PUBLIC_COMPANY_PHONE}
                         </Link>
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-5 col-lg-5 col-md-6">
+                  {/* <div className="col-xl-5 col-lg-5 col-md-6">
                     <div className="footer-social">
                       <h2 className="title">{content.footer.socialTitle}</h2>
                       <ul className="list-wrap">
@@ -134,7 +135,7 @@ export default function Footer1() {
                         ))}
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

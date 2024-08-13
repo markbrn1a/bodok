@@ -1,28 +1,9 @@
-"use client";
 import Link from "next/link";
-import { useState } from "react";
 import Brand1 from "./Brand1";
 import DataBg from "../elements/DataBg"; // Import DataBg
+import Tooltip from "../elements/Tooltip";
 
 export default function Banner1({ content }) {
-  const [isActive, setIsActive] = useState({
-    status: false,
-    key: "",
-  });
-
-  const handleToggle = (key) => {
-    if (isActive.key === key) {
-      setIsActive({
-        status: false,
-      });
-    } else {
-      setIsActive({
-        status: true,
-        key,
-      });
-    }
-  };
-
   return (
     <>
       <section className="banner-area">
@@ -55,23 +36,24 @@ export default function Banner1({ content }) {
           </div>
           <div className="banner-tooltip-wrap">
             {content.banner.tooltips.map((tooltip, index) => (
-              <div
-                key={index}
-                className={
-                  isActive.key == index + 1
-                    ? "tooltip-item top active"
-                    : "tooltip-item top"
-                }
-                onClick={() => handleToggle(index + 1)}
-              >
-                <div className="tooltip-btn pulse">
-                  <i className="fas fa-plus" />
-                </div>
-                <div className="tooltip-content">
-                  <h2 className="title">{tooltip.title}</h2>
-                  <p>{tooltip.description}</p>
-                </div>
-              </div>
+              <Tooltip index={index} tooltip={tooltip} />
+              // <div
+              //   key={index}
+              //   className={
+              //     isActive.key == index + 1
+              //       ? "tooltip-item top active"
+              //       : "tooltip-item top"
+              //   }
+              //   onClick={() => handleToggle(index + 1)}
+              // >
+              //   <div className="tooltip-btn pulse">
+              //     <i className="fas fa-plus" />
+              //   </div>
+              //   <div className="tooltip-content">
+              //     <h2 className="title">{tooltip.title}</h2>
+              //     <p>{tooltip.description}</p>
+              //   </div>
+              // </div>
             ))}
           </div>
         </div>
