@@ -115,7 +115,9 @@ export default function Footer1() {
                         <span>{content.footer.phoneText}</span>
                         <Link
                           onClick={phoneCall}
-                          href={`tel:${process.env.NEXT_PUBLIC_COMPANY_PHONE_LINK}`}
+                          href={`tel:${
+                            process.env.NEXT_PUBLIC_COMPANY_PHONE_LINK || ""
+                          }`}
                         >
                           {process.env.NEXT_PUBLIC_COMPANY_PHONE}
                         </Link>

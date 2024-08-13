@@ -53,7 +53,7 @@ export default function Sidebar(handleToggled) {
       <ul className="navigation">
         <li className="menu-item-has-children">
           <Link
-            href={navigationLinks.navigationLinks.home.href}
+            href={navigationLinks.navigationLinks.home.href || ""}
             onClick={handleLinkClick}
           >
             {navigationLinks.navigationLinks.home.text}
@@ -61,7 +61,7 @@ export default function Sidebar(handleToggled) {
         </li>
         <li>
           <Link
-            href={navigationLinks.navigationLinks.about.href}
+            href={navigationLinks.navigationLinks.about.href || ""}
             onClick={handleLinkClick}
           >
             {navigationLinks.navigationLinks.about.text}
@@ -69,7 +69,7 @@ export default function Sidebar(handleToggled) {
         </li>
         <li className="menu-item-has-children">
           <Link
-            href={navigationLinks.navigationLinks.services.href}
+            href={navigationLinks.navigationLinks.services.href || ""}
             onClick={handleLinkClick}
           >
             {navigationLinks.navigationLinks.services.text}
@@ -87,7 +87,7 @@ export default function Sidebar(handleToggled) {
         </li>
         <li>
           <Link
-            href={navigationLinks.navigationLinks.projects.href}
+            href={navigationLinks.navigationLinks.projects.href || ""}
             onClick={handleLinkClick}
           >
             {navigationLinks.navigationLinks.projects.text}
@@ -95,7 +95,7 @@ export default function Sidebar(handleToggled) {
         </li>
         <li>
           <Link
-            href={navigationLinks.navigationLinks.contact.href}
+            href={navigationLinks.navigationLinks.contact.href || ""}
             onClick={handleLinkClick}
           >
             {navigationLinks.navigationLinks.contact.text}

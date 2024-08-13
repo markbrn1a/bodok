@@ -23,19 +23,21 @@ export default function Blog1({ content }) {
               <div key={index} className="col-xl-4 col-md-6">
                 <div className="blog-post-item">
                   <div className="blog-post-thumb">
-                    <Link href={post.detailsLink}>
+                    <Link href={post.detailsLink || ""}>
                       <Image width={370} height={370} src={post.image} alt="" />
                     </Link>
                   </div>
                   <div className="blog-post-content">
-                    <Link href={post.tagLink} className="tag">
+                    <Link href={post.tagLink || ""} className="tag">
                       {post.tag}
                     </Link>
                     <div className="blog-meta">
                       <ul className="list-wrap">
                         <li>
                           <i className="far fa-user" /> By{" "}
-                          <Link href={post.detailsLink}>{post.author}</Link>
+                          <Link href={post.detailsLink || ""}>
+                            {post.author}
+                          </Link>
                         </li>
                         <li>
                           <i className="fas fa-calendar-alt" />
@@ -44,9 +46,9 @@ export default function Blog1({ content }) {
                       </ul>
                     </div>
                     <h2 className="title">
-                      <Link href={post.detailsLink}>{post.title}</Link>
+                      <Link href={post.detailsLink || ""}>{post.title}</Link>
                     </h2>
-                    <Link href={post.detailsLink} className="link-btn">
+                    <Link href={post.detailsLink || ""} className="link-btn">
                       Read More
                       <i className="fas fa-arrow-right" />
                     </Link>

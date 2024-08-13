@@ -49,7 +49,9 @@ export default function Contact() {
                       <div className="content text-center">
                         <Link
                           onClick={phoneCall}
-                          href={process.env.NEXT_PUBLIC_COMPANY_PHONE_LINK}
+                          href={
+                            process.env.NEXT_PUBLIC_COMPANY_PHONE_LINK || ""
+                          }
                         >
                           {process.env.NEXT_PUBLIC_COMPANY_PHONE}
                         </Link>
@@ -64,7 +66,7 @@ export default function Contact() {
                       <div className="content text-center">
                         <Link
                           onClick={emailClick}
-                          href={process.env.NEXT_PUBLIC_COMPANY_EMAIL}
+                          href={process.env.NEXT_PUBLIC_COMPANY_EMAIL || ""}
                         >
                           {process.env.NEXT_PUBLIC_COMPANY_EMAIL}
                         </Link>

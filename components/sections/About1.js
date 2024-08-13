@@ -65,7 +65,7 @@ export default function About1({ content }) {
                     ))}
                   </ul>
                 </div>
-                <Link href={content.about.link.href} className="btn">
+                <Link href={content.about.link.href || ""} className="btn">
                   {content.about.link.text}
                 </Link>
               </div>

@@ -87,14 +87,22 @@ export default function Header({ headerCls, headerTop }) {
                     <li>Welcome to Roofx Construction</li>
                     <li>
                       <i className="fas fa-phone-alt" />
-                      <Link href={`tel:${links.contactInfo.phone}`}>
-                        {links.contactInfo.phoneDisplay}
+                      <Link
+                        href={`tel:${
+                          process.env.NEXT_PUBLIC_COMPANY_PHONE_LINK || ""
+                        }`}
+                      >
+                        {process.env.NEXT_PUBLIC_COMPANY_PHONE}
                       </Link>
                     </li>
                     <li>
                       <i className="fas fa-envelope" />
-                      <Link href={`mailto:${links.contactInfo.email}`}>
-                        {links.contactInfo.email}
+                      <Link
+                        href={`mailto:${
+                          process.env.NEXT_PUBLIC_COMPANY_EMAIL || ""
+                        }`}
+                      >
+                        {process.env.NEXT_PUBLIC_COMPANY_EMAIL}
                       </Link>
                     </li>
                   </ul>
@@ -128,7 +136,7 @@ export default function Header({ headerCls, headerTop }) {
                           <Link
                             key={index}
                             className="dropdown-item"
-                            href={lang.href}
+                            href={lang.href || ""}
                           >
                             <Image
                               width={20}
@@ -146,7 +154,7 @@ export default function Header({ headerCls, headerTop }) {
                     <ul className="list-wrap">
                       {socialLinks.map((link, index) => (
                         <li key={index}>
-                          <Link href={link.href}>
+                          <Link href={link.href || ""}>
                             <i className={link.iconClass} />
                           </Link>
                         </li>
@@ -201,7 +209,7 @@ export default function Header({ headerCls, headerTop }) {
                       <ul className="list-wrap">
                         <li className="header-btn">
                           <Link
-                            href={headerAction.contactButton.href}
+                            href={headerAction.contactButton.href || ""}
                             className="btn"
                           >
                             {headerAction.contactButton.text}
@@ -231,7 +239,7 @@ export default function Header({ headerCls, headerTop }) {
                     </div>
                     <div className="flex justify-center pt-4">
                       <Link
-                        href={headerAction.contactButton.href}
+                        href={headerAction.contactButton.href || ""}
                         className="btn"
                       >
                         {headerAction.contactButton.text}
@@ -242,7 +250,7 @@ export default function Header({ headerCls, headerTop }) {
                       <ul className="clearfix list-wrap">
                         {socialLinks.map((link, index) => (
                           <li key={index}>
-                            <Link href={link.href}>
+                            <Link href={link.href || ""}>
                               <i className={link.iconClass} />
                             </Link>
                           </li>

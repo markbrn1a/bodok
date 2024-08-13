@@ -171,7 +171,7 @@ export default async function ServiceDetails({ params }) {
                         {content.servicesSidebar.servicesList.map(
                           (service, index) => (
                             <li key={index}>
-                              <Link href={service.link}>
+                              <Link href={service.link || ""}>
                                 {service.name}
                                 <i className="fas fa-arrow-right" />
                               </Link>
@@ -198,7 +198,7 @@ export default async function ServiceDetails({ params }) {
                       {content.servicesSidebar.brochuresList.map(
                         (brochure, index) => (
                           <Link
-                            href={brochure.link}
+                            href={brochure.link || ""}
                             download
                             target="_blank"
                             key={index}
