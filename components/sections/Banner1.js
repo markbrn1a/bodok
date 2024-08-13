@@ -1,7 +1,6 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
-const DataBg = dynamic(() => import("../elements/DataBg"), { ssr: true });
 const Tooltip = dynamic(() => import("../elements/Tooltip"), { ssr: true });
 const Brand1 = dynamic(() => import("./Brand1"), { ssr: true });
 
@@ -44,7 +43,6 @@ export default function Banner1({ content }) {
         </div>
         <Brand1 />
       </section>
-      <DataBg />
     </>
   );
 }
