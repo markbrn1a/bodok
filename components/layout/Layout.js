@@ -24,6 +24,7 @@ export default function Layout({
     });
     window.wow.init();
   }, []);
+
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
