@@ -1,0 +1,342 @@
+{
+  "faq1Page": {
+    "sectionSubtitle": "Our Faqs",
+    "sectionTitle": "Have Any Questions Answer?",
+    "faqTitle1": "How to install Exclusive Addons Plugin?",
+    "faqContent1": "As far as our Plugin is concerned, it works smoothly with all of the WordPress themes. But if you are looking for a clean, lightweight, minimal, and fully customizable WordPress theme for your site we recommend Credence. multipurpose theme",
+    "faqTitle2": "Do you recommend any WordPress theme?",
+    "faqContent2": "As far as our Plugin is concerned, it works smoothly with all of the WordPress themes. But if you are looking for a clean, lightweight, minimal, and fully customizable WordPress theme for your site we recommend Credence. multipurpose theme",
+    "faqTitle3": "How to install Exclusive Addons Plugin?",
+    "faqContent3": "As far as our Plugin is concerned, it works smoothly with all of the WordPress themes. But if you are looking for a clean, lightweight, minimal, and fully customizable WordPress theme for your site we recommend Credence. multipurpose theme",
+    "faqTitle4": "How to install Exclusive Addons Plugin?",
+    "faqContent4": "As far as our Plugin is concerned, it works smoothly with all of the WordPress themes. But if you are looking for a clean, lightweight, minimal, and fully customizable WordPress theme for your site we recommend Credence. multipurpose theme",
+    "faqTitle5": "How to install Exclusive Addons Plugin?",
+    "faqContent5": "As far as our Plugin is concerned, it works smoothly with all of the WordPress themes. But if you are looking for a clean, lightweight, minimal, and fully customizable WordPress theme for your site we recommend Credence. multipurpose theme"
+  },
+  "work2Page": {
+    "sectionTitle": "Meet Our Engineers",
+    "sectionSubtitle": "How Our Engineers Work",
+    "tooltipTitle1": "Combustion Roof Vent",
+    "tooltipContent1": "Suffered alteration in some a goody form, by injected humor, or into the randomized word.",
+    "tooltipTitle2": "Combustion Roof Vent",
+    "tooltipContent2": "Suffered alteration in some a goody form, by injected humor, or into the randomized word.",
+    "tooltipTitle3": "Combustion Roof Vent",
+    "tooltipContent3": "Suffered alteration in some a goody form, by injected humor, or into the randomized word.",
+    "tooltipTitle4": "Combustion Roof Vent",
+    "tooltipContent4": "Suffered alteration in some a goody form, by injected humor, or into the randomized word.",
+    "tooltipTitle5": "Combustion Roof Vent",
+    "tooltipContent5": "Suffered alteration in some a goody form, by injected humor, or into the randomized word.",
+    "tooltipTitle6": "Combustion Roof Vent",
+    "tooltipContent6": "Suffered alteration in some a goody form, by injected humor, or into the randomized word.",
+    "tooltipTitle7": "Combustion Roof Vent",
+    "tooltipContent7": "Suffered alteration in some a goody form, by injected humor, or into the randomized word."
+  },
+  "engineerPage": {
+    "sectionTitle": "Meet Our Engineers",
+    "sectionSubtitle": "How Our Engineers Work",
+    "engineers": [
+      {
+        "name": "Mr.Karikoka Ahli",
+        "role": "Roof Engineer",
+        "image": "/assets/img/images/engineer_img01.jpg",
+        "infoImage": "/assets/img/images/engineer_info01.png"
+      },
+      {
+        "name": "Mr.Karikoka Ahli",
+        "role": "Roof Engineer",
+        "image": "/assets/img/images/engineer_img02.jpg",
+        "infoImage": "/assets/img/images/engineer_info02.png"
+      },
+      {
+        "name": "Mr.Darikoka Ahli",
+        "role": "Roof Engineer",
+        "image": "/assets/img/images/engineer_img03.jpg",
+        "infoImage": "/assets/img/images/engineer_info03.png"
+      },
+      {
+        "name": "Mr.Karikoka Ahli",
+        "role": "Roof Engineer",
+        "image": "/assets/img/images/engineer_img02.jpg",
+        "infoImage": "/assets/img/images/engineer_info02.png"
+      }
+    ]
+  },
+  "blogSection": {
+    "sectionTitle": "Hírek",
+    "sectionSubtitle": "Olvassa el legújabb híreinket",
+    "posts": [
+      {
+        "image": "/assets/img/blog/blog_img01_result.webp",
+        "tag": "Tetőfedés",
+        "author": "Admin",
+        "date": "2023. augusztus 15.",
+        "title": "Új tetőfedési technológiák",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      },
+      {
+        "image": "/assets/img/blog/blog_img02_result.webp",
+        "tag": "Felújítás",
+        "author": "Admin",
+        "date": "2023. július 22.",
+        "title": "Tippek a tetőfelújításhoz",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      },
+      {
+        "image": "/assets/img/blog/blog_img03_result.webp",
+        "tag": "Bádogozás",
+        "author": "Admin",
+        "date": "2023. június 10.",
+        "title": "A bádogozás fontossága",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      }
+    ]
+  },
+
+  "counter3Content": {
+    "counters": [
+      {
+        "end": 1500,
+        "duration": 10,
+        "description": "Project Complete"
+      },
+      {
+        "end": 8562,
+        "duration": 10,
+        "description": "Satisfied Clients"
+      },
+      {
+        "end": 450,
+        "duration": 10,
+        "description": "Experienced Staff"
+      },
+      {
+        "end": 38,
+        "duration": 10,
+        "description": "Awards Win"
+      }
+    ]
+  },
+  "newsletterSection": {
+    "backgroundImage": "/assets/img/bg/newsletter_bg_result.webp",
+    "subTitle": "Minőségi Tetőfedés",
+    "title": "Szüksége van Tetőfedésre?",
+    "formPlaceholders": {
+      "name": "Név*",
+      "phone": "Telefon*"
+    },
+    "submitButton": "Küldje El"
+  },
+  "about": {
+    "images": [
+      "/assets/img/images/about_img01_result.webp",
+      "/assets/img/images/about_img02_result.webp"
+    ],
+    "experiences": [
+      {
+        "icon": "/assets/img/icon/about_icon01.svg",
+        "title": "Több mint 15 éves tapasztalat"
+      },
+      {
+        "icon": "/assets/img/icon/about_icon02.svg",
+        "title": "Szakértelem és megbízhatóság"
+      }
+    ],
+    "sectionTitle": {
+      "subTitle": "Cégünkről",
+      "title": "Elkötelezettek vagyunk a tetőfedés kiválósága iránt"
+    },
+    "description": "A Bodok Tetőfedő Mester több évtizede foglalkozik tetőfedéssel és felújítással. Szakértelemmel, garanciával és megbízhatósággal állunk ügyfeleink szolgálatában.",
+    "listItems": [
+      "100%-ban magyar tulajdonú vállalat.",
+      "Garancia minden elvégzett munkára és anyagra.",
+      "Teljeskörű támogatás az állami pályázatokhoz."
+    ],
+    "link": {
+      "href": "/about",
+      "text": "Tudjon meg többet"
+    }
+  },
+  "work1Content": {
+    "sectionTitle": "Working Plan",
+    "mainTitle": "Roof Plan Working Process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Plan for Roofing",
+        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+      },
+      {
+        "number": "02",
+        "title": "Schedule Estimate",
+        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+      },
+      {
+        "number": "03",
+        "title": "Install New Roof",
+        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+      },
+      {
+        "number": "04",
+        "title": "Enjoy Roofing",
+        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+      }
+    ]
+  },
+
+  "servicesSection": {
+    "sectionTitle": {
+      "subTitle": "Discover Our Company",
+      "title": "See Our Roofing Services Details"
+    },
+    "servicesItems": [
+      {
+        "image": {
+          "src": "/assets/img/services/h3_services_img01.jpg",
+          "alt": "Service Image 1"
+        },
+        "icon": {
+          "src": "/assets/img/icon/services_icon01.svg",
+          "alt": "Service Icon 1"
+        },
+        "title": "Quality Materials",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+        "link": "/services-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/services/h3_services_img02.jpg",
+          "alt": "Service Image 2"
+        },
+        "icon": {
+          "src": "/assets/img/icon/services_icon02.svg",
+          "alt": "Service Icon 2"
+        },
+        "title": "Install Metal Roofing",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+        "link": "/services-details"
+      }
+    ]
+  },
+  "projectSection": {
+    "backgroundImage": "/assets/img/bg/area_bg03.jpg",
+    "sectionTitle": {
+      "subTitle": "Our Projects",
+      "title": "Our Latest Projects"
+    },
+    "projects": [
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img01.jpg",
+          "alt": "Project Image 1"
+        },
+        "category": "Product Design",
+        "title": "Web Application",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img02.jpg",
+          "alt": "Project Image 2"
+        },
+        "category": "Product Design",
+        "title": "Web Application",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img03.jpg",
+          "alt": "Project Image 3"
+        },
+        "category": "Product Design",
+        "title": "Web Application",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img04.jpg",
+          "alt": "Project Image 4"
+        },
+        "category": "Product Design",
+        "title": "Web Application",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img05.jpg",
+          "alt": "Project Image 5"
+        },
+        "category": "Product Design",
+        "title": "Web Application",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img06.jpg",
+          "alt": "Project Image 6"
+        },
+        "category": "Product Design",
+        "title": "Web Application",
+        "link": "/project-details"
+      }
+    ],
+    "learnMoreLink": {
+      "text": "Learn More",
+      "link": "/project"
+    }
+  },
+
+  "appointmentTitle": "Book Your Appointment",
+  "formPlaceholders": {
+    "name": "Your Name",
+    "phone": "Phone",
+    "location": "Location",
+    "message": "Message"
+  },
+  "buttonText2": "Book for Inspection",
+  "backgroundImage": {
+    "src": "/assets/img/bg/appointment_bg.jpg",
+    "alt": "Appointment Background Image"
+  },
+  "bannerTitle": "Your Banner Title",
+  "subTitle": "Your Subtitle",
+  "mainTitle": "Your Main Title",
+  "description": "Your description goes here.",
+  "buttonText": "Your Button Text",
+  "bannerImage": {
+    "src": "/assets/img/banner/h3_banner_img.jpg",
+    "alt": "Banner Image Alt Text"
+  },
+  "shapes": [
+    {
+      "src": "/assets/img/banner/h3_banner_shape01.png",
+      "alt": "Shape 1 Alt Text"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape02.png",
+      "alt": "Shape 2 Alt Text"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape03.png",
+      "alt": "Shape 3 Alt Text"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape04.png",
+      "alt": "Shape 4 Alt Text"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape05.png",
+      "alt": "Shape 5 Alt Text"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape06.png",
+      "alt": "Shape 6 Alt Text"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape07.png",
+      "alt": "Shape 7 Alt Text"
+    }
+  ]
+}

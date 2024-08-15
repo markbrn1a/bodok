@@ -2,6 +2,7 @@ import Brand3 from "@/components/sections/Brand3";
 import Link from "next/link";
 import Image from "next/image";
 import ServiceForm from "@/components/elements/forms/ServicesForm";
+import { redirect } from "next/navigation";
 
 export default async function ServiceDetails({ params }) {
   const { service, subservice } = params;
@@ -12,10 +13,7 @@ export default async function ServiceDetails({ params }) {
     const mod = await import(`@/data/services/${slug}.json`);
     content = mod.default;
   } catch (error) {
-    console.error(`Error loading JSON for slug: ${slug}`, error);
-    return {
-      notFound: true,
-    };
+    redirect("/404");
   }
 
   if (typeof content !== "object" || content === null) {

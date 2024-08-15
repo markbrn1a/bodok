@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from "react";
 import CountUp from "../elements/CountUp";
 import Image from "next/image";

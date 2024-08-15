@@ -1,0 +1,302 @@
+{
+  "faq1Page": {
+    "sectionSubtitle": "Gyakran Ismételt Kérdések",
+    "sectionTitle": "Kérdések és Válaszok a Bádogos Munkákról",
+    "faqTitle1": "Milyen bádogos munkákat vállalnak?",
+    "faqContent1": "Bádogos munkák széles skáláját kínáljuk, beleértve ereszcsatornák szerelését, javítását, tisztítását, kéményburkolatok készítését, és egyedi tetődíszek kivitelezését.",
+    "faqTitle2": "Van garancia a bádogos munkákra?",
+    "faqContent2": "Igen, minden általunk végzett bádogos munkára és az általunk beszerzett anyagokra teljes körű garanciát vállalunk.",
+    "faqTitle3": "Milyen anyagokat használnak?",
+    "faqContent3": "Minőségi vas, réz, és alumínium anyagokat használunk, amelyek tartósak és ellenállnak az időjárási viszontagságoknak.",
+    "faqTitle4": "Hogyan kérhetek árajánlatot?",
+    "faqContent4": "Árajánlatot egyszerűen kérhet weboldalunkon keresztül vagy telefonon, és munkatársaink rövid időn belül válaszolnak.",
+    "faqTitle5": "Milyen területeken vállalnak munkát?",
+    "faqContent5": "Szolgáltatásainkat Magyarország teljes területén elérhetővé tesszük."
+  },
+  "work2Page": {
+    "sectionTitle": "Bádogos Munkák Részletei",
+    "sectionSubtitle": "Hogyan Dolgozunk",
+    "tooltipTitle1": "Ereszcsatorna Szerelés",
+    "tooltipContent1": "Professzionális ereszcsatorna szerelési szolgáltatások, amelyek biztosítják a tartós és megbízható vízelvezetést.",
+    "tooltipTitle2": "Kéményburkolatok",
+    "tooltipContent2": "Kémények burkolása és beépítése, amely biztosítja a megfelelő szellőzést és tűzvédelmet.",
+    "tooltipTitle3": "Tetődíszek Készítése",
+    "tooltipContent3": "Egyedi tetődíszek, mint szélkakasok és csúcsdíszek készítése, amelyek esztétikai értéket adnak a tetőnek.",
+    "tooltipTitle4": "Bádogozás Vas, Réz és Alumínium Anyagokkal",
+    "tooltipContent4": "Kiváló minőségű bádogozási szolgáltatások különféle anyagokkal, beleértve a vasat, rézet és alumíniumot."
+  },
+  "engineerPage": {
+    "sectionTitle": "Szakembereink",
+    "sectionSubtitle": "Ismerje Meg Bádogos Mestereinket",
+    "engineers": [
+      {
+        "name": "Nagy István",
+        "role": "Bádogos Mester",
+        "image": "/assets/img/images/engineer_img01.jpg",
+        "infoImage": "/assets/img/images/engineer_info01.png"
+      },
+      {
+        "name": "Kovács Tamás",
+        "role": "Ereszcsatorna Szerelő",
+        "image": "/assets/img/images/engineer_img02.jpg",
+        "infoImage": "/assets/img/images/engineer_info02.png"
+      },
+      {
+        "name": "Szabó Gábor",
+        "role": "Kéményburkoló",
+        "image": "/assets/img/images/engineer_img03.jpg",
+        "infoImage": "/assets/img/images/engineer_info03.png"
+      }
+    ]
+  },
+  "blogSection": {
+    "sectionTitle": "Legfrissebb Hírek",
+    "sectionSubtitle": "Olvassa El Legújabb Bejegyzéseinket",
+    "posts": [
+      {
+        "image": "/assets/img/blog/blog_img01_result.webp",
+        "tag": "Bádogozás",
+        "author": "Admin",
+        "date": "2023. szeptember 15.",
+        "title": "Ereszcsatornák Karbantartásának Fontossága",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      },
+      {
+        "image": "/assets/img/blog/blog_img02_result.webp",
+        "tag": "Kéményburkolatok",
+        "author": "Admin",
+        "date": "2023. augusztus 20.",
+        "title": "Milyen Anyagokkal Dolgozunk?",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      },
+      {
+        "image": "/assets/img/blog/blog_img03_result.webp",
+        "tag": "Tetődíszek",
+        "author": "Admin",
+        "date": "2023. július 30.",
+        "title": "Egyedi Tetődíszek Készítése",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      }
+    ]
+  },
+  "counter3Content": {
+    "counters": [
+      {
+        "end": 2500,
+        "duration": 10,
+        "description": "Elvégzett Projekt"
+      },
+      {
+        "end": 9500,
+        "duration": 10,
+        "description": "Elégedett Ügyfél"
+      },
+      {
+        "end": 600,
+        "duration": 10,
+        "description": "Szakember"
+      },
+      {
+        "end": 50,
+        "duration": 10,
+        "description": "Díjak"
+      }
+    ]
+  },
+  "newsletterSection": {
+    "backgroundImage": "/assets/img/bg/newsletter_bg_result.webp",
+    "subTitle": "Minőségi Bádogozás",
+    "title": "Érdeklődik Bádogos Munkáink Iránt?",
+    "formPlaceholders": {
+      "name": "Név*",
+      "phone": "Telefon*"
+    },
+    "submitButton": "Küldje El"
+  },
+  "about": {
+    "images": [
+      "/assets/img/images/about_img01_result.webp",
+      "/assets/img/images/about_img02_result.webp"
+    ],
+    "experiences": [
+      {
+        "icon": "/assets/img/icon/about_icon01.svg",
+        "title": "Több mint 20 éves tapasztalat"
+      },
+      {
+        "icon": "/assets/img/icon/about_icon02.svg",
+        "title": "Kiváló Szakértelem"
+      }
+    ],
+    "sectionTitle": {
+      "subTitle": "Rólunk",
+      "title": "Elkötelezettek Vagyunk a Kiváló Bádogozás Iránt"
+    },
+    "description": "A Bodok Tetőfedő Mester évtizedek óta nyújt megbízható bádogozási szolgáltatásokat. Munkáinkat garanciával, szakértelemmel és megbízhatósággal végezzük.",
+    "listItems": [
+      "Garancia minden bádogos munkára.",
+      "Több évtizedes szakértelem.",
+      "Rugalmasság és precizitás minden projektben."
+    ],
+    "link": {
+      "href": "/about",
+      "text": "Tudjon meg többet"
+    }
+  },
+  "work1Content": {
+    "sectionTitle": "Munkafolyamatunk",
+    "mainTitle": "Bádogos Munkák Kivitelezése",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Tervezés",
+        "description": "Minden bádogos munka alapos tervezéssel kezdődik, hogy biztosítsuk a végeredmény minőségét."
+      },
+      {
+        "number": "02",
+        "title": "Kivitelezés",
+        "description": "Szakképzett bádogosaink gyorsan és hatékonyan végzik el a kivitelezést, a legmagasabb színvonalon."
+      },
+      {
+        "number": "03",
+        "title": "Ellenőrzés",
+        "description": "Minden projekt végén alapos ellenőrzést végzünk, hogy ügyfeleink teljes mértékben elégedettek legyenek."
+      },
+      {
+        "number": "04",
+        "title": "Átadás",
+        "description": "Az elkészült munkát átadjuk az ügyfélnek, biztosítva, hogy minden igény teljesült és a munka megfelel a magas elvárásoknak."
+      }
+    ]
+  },
+
+  "servicesSection": {
+    "sectionTitle": {
+      "subTitle": "Fedezze fel bádogos szolgáltatásainkat",
+      "title": "Bádogos Munkák Részletes Bemutatása"
+    },
+    "servicesItems": [
+      {
+        "image": {
+          "src": "/assets/img/services/h3_services_img01.jpg",
+          "alt": "Szolgáltatás kép 1"
+        },
+        "icon": {
+          "src": "/assets/img/icon/services_icon01.svg",
+          "alt": "Szolgáltatás ikon 1"
+        },
+        "title": "Kéményburkolatok",
+        "description": "Professzionális kéményburkolatok, amelyek biztosítják a megfelelő szellőzést és tűzvédelmet.",
+        "link": "/services-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/services/h3_services_img02.jpg",
+          "alt": "Szolgáltatás kép 2"
+        },
+        "icon": {
+          "src": "/assets/img/icon/services_icon02.svg",
+          "alt": "Szolgáltatás ikon 2"
+        },
+        "title": "Ereszcsatorna Szerelés",
+        "description": "Tartós és megbízható ereszcsatorna szerelési szolgáltatások, amelyek garantálják a hosszú élettartamot.",
+        "link": "/services-details"
+      }
+    ]
+  },
+  "projectSection": {
+    "backgroundImage": "/assets/img/bg/area_bg03.jpg",
+    "sectionTitle": {
+      "subTitle": "Projektjeink",
+      "title": "Legutóbbi Bádogos Munkáink"
+    },
+    "projects": [
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img01.jpg",
+          "alt": "Projekt kép 1"
+        },
+        "category": "Kéményburkolatok",
+        "title": "Modern Kéményburkolat",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img02.jpg",
+          "alt": "Projekt kép 2"
+        },
+        "category": "Ereszcsatorna Szerelés",
+        "title": "Új Ereszcsatorna Telepítés",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img03.jpg",
+          "alt": "Projekt kép 3"
+        },
+        "category": "Tetődíszek",
+        "title": "Egyedi Tetődísz Készítése",
+        "link": "/project-details"
+      }
+    ],
+    "learnMoreLink": {
+      "text": "Tudjon meg többet",
+      "link": "/project"
+    }
+  },
+
+  "appointmentTitle": "Foglaljon Időpontot Bádogos Munkára",
+  "formPlaceholders": {
+    "name": "Név",
+    "phone": "Telefon",
+    "location": "Helyszín",
+    "message": "Üzenet"
+  },
+  "buttonText2": "Időpont Foglalása",
+  "backgroundImage": {
+    "src": "/assets/img/bg/appointment_bg.jpg",
+    "alt": "Időpont foglalás háttér"
+  },
+  "bannerTitle": "BÁDOGOS MESTER",
+  "subTitle": "Minden Tetőszerkezethez és Épülethez",
+  "mainTitle": "Bádogos Munkák Teljes Körű Kivitelezése",
+  "description": "Cégünk kiváló minőségű bádogos szolgáltatásokat kínál, amelyeket tapasztalt szakemberek végeznek, a legmodernebb technológiákkal és anyagokkal.",
+  "buttonText": "Kapcsolatfelvétel",
+  "bannerImage": {
+    "src": "/assets/img/banner/h3_banner_img.jpg",
+    "alt": "Bádogos banner kép"
+  },
+  "shapes": [
+    {
+      "src": "/assets/img/banner/h3_banner_shape01.png",
+      "alt": "Banner alakzat 1"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape02.png",
+      "alt": "Banner alakzat 2"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape03.png",
+      "alt": "Banner alakzat 3"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape04.png",
+      "alt": "Banner alakzat 4"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape05.png",
+      "alt": "Banner alakzat 5"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape06.png",
+      "alt": "Banner alakzat 6"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape07.png",
+      "alt": "Banner alakzat 7"
+    }
+  ]
+}

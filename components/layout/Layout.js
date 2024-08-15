@@ -28,6 +28,7 @@ export default function Layout({
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
+
   const flattenLinks = (obj) => {
     let flatLinks = [];
     const traverse = (node) => {
@@ -49,6 +50,10 @@ export default function Layout({
     text: "404",
   };
 
+  function shouldRenderBreadcrumb(path) {
+    return path !== "/" && !/^\/landing\/.*$/.test(path);
+  }
+
   return (
     <>
       <PageHead headTitle={headTitle} />
@@ -56,9 +61,7 @@ export default function Layout({
 
       <div>
         <ConsentBanner />
-        {breadcrumbTitle.href === "/" ? (
-          <></>
-        ) : (
+        {shouldRenderBreadcrumb(path) && (
           <Breadcrumb
             breadcrumbTitle={capitalizeFirstLetter(breadcrumbTitle.text)}
           />

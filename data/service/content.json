@@ -1,0 +1,313 @@
+{
+  "faq1Page": {
+    "sectionSubtitle": "Gyakran Ismételt Kérdések",
+    "sectionTitle": "Van Bármilyen Kérdése?",
+    "faqTitle1": "Milyen tetőfedési anyagokat használnak?",
+    "faqContent1": "Cégünk kiváló minőségű tetőfedési anyagokat használ, beleértve a Lindab, Tondach és kerámia cserép megoldásokat, amelyek tartósak és környezetbarátak.",
+    "faqTitle2": "Mennyi ideig tart egy tetőfedés?",
+    "faqContent2": "A tetőfedés időtartama a tető méretétől és típusától függ, de általában néhány nap alatt befejezzük.",
+    "faqTitle3": "Van garancia a tetőfedésre?",
+    "faqContent3": "Igen, teljes körű garanciát vállalunk minden általunk végzett munkára és beszerzett anyagra.",
+    "faqTitle4": "Hogyan kérhetek árajánlatot?",
+    "faqContent4": "Egyszerűen kérhet árajánlatot weboldalunkon keresztül vagy telefonon, és munkatársaink rövid időn belül válaszolnak.",
+    "faqTitle5": "Milyen területeken vállalnak munkát?",
+    "faqContent5": "Szolgáltatásainkat Magyarország teljes területén elérhetővé tesszük."
+  },
+  "work2Page": {
+    "sectionTitle": "Ismerje Meg Szolgáltatásainkat",
+    "sectionSubtitle": "Munkafolyamataink",
+    "tooltipTitle1": "Lindab Tetőfedés",
+    "tooltipContent1": "Környezetbarát és fenntartható megoldásokat kínálunk Lindab acél tetőfedéssel, amelyek ellenállnak a zord időjárásnak.",
+    "tooltipTitle2": "Tondach Tetőfedés",
+    "tooltipContent2": "Kiváló minőségű kerámia cserepek, amelyek időtállóak és esztétikusak, bármilyen épülethez ideális választás.",
+    "tooltipTitle3": "Állókorcolt Tetőfedés",
+    "tooltipContent3": "Gyorsan telepíthető és tartós megoldás nagy felületű tetők esetén, erős szél- és hóvihar ellenállással.",
+    "tooltipTitle4": "Cserepeslemezes Tetőfedés",
+    "tooltipContent4": "Könnyű és gyorsan telepíthető tetőfedési megoldás, amely régebbi szerkezetekhez is ideális.",
+    "tooltipTitle5": "Kerámiacserepes Tetőfedés",
+    "tooltipContent5": "Tartós, természetes anyagokból készült tető, amely kiváló hő- és hangszigetelő tulajdonságokkal bír.",
+    "tooltipTitle6": "Ipari Tetőfedés",
+    "tooltipContent6": "Speciális megoldások ipari épületek tetőfedésére, amelyek ellenállnak vegyszereknek és ipari környezetek kihívásainak."
+  },
+  "engineerPage": {
+    "sectionTitle": "Tetőfedő Szakembereink",
+    "sectionSubtitle": "Ismerje meg csapatunkat",
+    "engineers": [
+      {
+        "name": "Nagy János",
+        "role": "Tetőfedő Mester",
+        "image": "/assets/img/images/engineer_img01.jpg",
+        "infoImage": "/assets/img/images/engineer_info01.png"
+      },
+      {
+        "name": "Kovács Péter",
+        "role": "Tetőszerkezet Építő",
+        "image": "/assets/img/images/engineer_img02.jpg",
+        "infoImage": "/assets/img/images/engineer_info02.png"
+      },
+      {
+        "name": "Szabó András",
+        "role": "Bádogos Szakember",
+        "image": "/assets/img/images/engineer_img03.jpg",
+        "infoImage": "/assets/img/images/engineer_info03.png"
+      },
+      {
+        "name": "Tóth László",
+        "role": "Ács",
+        "image": "/assets/img/images/engineer_img04.jpg",
+        "infoImage": "/assets/img/images/engineer_info04.png"
+      }
+    ]
+  },
+  "blogSection": {
+    "sectionTitle": "Hírek",
+    "sectionSubtitle": "Legújabb bejegyzéseink",
+    "posts": [
+      {
+        "image": "/assets/img/blog/blog_img01_result.webp",
+        "tag": "Tetőfedés",
+        "author": "Admin",
+        "date": "2023. augusztus 15.",
+        "title": "Új tetőfedési technológiák",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      },
+      {
+        "image": "/assets/img/blog/blog_img02_result.webp",
+        "tag": "Felújítás",
+        "author": "Admin",
+        "date": "2023. július 22.",
+        "title": "Tippek a tetőfelújításhoz",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      },
+      {
+        "image": "/assets/img/blog/blog_img03_result.webp",
+        "tag": "Bádogozás",
+        "author": "Admin",
+        "date": "2023. június 10.",
+        "title": "A bádogozás fontossága",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      }
+    ]
+  },
+  "counter3Content": {
+    "counters": [
+      {
+        "end": 1500,
+        "duration": 10,
+        "description": "Befejezett Projekt"
+      },
+      {
+        "end": 8562,
+        "duration": 10,
+        "description": "Elégedett Ügyfél"
+      },
+      {
+        "end": 450,
+        "duration": 10,
+        "description": "Tapasztalt Szakember"
+      },
+      {
+        "end": 38,
+        "duration": 10,
+        "description": "Elnyert Díjak"
+      }
+    ]
+  },
+  "newsletterSection": {
+    "backgroundImage": "/assets/img/bg/newsletter_bg_result.webp",
+    "subTitle": "Minőségi Tetőfedés",
+    "title": "Szüksége van Tetőfedésre?",
+    "formPlaceholders": {
+      "name": "Név*",
+      "phone": "Telefon*"
+    },
+    "submitButton": "Küldje El"
+  },
+  "about": {
+    "images": [
+      "/assets/img/images/about_img01_result.webp",
+      "/assets/img/images/about_img02_result.webp"
+    ],
+    "experiences": [
+      {
+        "icon": "/assets/img/icon/about_icon01.svg",
+        "title": "Több mint 15 éves tapasztalat"
+      },
+      {
+        "icon": "/assets/img/icon/about_icon02.svg",
+        "title": "Szakértelem és Megbízhatóság"
+      }
+    ],
+    "sectionTitle": {
+      "subTitle": "Cégünkről",
+      "title": "TETŐFEDÉSBEN OTTHON, TÖBB MINT 15 ÉVE"
+    },
+    "description": "A Bodok Tetőfedő Mester több évtizede foglalkozik tetőfedéssel és felújítással. Szakértelemmel, garanciával és megbízhatósággal állunk ügyfeleink szolgálatában.",
+    "listItems": [
+      "100%-ban magyar tulajdonú vállalat.",
+      "Garancia minden elvégzett munkára és anyagra.",
+      "Teljeskörű támogatás az állami pályázatokhoz."
+    ],
+    "link": {
+      "href": "/about",
+      "text": "KÉRJEN ÁRAJÁNLATOT"
+    }
+  },
+
+  "work1Content": {
+    "sectionTitle": "Munkafolyamat",
+    "mainTitle": "Tetőfedési Munkafolyamatunk",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Tervezés",
+        "description": "Minden tetőfedési projekt alapos tervezéssel kezdődik, hogy biztosítsuk a minőséget."
+      },
+      {
+        "number": "02",
+        "title": "Költségbecslés",
+        "description": "Pontos költségbecslést készítünk, hogy ügyfeleink előre tudják, mire számíthatnak."
+      },
+      {
+        "number": "03",
+        "title": "Tetőfedés Telepítése",
+        "description": "Gyors és hatékony tetőfedési folyamat, amely megfelel a legmagasabb szabványoknak."
+      },
+      {
+        "number": "04",
+        "title": "Befejezés",
+        "description": "A projekt lezárása és az ügyfél elégedettségének biztosítása érdekében végső ellenőrzést végzünk."
+      }
+    ]
+  },
+
+  "servicesSection": {
+    "sectionTitle": {
+      "subTitle": "Fedezze fel vállalatunkat",
+      "title": "Nézze meg tetőfedési szolgáltatásainkat"
+    },
+    "servicesItems": [
+      {
+        "image": {
+          "src": "/assets/img/services/h3_services_img01.jpg",
+          "alt": "Szolgáltatás kép 1"
+        },
+        "icon": {
+          "src": "/assets/img/icon/services_icon01.svg",
+          "alt": "Szolgáltatás ikon 1"
+        },
+        "title": "Minőségi Anyagok",
+        "description": "Kiváló minőségű tetőfedő anyagokat kínálunk, amelyek tartósak és megbízhatóak.",
+        "link": "/services-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/services/h3_services_img02.jpg",
+          "alt": "Szolgáltatás kép 2"
+        },
+        "icon": {
+          "src": "/assets/img/icon/services_icon02.svg",
+          "alt": "Szolgáltatás ikon 2"
+        },
+        "title": "Fémlemez Tetőfedés",
+        "description": "Professzionális fémlemez tetőfedési szolgáltatások, amelyek hosszú élettartamot biztosítanak.",
+        "link": "/services-details"
+      }
+    ]
+  },
+  "projectSection": {
+    "backgroundImage": "/assets/img/bg/area_bg03.jpg",
+    "sectionTitle": {
+      "subTitle": "Projektjeink",
+      "title": "Legújabb projektjeink"
+    },
+    "projects": [
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img01.jpg",
+          "alt": "Projekt kép 1"
+        },
+        "category": "Tetőfedés",
+        "title": "Családi ház tetőfedés",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img02.jpg",
+          "alt": "Projekt kép 2"
+        },
+        "category": "Tetőfelújítás",
+        "title": "Régi tetőszerkezet felújítása",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img03.jpg",
+          "alt": "Projekt kép 3"
+        },
+        "category": "Ipari tetőfedés",
+        "title": "Ipari épület tetőfedése",
+        "link": "/project-details"
+      }
+    ],
+    "learnMoreLink": {
+      "text": "Tudjon meg többet",
+      "link": "/project"
+    }
+  },
+
+  "appointmentTitle": "Foglaljon Időpontot",
+  "formPlaceholders": {
+    "name": "Név",
+    "phone": "Telefon",
+    "location": "Helyszín",
+    "message": "Üzenet"
+  },
+  "buttonText2": "Foglaljon Ellenőrzést",
+  "backgroundImage": {
+    "src": "/assets/img/bg/appointment_bg.jpg",
+    "alt": "Időpontfoglalás háttérkép"
+  },
+  "bannerTitle": "TETŐFEDŐ MESTER",
+  "subTitle": "\"AZ ORSZÁG TETŐFEDŐJE\"",
+  "mainTitle": "TELESKÖRŰ TETŐFEDÉS ORSZÁGOSAN",
+  "description": "Családi házak tetőfedése a legkorszerűbb technológiákkal, tapasztalat szakemberekkel, időtálló, minőségi anyagokkal. Mivel több évtizedes tapasztalat áll a hátunk mögött, ezért büszkén vállalok teljeskörű garanciát minden általunk végzett munkára illetve általunk beszerzett alapanyagra.",
+  "buttonText": "+36 123 4567",
+  "bannerImage": {
+    "src": "/assets/img/banner/h3_banner_img.jpg",
+    "alt": "Tetőfedési banner kép"
+  },
+  "shapes": [
+    {
+      "src": "/assets/img/banner/h3_banner_shape01.png",
+      "alt": "Banner alakzat 1"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape02.png",
+      "alt": "Banner alakzat 2"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape03.png",
+      "alt": "Banner alakzat 3"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape04.png",
+      "alt": "Banner alakzat 4"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape05.png",
+      "alt": "Banner alakzat 5"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape06.png",
+      "alt": "Banner alakzat 6"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape07.png",
+      "alt": "Banner alakzat 7"
+    }
+  ]
+}

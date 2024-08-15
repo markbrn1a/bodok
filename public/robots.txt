@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /next/
+Disallow: /actions/
+Disallow: /app/
+Disallow: /components/
+Disallow: /data/
+Disallow: /utils/
+Allow: /public/
+
+Sitemap: https://bodok-tetofedo-mester.hu/sitemap.xml

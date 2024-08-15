@@ -1,0 +1,302 @@
+{
+  "faq1Page": {
+    "sectionSubtitle": "Gyakran Ismételt Kérdések",
+    "sectionTitle": "Kérdések és Válaszok a Tetőfelújításról",
+    "faqTitle1": "Miért fontos a tetőfelújítás?",
+    "faqContent1": "A tető az épület legkiszolgáltatottabb része, ezért a felújítása elengedhetetlen a beázások megelőzése, az energiaköltségek csökkentése és az ingatlan értékének növelése érdekében.",
+    "faqTitle2": "Milyen szolgáltatásokat kínálnak?",
+    "faqContent2": "Teljeskörű tetőjavítás, tetőszerkezetek megerősítése, beázások és viharkárok javítása, valamint palatető felújítás is szerepel szolgáltatásaink között.",
+    "faqTitle3": "Van garancia a munkáikra?",
+    "faqContent3": "Igen, minden általunk végzett munkára és beszerzett anyagra teljes körű garanciát vállalunk.",
+    "faqTitle4": "Mennyi ideig tart egy tetőfelújítás?",
+    "faqContent4": "A tetőfelújítás időtartama a tető állapotától és méretétől függ, de igyekszünk a lehető leggyorsabban végezni a munkát.",
+    "faqTitle5": "Milyen anyagokat használnak?",
+    "faqContent5": "Csak minőségi, tartós anyagokat használunk, amelyek ellenállnak az időjárás viszontagságainak."
+  },
+  "work2Page": {
+    "sectionTitle": "Tetőfelújítás Részletei",
+    "sectionSubtitle": "Hogyan Dolgozunk",
+    "tooltipTitle1": "Tetőszerkezetek Megerősítése",
+    "tooltipContent1": "Tetőszerkezetek javítása és megerősítése a jobb teherbírás érdekében, különösen elöregedett szerkezetek esetén.",
+    "tooltipTitle2": "Beázások Javítása",
+    "tooltipContent2": "Beázások gyors és hatékony javítása, hogy megakadályozzuk a további károkat.",
+    "tooltipTitle3": "Viharkárok Javítása",
+    "tooltipContent3": "Viharkárok javítása, beleértve a tető szél általi megrongálását és az ereszcsatorna sérüléseit.",
+    "tooltipTitle4": "Palatető Felújítás",
+    "tooltipContent4": "Elöregedett palatetők felújítása, korszerű technológiákkal és anyagokkal a hosszú távú védelem érdekében."
+  },
+  "engineerPage": {
+    "sectionTitle": "Szakembereink",
+    "sectionSubtitle": "Ismerje Meg Tetőfelújító Mestereinket",
+    "engineers": [
+      {
+        "name": "Nagy Gábor",
+        "role": "Tetőfelújító Mester",
+        "image": "/assets/img/images/engineer_img01.jpg",
+        "infoImage": "/assets/img/images/engineer_info01.png"
+      },
+      {
+        "name": "Kiss Péter",
+        "role": "Tetőszerkezet Megerősítő",
+        "image": "/assets/img/images/engineer_img02.jpg",
+        "infoImage": "/assets/img/images/engineer_info02.png"
+      },
+      {
+        "name": "Tóth László",
+        "role": "Beázás és Viharkár Javító",
+        "image": "/assets/img/images/engineer_img03.jpg",
+        "infoImage": "/assets/img/images/engineer_info03.png"
+      }
+    ]
+  },
+  "blogSection": {
+    "sectionTitle": "Legfrissebb Hírek",
+    "sectionSubtitle": "Olvassa El Legújabb Bejegyzéseinket",
+    "posts": [
+      {
+        "image": "/assets/img/blog/blog_img01_result.webp",
+        "tag": "Tetőfelújítás",
+        "author": "Admin",
+        "date": "2023. szeptember 5.",
+        "title": "Miért Fontos a Tető Megerősítése Felújítás Előtt?",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      },
+      {
+        "image": "/assets/img/blog/blog_img02_result.webp",
+        "tag": "Palatető",
+        "author": "Admin",
+        "date": "2023. augusztus 10.",
+        "title": "Palatető Felújítás: Mit Kell Tudni?",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      },
+      {
+        "image": "/assets/img/blog/blog_img03_result.webp",
+        "tag": "Viharkár Javítás",
+        "author": "Admin",
+        "date": "2023. július 25.",
+        "title": "Hogyan Kezeljük a Viharkárokat?",
+        "detailsLink": "/blog-details",
+        "tagLink": "/blog"
+      }
+    ]
+  },
+  "counter3Content": {
+    "counters": [
+      {
+        "end": 3000,
+        "duration": 10,
+        "description": "Felújított Tetők"
+      },
+      {
+        "end": 12000,
+        "duration": 10,
+        "description": "Elégedett Ügyfelek"
+      },
+      {
+        "end": 750,
+        "duration": 10,
+        "description": "Szakértő"
+      },
+      {
+        "end": 60,
+        "duration": 10,
+        "description": "Elnyert Díjak"
+      }
+    ]
+  },
+  "newsletterSection": {
+    "backgroundImage": "/assets/img/bg/newsletter_bg_result.webp",
+    "subTitle": "Minőségi Tetőfelújítás",
+    "title": "Érdeklődik Tetőfelújítás Iránt?",
+    "formPlaceholders": {
+      "name": "Név*",
+      "phone": "Telefon*"
+    },
+    "submitButton": "Küldje El"
+  },
+  "about": {
+    "images": [
+      "/assets/img/images/about_img01_result.webp",
+      "/assets/img/images/about_img02_result.webp"
+    ],
+    "experiences": [
+      {
+        "icon": "/assets/img/icon/about_icon01.svg",
+        "title": "Több mint 25 éves tapasztalat"
+      },
+      {
+        "icon": "/assets/img/icon/about_icon02.svg",
+        "title": "TETŐFEDŐ MESTER"
+      }
+    ],
+    "sectionTitle": {
+      "subTitle": "Rólunk",
+      "title": "Elkötelezettek Vagyunk a Kiváló Tetőfelújítás Iránt"
+    },
+    "description": "A Bodok Tetőfedő Mester több évtizedes tapasztalattal vállal teljes körű tetőfelújítást Magyarország teljes területén, garanciával és szakértelemmel.",
+    "listItems": [
+      "Garancia minden tetőfelújításra.",
+      "Több évtizedes szakértelem.",
+      "Gyors és hatékony megoldások."
+    ],
+    "link": {
+      "href": "/about",
+      "text": "Tudjon meg többet"
+    }
+  },
+  "work1Content": {
+    "sectionTitle": "Munkafolyamatunk",
+    "mainTitle": "Tetőfelújítási Folyamat",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Felújítási Szükségletek Felmérése",
+        "description": "A felújítás előtt felmérjük a tető állapotát, hogy pontosan meghatározzuk a szükséges munkálatokat."
+      },
+      {
+        "number": "02",
+        "title": "Költségvetés és Ütemterv",
+        "description": "Pontos költségvetést és ütemtervet készítünk, hogy ügyfeleink előre tudják, mire számíthatnak."
+      },
+      {
+        "number": "03",
+        "title": "Tetőfelújítás",
+        "description": "Gyors és hatékony tetőfelújítás, amely megfelel a legmagasabb szabványoknak és garantáltan tartós."
+      },
+      {
+        "number": "04",
+        "title": "Átadás és Garancia",
+        "description": "Az elkészült munka átadása és teljes körű garancia biztosítása ügyfeleink elégedettsége érdekében."
+      }
+    ]
+  },
+
+  "servicesSection": {
+    "sectionTitle": {
+      "subTitle": "Fedezze fel tetőfelújítási szolgáltatásainkat",
+      "title": "Tetőfelújítás Részletes Bemutatása"
+    },
+    "servicesItems": [
+      {
+        "image": {
+          "src": "/assets/img/services/h3_services_img01.jpg",
+          "alt": "Szolgáltatás kép 1"
+        },
+        "icon": {
+          "src": "/assets/img/icon/services_icon01.svg",
+          "alt": "Szolgáltatás ikon 1"
+        },
+        "title": "Tetőszerkezet Megerősítése",
+        "description": "A tetőszerkezet megerősítése, hogy hosszú távon biztosítsa a tető stabilitását és biztonságát.",
+        "link": "/services-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/services/h3_services_img02.jpg",
+          "alt": "Szolgáltatás kép 2"
+        },
+        "icon": {
+          "src": "/assets/img/icon/services_icon02.svg",
+          "alt": "Szolgáltatás ikon 2"
+        },
+        "title": "Beázások Javítása",
+        "description": "Gyors és hatékony beázásjavítás, amely megakadályozza a további károkat és hosszú távú megoldást kínál.",
+        "link": "/services-details"
+      }
+    ]
+  },
+  "projectSection": {
+    "backgroundImage": "/assets/img/bg/area_bg03.jpg",
+    "sectionTitle": {
+      "subTitle": "Projektjeink",
+      "title": "Legutóbbi Tetőfelújítási Munkáink"
+    },
+    "projects": [
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img01.jpg",
+          "alt": "Projekt kép 1"
+        },
+        "category": "Tetőfelújítás",
+        "title": "Családi Ház Tetőfelújítás",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img02.jpg",
+          "alt": "Projekt kép 2"
+        },
+        "category": "Viharkár Javítás",
+        "title": "Viharkárok Javítása",
+        "link": "/project-details"
+      },
+      {
+        "image": {
+          "src": "/assets/img/project/h3_project_img03.jpg",
+          "alt": "Projekt kép 3"
+        },
+        "category": "Palatető Felújítás",
+        "title": "Elöregedett Palatető Felújítása",
+        "link": "/project-details"
+      }
+    ],
+    "learnMoreLink": {
+      "text": "Tudjon meg többet",
+      "link": "/project"
+    }
+  },
+
+  "appointmentTitle": "Foglaljon Időpontot Tetőfelújításra",
+  "formPlaceholders": {
+    "name": "Név",
+    "phone": "Telefon",
+    "location": "Helyszín",
+    "message": "Üzenet"
+  },
+  "buttonText2": "Időpont Foglalása",
+  "backgroundImage": {
+    "src": "/assets/img/bg/appointment_bg.jpg",
+    "alt": "Időpont foglalás háttér"
+  },
+  "bannerTitle": "TETŐFEDŐ MESTER",
+  "subTitle": "Megbízható és Tartós Megoldások",
+  "mainTitle": "Tetőfelújítás Teljes Körű Kivitelezése",
+  "description": "Cégünk kiváló minőségű tetőfelújítási szolgáltatásokat kínál, tapasztalt szakemberekkel és modern anyagokkal.",
+  "buttonText": "Kapcsolatfelvétel",
+  "bannerImage": {
+    "src": "/assets/img/banner/h3_banner_img.jpg",
+    "alt": "Tetőfelújítás banner kép"
+  },
+  "shapes": [
+    {
+      "src": "/assets/img/banner/h3_banner_shape01.png",
+      "alt": "Banner alakzat 1"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape02.png",
+      "alt": "Banner alakzat 2"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape03.png",
+      "alt": "Banner alakzat 3"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape04.png",
+      "alt": "Banner alakzat 4"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape05.png",
+      "alt": "Banner alakzat 5"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape06.png",
+      "alt": "Banner alakzat 6"
+    },
+    {
+      "src": "/assets/img/banner/h3_banner_shape07.png",
+      "alt": "Banner alakzat 7"
+    }
+  ]
+}

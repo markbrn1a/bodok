@@ -25,7 +25,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
         <div className="row">
           <div className="col-lg-12">
             <div className="breadcrumb-content">
-              <h2 className="title">{breadcrumbTitle}</h2>
+              <h1 className="title">{breadcrumbTitle}</h1>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
