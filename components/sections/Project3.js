@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Project3({ content }) {
@@ -29,7 +30,12 @@ export default function Project3({ content }) {
                 <div className="project-item-two">
                   <div className="project-thumb-two">
                     <Link href={project.link}>
-                      <img src={project.image.src} alt={project.image.alt} />
+                      <Image
+                        width={200}
+                        height={200}
+                        src={project.image.src}
+                        alt={project.image.alt}
+                      />
                     </Link>
                   </div>
                   <div className="project-content-two">

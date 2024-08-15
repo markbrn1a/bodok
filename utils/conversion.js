@@ -5,7 +5,6 @@ export function initializeGtag() {
   console.log("Initializing GA");
 
   const ga = install(process.env.ADS_TRACKING_NO);
-  console.log("GA installed", ga);
   install(process.env.ANALYTICS_TRACING_NO);
   gtag("config", process.env.ANALYTICS_TRACING_NO, { debug_mode: true });
 }

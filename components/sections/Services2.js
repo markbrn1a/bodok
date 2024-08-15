@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Services2({ content }) {
@@ -23,12 +24,22 @@ export default function Services2({ content }) {
                 <div className="services-item-two">
                   <div className="services-thumb-two">
                     <Link href={item.link}>
-                      <img src={item.image.src} alt={item.image.alt} />
+                      <Image
+                        width={300}
+                        height={300}
+                        src={item.image.src}
+                        alt={item.image.alt}
+                      />
                     </Link>
                   </div>
                   <div className="services-content-two">
                     <div className="icon">
-                      <img src={item.icon.src} alt={item.icon.alt} />
+                      <Image
+                        width={50}
+                        height={20}
+                        src={item.icon.src}
+                        alt={item.icon.alt}
+                      />
                     </div>
                     <div className="content">
                       <h2 className="title">

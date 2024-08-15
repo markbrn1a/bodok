@@ -1,9 +1,9 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Faq1({ content }) {
   const faq1Page = content.faq1Page;
-  console.log(faq1Page);
   const [isActive, setIsActive] = useState({
     status: false,
     key: 1,
@@ -42,13 +42,17 @@ export default function Faq1({ content }) {
           <div className="row align-items-center justify-content-center">
             <div className="col-xl-6 col-lg-10 order-0 order-xl-2">
               <div className="faq-img-wrap">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   src="/assets/img/images/faq_img01.jpg"
                   alt=""
                   className="wow fadeInRight"
                   data-wow-delay=".4s"
                 />
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   src="/assets/img/images/faq_img02.jpg"
                   alt=""
                   className="wow fadeInRight"

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Slider from "react-slick";
 import VideoPopup from "../elements/VideoPopup";
+import Image from "next/image";
 
 const settings = {
   centerMode: true,
@@ -91,14 +92,24 @@ export default function Engineer1({ content }) {
                 <div className="engineer-item">
                   <div className="engineer-thumb">
                     <Link href="/team-details">
-                      <img src={engineer.image} alt="" />
+                      <Image
+                        width={400}
+                        height={400}
+                        src={engineer.image}
+                        alt=""
+                      />
                     </Link>
                     <VideoPopup />
                   </div>
                   <div className="engineer-info-wrap">
                     <div className="thumb">
                       <Link href="/team-details">
-                        <img src={engineer.infoImage} alt="" />
+                        <Image
+                          width={50}
+                          height={50}
+                          src={engineer.infoImage}
+                          alt=""
+                        />
                       </Link>
                     </div>
                     <div className="content">

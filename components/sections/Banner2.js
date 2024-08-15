@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Banner2({ content }) {
@@ -8,7 +9,9 @@ export default function Banner2({ content }) {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-10 order-0 order-lg-2">
               <div className="banner-img-wrap">
-                <img
+                <Image
+                  width={500}
+                  height={500}
                   src={content.bannerImage.src}
                   alt={content.bannerImage.alt}
                 />
@@ -43,7 +46,9 @@ export default function Banner2({ content }) {
           <ul className="list-wrap">
             {content.shapes.map((shape, index) => (
               <li key={index}>
-                <img
+                <Image
+                  width={50}
+                  height={50}
                   src={shape.src}
                   alt={shape.alt}
                   className={

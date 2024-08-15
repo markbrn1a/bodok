@@ -25,7 +25,6 @@ export default async function LandingTemplate({ params }) {
   try {
     const mod = await import(`@/data/service/${slug}.json`);
     data = JSON.parse(JSON.stringify(mod.default)); // Ensure it's a plain object
-    console.log(content);
   } catch (error) {
     // redirect("/404");
   }

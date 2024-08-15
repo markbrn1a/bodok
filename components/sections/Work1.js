@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Work1({ content }) {
   const work1Content = content.work1Content;
   return (
@@ -21,7 +23,9 @@ export default function Work1({ content }) {
               <div className="col-xl-3 col-md-6" key={index}>
                 <div className="work-item">
                   <div className="work-thumb">
-                    <img
+                    <Image
+                      width={300}
+                      height={300}
                       src={`/assets/img/images/work_img0${index + 1}.png`}
                       alt=""
                     />
