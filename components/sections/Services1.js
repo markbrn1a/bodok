@@ -83,7 +83,7 @@ export default function Services1({ content }) {
                     </h2>
                     <p>{service.description}</p>
                     <Link href={service.link} className="read-more">
-                      Read More <i className="fas fa-arrow-right" />
+                      ÉRDEKEL <i className="fas fa-arrow-right" />
                     </Link>
                   </div>
                 </div>

@@ -32,7 +32,7 @@ export default function Work1({ content }) {
                     <h4 className="number">{step.number}</h4>
                   </div>
                   <div className="work-content">
-                    <h2 className="title">{step.title}</h2>
+                    <h3 className="title">{step.title}</h3>
                     <p>{step.description}</p>
                   </div>
                 </div>

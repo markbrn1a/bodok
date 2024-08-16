@@ -42,7 +42,8 @@ export default function FooterForm({ content }) {
 
     const validation = validatePhoneNumber(phone.value);
     if (validation) {
-      sendMail({ phone: phone.value });
+      const gclid = localStorage.getItem("gclid");
+      sendMail({ phone: phone.value, gclid });
       setIsSubmitted(true);
       formSubmit();
       setPhone({});

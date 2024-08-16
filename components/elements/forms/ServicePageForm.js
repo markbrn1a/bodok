@@ -60,7 +60,8 @@ export default function ServicePageForm({ text }) {
         const formData = Object.fromEntries(
           Object.entries(formState).map(([key, field]) => [key, field.value])
         );
-        sendMail(formData);
+        const gclid = localStorage.getItem("gclid");
+        sendMail(formData, gclid);
       }
       setIsSubmitted(true);
       setSubmissionFeedback("Munkatársaink hamarosan felkeresik Önt.");

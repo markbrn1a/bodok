@@ -2,20 +2,13 @@
 import { useEffect } from "react";
 import BackToTop from "../elements/BackToTop";
 import Breadcrumb from "./Breadcrumb";
-import Footer from "./Footer";
 import PageHead from "./PageHead";
 import { usePathname } from "next/navigation";
 import links from "@/data/nav.json";
 
 import ConsentBanner from "../elements/ConsentBanner";
 
-export default function Layout({
-  headerCls,
-  headerTop,
-  headTitle,
-  children,
-  footer = true,
-}) {
+export default function Layout({ headTitle, children }) {
   const path = usePathname();
   useEffect(() => {
     const WOW = require("wowjs");
@@ -23,6 +16,11 @@ export default function Layout({
       live: false,
     });
     window.wow.init();
+    if (localStorage.getItem("gclid") === null) {
+      const urlParams = new URLSearchParams(window.location.search);
+      const hasGclid = urlParams.has("gclid");
+      localStorage.setItem("gclid", hasGclid ? "true" : "false");
+    }
   }, []);
 
   function capitalizeFirstLetter(string) {

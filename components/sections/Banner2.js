@@ -16,7 +16,7 @@ export default function Banner2({ content }) {
                   alt={content.bannerImage.alt}
                 />
                 <div className="overly-text">
-                  <h2 className="title">{content.bannerTitle}</h2>
+                  <span className="title">{content.bannerTitle}</span>
                 </div>
               </div>
             </div>
@@ -25,9 +25,9 @@ export default function Banner2({ content }) {
                 <span className="sub-title wow fadeInUp" data-wow-delay=".2s">
                   {content.subTitle}
                 </span>
-                <h2 className="title wow fadeInUp" data-wow-delay=".4s">
+                <h1 className="title wow fadeInUp" data-wow-delay=".4s">
                   {content.mainTitle}
-                </h2>
+                </h1>
                 <p className="wow fadeInUp" data-wow-delay=".6s">
                   {content.description}
                 </p>

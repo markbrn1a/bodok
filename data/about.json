@@ -1,47 +1,50 @@
 {
   "aboutSection": {
-    "title": "We’re Committed to Roofing Excellence",
-    "description": "There are many variations of passages of Lorem Ipsum available, but the majori have suffered alteration in some form, by injected humour, or randomised word which don't look even slightly believable.",
+    "subTitle": "TÖBB MINT 20 ÉVES TAPASZTALAT",
+    "title": "ELKÖTELEZETTEK VAGYUNK A TETŐFEDÉSI KIVÁLÓSÁG IRÁNT",
+    "description": "Cégünk több mint 20 éves tapasztalattal rendelkezik a tetőfedés terén, és elkötelezettek vagyunk amellett, hogy a legjobb minőségű szolgáltatást nyújtsuk ügyfeleinknek. Kizárólag magas minőségű anyagokkal dolgozunk, modern technológiákat alkalmazunk, és minden projektet az ügyfél igényeihez igazítunk.",
     "list": [
-      "32k Partners have worked us.",
-      "Professional and experienced human resources.",
-      "Provide the best roof services"
+      "Több mint 100 elégedett ügyfél",
+      "Szakértő, tapasztalt munkatársak",
+      "Prémium tetőfedési megoldások"
     ],
-    "buttonText": "Learn More"
+    "buttonText": "Tudjon meg többet"
   },
   "workSection": {
-    "title": "Roof Plan Working Process",
+    "subTitle": "TÖBB MINT 20 ÉVES TAPASZTALAT",
+    "title": "TETŐFEDÉSI MUNKAFOLYAMAT",
     "steps": [
       {
         "number": "01",
-        "title": "Plan for Roofing",
-        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+        "title": "TERVEZÉS",
+        "description": "Részletes tervezési folyamat, amely figyelembe veszi az Ön igényeit és a legjobb tetőfedési megoldásokat."
       },
       {
         "number": "02",
-        "title": "Schedule Estimate",
-        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+        "title": "ÁRAJÁNLAT KÉSZÍTÉS",
+        "description": "Pontosan és gyorsan elkészítjük az árajánlatot, amely minden költséget magában foglal."
       },
       {
         "number": "03",
-        "title": "Install New Roof",
-        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+        "title": "ÚJ TETŐ TELEPÍTÉSE",
+        "description": "Professzionális csapatunk gyorsan és hatékonyan végzi el a telepítést, garantált minőséggel."
       },
       {
         "number": "04",
-        "title": "Enjoy Roofing",
-        "description": "Suffered alteration in some a form, by injected humour, or randomised word"
+        "title": "ÉLVEZZE ÚJ TETŐJÉT",
+        "description": "Élvezze az új tető nyújtotta biztonságot és esztétikát, amely hosszú távon szolgálja otthonát."
       }
     ]
   },
   "historySection": {
-    "title": "Roofing when an unknown printer took to make type book",
-    "description": "There are many variations of passages of Lorem Ipsum available, but the majori our as have suffered alteration in some form, by injected humour, or randomised word which don't look even slightly believable.",
+    "subTitle": "TÖBB MINT 20 ÉVES TAPASZTALAT",
+    "title": "TETŐFEDÉSI SZAKÉRTELEM, AMELY ÉVTIZEDEKRE NYÚLIK VISSZA",
+    "description": "Cégünk története több évtizedre nyúlik vissza, amely idő alatt folyamatosan fejlesztettük tudásunkat és technológiánkat. Az évek során számos elégedett ügyféllel büszkélkedhetünk, akik a minőségi szolgáltatásainkat választották.",
     "list": [
-      "Technology management",
-      "Roofing Solutions",
-      "Modern Worker Working here",
-      "Quick Response"
+      "Modern technológiák alkalmazása",
+      "Széleskörű tetőfedési megoldások",
+      "Tapasztalt és elhivatott munkatársak",
+      "Gyors válaszidő"
     ]
   }
 }

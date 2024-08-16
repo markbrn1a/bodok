@@ -39,7 +39,8 @@ export default function CallBackForm({ content }) {
 
     const isPhoneValid = validatePhoneNumber(phone.value);
     if (isPhoneValid && name.trim() !== "") {
-      sendMail({ phone: phone.value });
+      const gclid = localStorage.getItem("gclid");
+      sendMail({ phone: phone.value, name: name, gclid });
       formSubmit();
       setName("");
       setPhone({ value: "", isValid: true, errorMessage: "" });

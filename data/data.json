@@ -15,8 +15,8 @@
       }
     ],
     "sectionTitle": {
-      "subTitle": "Cégünkről",
-      "title": "Elkötelezettek vagyunk a tetőfedés kiválósága iránt"
+      "subTitle": "AZ ORSZÁG TETŐFEDŐJE",
+      "title": "ELKÖTELEZETTEK VAGYUNK A JÓ TETŐFEDÉS IRÁNT"
     },
     "description": "A Bodok Tetőfedő Mester több évtizede foglalkozik tetőfedéssel és felújítással. Szakértelemmel, garanciával és megbízhatósággal állunk ügyfeleink szolgálatában.",
     "listItems": [
@@ -25,8 +25,8 @@
       "Teljeskörű támogatás az állami pályázatokhoz."
     ],
     "link": {
-      "href": "/about",
-      "text": "Tudjon meg többet"
+      "href": "/kapcsolat",
+      "text": "INGYENES KONZULTÁCIÓ"
     }
   },
   "features": [
@@ -34,8 +34,8 @@
       "title": "Minőségi Anyagok",
       "description": "Csak időtálló, kiváló minőségű anyagokat használunk.",
       "link": {
-        "href": "/services-details",
-        "text": "További információ"
+        "href": "/kapcsolat",
+        "text": "ÁRAJÁNLAT"
       },
       "icon": "/assets/img/icon/features_icon01.svg"
     },
@@ -43,8 +43,8 @@
       "title": "Szakértő Munkatársak",
       "description": "Tapasztalt szakemberek biztosítják a kiváló munkavégzést.",
       "link": {
-        "href": "/services-details",
-        "text": "További információ"
+        "href": "/munkaink",
+        "text": "MUNKÁINK"
       },
       "icon": "/assets/img/icon/features_icon02.svg"
     },
@@ -52,8 +52,8 @@
       "title": "Teljeskörű Kivitelezés",
       "description": "A tervezéstől a kivitelezésig minden munkafázist lefedünk.",
       "link": {
-        "href": "/services-details",
-        "text": "További információ"
+        "href": "/szolgaltatasok",
+        "text": "SZOLGÁLTATÁSOK"
       },
       "icon": "/assets/img/icon/features_icon03.svg"
     }
@@ -61,11 +61,11 @@
   "banner": {
     "shapeImage": "/assets/img/banner/banner_shape_result.webp",
     "backgroundImage": "/assets/img/banner/banner_bg_result.webp",
-    "title": "Legjobb Tetőfedési Szolgáltatások",
+    "title": "TELJESKÖRŰ TETŐFEDÉS ORSZÁGOSAN",
     "description": "Családi házak tetőfedését kivitelezzük a legkorszerűbb technológiákkal, tapasztalt szakemberek bevonásával és időtálló, minőségi anyagok felhasználásával.",
     "link": {
       "href": "/project",
-      "text": "Fedezze fel"
+      "text": "+36 30 123 4567"
     },
     "tooltips": [
       {
@@ -83,89 +83,89 @@
     ]
   },
   "header": {
-    "subTitle": "Szolgáltatásaink",
-    "title": "Tetőfedési és Felújítási Szolgáltatások"
+    "subTitle": "SZOLGÁLTATÁSAINK",
+    "title": "TETŐFEDÉSI ÉS FELÚJÍTÁSI SZOLGÁLTATÁSOK"
   },
   "services": [
     {
-      "title": "Cserepeslemezes Tetőfedés",
+      "title": "TETŐFEDÉS CSEREPESLEMEZZEL",
+      "link": "/szolgaltatasok/tetofedes/tetofedes-cserepeslemezzel",
       "description": "Gyors és időtálló tetőfedés cserepeslemezzel.",
       "image": "/assets/img/services/services_item01_result.webp",
-      "icon": "/assets/img/icon/services_icon01.svg",
-      "link": "/services-details",
+      "icon": "/assets/img/icon/services_icon02.svg",
       "number": "01"
     },
     {
-      "title": "Kerámiacserepes Tetőfedés",
+      "title": "TETŐFEDÉS KERÁMIACSERÉPPEK",
+      "link": "/szolgaltatasok/tetofedes/keramia-cserepes-tetofedes",
       "description": "Időtálló és strapabíró tetőfedés kerámiacserepekkel.",
       "image": "/assets/img/services/services_item02_result.webp",
-      "icon": "/assets/img/icon/services_icon02.svg",
-      "link": "/services-details",
+      "icon": "/assets/img/icon/services_icon01.svg",
       "number": "02"
     },
     {
-      "title": "Tetőszerkezet Építése",
+      "title": "TETŐSZERKEZETEK ÉPÍTÉSE/ERŐSÍTÉSE",
+      "link": "/szolgaltatasok/acsmunkak",
       "description": "Tetőszerkezetek építése és felújítása garanciával.",
       "image": "/assets/img/services/services_item03_result.webp",
-      "icon": "/assets/img/icon/services_icon03.svg",
-      "link": "/services-details",
+      "icon": "/assets/img/icon/services_icon04.svg",
       "number": "03"
     },
     {
-      "title": "Bádogos Munkák",
+      "title": "BÁDOGOS MUNKÁK",
+      "link": "/szolgaltatasok/badogosmunkak",
       "description": "Ereszcsatornák szerelése és tisztítása, bádogozás.",
       "image": "/assets/img/services/services_item04_result.webp",
-      "icon": "/assets/img/icon/services_icon04.svg",
-      "link": "/services-details",
+      "icon": "/assets/img/icon/services_icon03.svg",
       "number": "04"
     },
     {
-      "title": "Faházak Építése",
+      "title": "FAHÁZAK ÉPÍTÉSE",
+      "link": "/szolgaltatasok/acsmunkak/konnyuszerkezetes-fahazak-epitese",
       "description": "Könnyűszerkezetes faházak építése és karbantartása.",
       "image": "/assets/img/services/services_item05_result.webp",
-      "icon": "/assets/img/icon/services_icon05.svg",
-      "link": "/services-details",
+      "icon": "/assets/img/icon/services_icon06.svg",
       "number": "05"
     },
     {
-      "title": "Tetőjavítás és Felújítás",
+      "title": "TETŐJAVÍTÁS ÉS TETŐFELÚJÍTÁS",
+      "link": "/szolgaltatasok/tetofelujitas",
       "description": "Viharkárok és beázások javítása teljeskörű garanciával.",
       "image": "/assets/img/services/services_item06_result.webp",
-      "icon": "/assets/img/icon/services_icon06.svg",
-      "link": "/services-details",
+      "icon": "/assets/img/icon/services_icon05.svg",
       "number": "06"
     }
   ],
   "project": {
-    "sectionTitle": "Legújabb Projektek",
-    "sectionSubtitle": "Fedezze Fel Legújabb Projektjeinket",
-    "viewAllProjects": "Összes Projekt Megtekintése",
-    "viewAllProjectsLink": "/project",
+    "sectionTitle": "TEKINTSE MEG EDDIGI MUNKÁINKAT",
+    "sectionSubtitle": "REFERENCIÁINK",
+    "viewAllProjects": "ÖSSZES REFERENCIAMUNKA",
+    "viewAllProjectsLink": "/munkaink",
     "projects": [
       {
-        "version": "Projektek V1",
-        "title": "Alacsony Épületek és Tetőjavítás",
+        "version": "TELJESKÖRŰ TETŐFEDÉS",
+        "title": "Tetőfedés, bádogozás, tetőszerkezet építése, vízelvezetés kivitelezése.",
         "detailsLink": "/project-details",
         "description": "Kiváló minőségű tetőjavítás és építés alacsony épületeken.",
         "image": "/assets/img/project/project_img01_result.webp"
       },
       {
-        "version": "Projektek V2",
-        "title": "Világszínvonalú Tetőfedés",
+        "version": "PALATETŐ FELÚJÍTÁSA",
+        "title": "Régi palatető felújítása bontás nélkül.",
         "detailsLink": "/project-details",
         "description": "Világszínvonalú tetőfedés kiváló minőségű anyagokkal.",
         "image": "/assets/img/project/project_img02_result.webp"
       },
       {
-        "version": "Projektek V3",
-        "title": "Minőség Ellenőrzési Rendszer",
+        "version": "TETŐFEDÉS CSEREPESLEMEZZEL",
+        "title": "Családi ház fgelújítása és tetőfedése cserépeslemezzel.",
         "detailsLink": "/project-details",
         "description": "Tetőfedési projektek minőségellenőrzési rendszere.",
         "image": "/assets/img/project/project_img03_result.webp"
       },
       {
-        "version": "Projektek V3",
-        "title": "Alacsony Épületek és Tetőjavítás",
+        "version": "TETŐFEDÉS KORCOLTLEMEZZEL",
+        "title": "Kocsibeálló fedése korcoltlemezzel.",
         "detailsLink": "/project-details",
         "description": "Kiváló minőségű tetőjavítás és építés alacsony épületeken.",
         "image": "/assets/img/project/project_img04_result.webp"
@@ -174,8 +174,8 @@
   },
 
   "team": {
-    "sectionTitle": "Professzionális Csapat",
-    "sectionSubtitle": "Professzionális Csapattagok",
+    "sectionTitle": "SZAKEMBEREINK",
+    "sectionSubtitle": "ISMERJE MEG A CSAPATUNKAT",
     "teamMembers": [
       {
         "name": "Bodok István",
@@ -232,45 +232,45 @@
     {
       "icon": "/assets/img/icon/counter_icon01.svg",
       "count": 1500,
-      "description": "Elvégzett Projekt"
+      "description": "LEFEDETT TETŐ"
     },
     {
       "icon": "/assets/img/icon/counter_icon02.svg",
       "count": 8562,
-      "description": "Elégedett Ügyfelek"
-    },
-    {
-      "icon": "/assets/img/icon/counter_icon03.svg",
-      "count": 450,
-      "description": "Tapasztalt Szakemberek"
+      "description": "ELÉGEDETT ÜGYFÉL"
     },
     {
       "icon": "/assets/img/icon/counter_icon04.svg",
+      "count": 450,
+      "description": "MEGÉPÍTETT FAHÁZ"
+    },
+    {
+      "icon": "/assets/img/icon/counter_icon03.svg",
       "count": 38,
-      "description": "Díjak"
+      "description": "SZAKEMBER"
     }
   ],
   "testimonialSection": {
-    "sectionTitle": "Visszajelzések",
-    "sectionSubtitle": "Elégedett Ügyfeleink Véleménye",
+    "sectionTitle": "VÉLEMÉNYEK",
+    "sectionSubtitle": "ÜGYFELEINK VÉLEMEMÉNYEI",
     "image": "/assets/img/images/testimonial_img_result.webp",
     "testimonials": [
       {
         "quote": "Kiváló minőségű munka, a tetőnk most már teljesen új! Mindenkinek ajánlom a Bodok Tetőfedő Mestert.",
         "avatar": "/assets/img/images/h2_testi_avatar01.png",
-        "name": "Kovács János",
+        "name": "H. BARNA",
         "role": "Ügyfél"
       },
       {
         "quote": "Gyors és precíz munkavégzés. Nagyon elégedett vagyok a végeredménnyel.",
         "avatar": "/assets/img/images/h2_testi_avatar02.png",
-        "name": "Nagy Péter",
+        "name": "W. KATALIN",
         "role": "Ügyfél"
       },
       {
         "quote": "A csapat profi módon végezte a munkát. Köszönöm!",
         "avatar": "/assets/img/images/h2_testi_avatar03.png",
-        "name": "Szabó Anna",
+        "name": "Ü. JÁNOS",
         "role": "Ügyfél"
       }
     ]
@@ -310,8 +310,8 @@
   },
   "newsletterSection": {
     "backgroundImage": "/assets/img/bg/newsletter_bg_result.webp",
-    "subTitle": "Minőségi Tetőfedés",
-    "title": "Szüksége van Tetőfedésre?",
+    "subTitle": "TETŐFEDŐRE VAN SZÜKSÉGE?",
+    "title": "KÉRJEN VISSZAHÍVÁST",
     "formPlaceholders": {
       "name": "Név*",
       "phone": "Telefon*"

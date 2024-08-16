@@ -15,7 +15,29 @@ import { redirect } from "next/navigation";
 import Work2 from "@/components/sections/Work2";
 // import data from "@/data/data.json";
 // import data from "@/data/service/content.json";
+export async function generateMetadata({ params }) {
+  const { service } = params;
+  const slug = service;
 
+  // Dynamically import the JSON file based on the slug
+  let data = {};
+  try {
+    const mod = await import(`@/data/service/${slug}.json`);
+    data = JSON.parse(JSON.stringify(mod.default)); // Ensure it's a plain object
+  } catch (error) {
+    redirect("/404");
+  }
+
+  return {
+    title: "BODOK " + data.mainTitle,
+    description: data.description,
+    openGraph: {
+      title: data.mainTitle,
+      description: data.description,
+      images: ["/some-specific-page-image.jpg"],
+    },
+  };
+}
 export default async function LandingTemplate({ params }) {
   const { service } = params;
   const slug = service;
@@ -26,7 +48,7 @@ export default async function LandingTemplate({ params }) {
     const mod = await import(`@/data/service/${slug}.json`);
     data = JSON.parse(JSON.stringify(mod.default)); // Ensure it's a plain object
   } catch (error) {
-    // redirect("/404");
+    redirect("/404");
   }
   return (
     <>
@@ -46,7 +68,7 @@ export default async function LandingTemplate({ params }) {
       <Work2 content={data} />
       <Project3 content={data} />
       <Faq1 content={data} />
-      <Blog1 content={data} />
+      {/* <Blog1 content={data} /> */}
       <Newsletter1 content={data} />
     </>
   );

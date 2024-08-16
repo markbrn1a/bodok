@@ -34,7 +34,8 @@ export default function Form() {
       const formData = Object.fromEntries(
         Object.entries(formState).map(([key, field]) => [key, field.value])
       );
-      sendMail(formData);
+      const gclid = localStorage.getItem("gclid");
+      sendMail(formData, gclid);
       setIsSubmitted(true);
       formSubmit();
     } else {

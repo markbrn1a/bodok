@@ -3,7 +3,28 @@ import Link from "next/link";
 import Image from "next/image";
 import ServiceForm from "@/components/elements/forms/ServicesForm";
 import { redirect } from "next/navigation";
+export async function generateMetadata({ params }) {
+  const { service, subservice } = params;
+  const slug = subservice || service;
+  // Dynamically import the JSON file based on the slug
+  let data = {};
+  try {
+    const mod = await import(`@/data/services/${slug}.json`);
+    data = mod.default;
+  } catch (error) {
+    console.error(error);
+  }
 
+  return {
+    title: "BODOK " + data.breadcrumbTitle,
+    description: data.servicesDetails?.title,
+    openGraph: {
+      title: data.mainTitle,
+      description: data.description,
+      images: ["/some-specific-page-image.jpg"],
+    },
+  };
+}
 export default async function ServiceDetails({ params }) {
   const { service, subservice } = params;
   const slug = subservice || service;

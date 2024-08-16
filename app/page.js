@@ -93,10 +93,10 @@ export default function Home() {
         <About1 content={data} />
         <Services1 content={data} />
         <Project1 content={data.project} />
-        <Team1 content={data.team} />
-        <Counter1 content={data} />
+        {/* <Team1 content={data.team} /> */}
+        {/* <Counter1 content={data} /> */}
         <Testimonial1 content={data} />
-        <Blog1 content={data} />
+        {/* <Blog1 content={data} /> */}
         <Newsletter1 content={data} />
       </Suspense>
     </>

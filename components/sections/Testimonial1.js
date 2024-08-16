@@ -49,14 +49,14 @@ export default function Testimonial1({ content }) {
                           <p>{testimonial.quote}</p>
                         </div>
                         <div className="testimonial-avatar">
-                          <div className="avatar-thumb">
+                          {/* <div className="avatar-thumb">
                             <Image
                               width={50}
                               height={50}
                               src={testimonial.avatar}
                               alt={testimonial.name}
                             />
-                          </div>
+                          </div> */}
                           <div className="avatar-content">
                             <h6 className="title">{testimonial.name}</h6>
                             <p>{testimonial.role}</p>
