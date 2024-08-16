@@ -23,7 +23,7 @@ export default function Services2({ content }) {
               <div className="col-lg-6" key={index}>
                 <div className="services-item-two">
                   <div className="services-thumb-two">
-                    <Link href={item.link}>
+                    <Link href={item.link || ""}>
                       <Image
                         width={300}
                         height={300}
@@ -43,7 +43,7 @@ export default function Services2({ content }) {
                     </div>
                     <div className="content">
                       <h2 className="title">
-                        <Link href={item.link}>{item.title}</Link>
+                        <Link href={item.link || ""}>{item.title}</Link>
                       </h2>
                       <p>{item.description}</p>
                     </div>

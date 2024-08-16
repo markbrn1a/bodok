@@ -17,7 +17,7 @@ export default function Features1({ content }) {
                     <div className="features-content">
                       <h4 className="title">{feature.title}</h4>
                       <p>{feature.description}</p>
-                      <Link href={feature.link.href} className="link-btn">
+                      <Link href={feature.link.href || ""} className="link-btn">
                         <i className="fas fa-arrow-right" /> {feature.link.text}
                       </Link>
                     </div>

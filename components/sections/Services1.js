@@ -66,7 +66,7 @@ export default function Services1({ content }) {
                         }`,
                       }}
                     >
-                      <Link href={service.link}>{service.title}</Link>
+                      <Link href={service.link || ""}>{service.title}</Link>
                     </h2>
                     <h2 className="number">{service.number}</h2>
                   </div>
@@ -79,10 +79,10 @@ export default function Services1({ content }) {
                     }}
                   >
                     <h2 className="title">
-                      <Link href={service.link}>{service.title}</Link>
+                      <Link href={service.link || ""}>{service.title}</Link>
                     </h2>
                     <p>{service.description}</p>
-                    <Link href={service.link} className="read-more">
+                    <Link href={service.link || ""} className="read-more">
                       ÉRDEKEL <i className="fas fa-arrow-right" />
                     </Link>
                   </div>

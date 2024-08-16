@@ -29,7 +29,7 @@ export default function Project3({ content }) {
               <div className="col-lg-4 col-md-6 col-sm-10" key={index}>
                 <div className="project-item-two">
                   <div className="project-thumb-two">
-                    <Link href={project.link}>
+                    <Link href={project.link || ""}>
                       <Image
                         width={200}
                         height={200}
@@ -41,9 +41,9 @@ export default function Project3({ content }) {
                   <div className="project-content-two">
                     <span>{project.category}</span>
                     <h2 className="title">
-                      <Link href={project.link}>{project.title}</Link>
+                      <Link href={project.link || ""}>{project.title}</Link>
                     </h2>
-                    <Link href={project.link} className="link-btn">
+                    <Link href={project.link || ""} className="link-btn">
                       <i className="fas fa-arrow-right" />
                     </Link>
                   </div>

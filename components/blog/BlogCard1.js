@@ -26,7 +26,7 @@ export default function BlogCard1({ item }) {
       <div className="col-lg-6 col-md-6">
         <div className="blog-post-item">
           <div className="blog-post-thumb">
-            <Link href={`/blog/${item.id}`}>
+            <Link href={`/blog/${item.id}` || ""}>
               <Image
                 height={200}
                 width={200}

@@ -44,7 +44,7 @@ export default function Project1({ content }) {
             </div>
             <div className="col-lg-4">
               <div className="view-all-btn text-end mb-50">
-                <Link href={content.viewAllProjectsLink} className="btn">
+                <Link href={content.viewAllProjectsLink || ""} className="btn">
                   {content.viewAllProjects}
                 </Link>
               </div>
@@ -79,7 +79,9 @@ export default function Project1({ content }) {
                     <div className="left-side-content">
                       <span>{project.version}</span>
                       <h2 className="title">
-                        <Link href={project.detailsLink}>{project.title}</Link>
+                        <Link href={project.detailsLink || ""}>
+                          {project.title}
+                        </Link>
                       </h2>
                       <p
                         style={{
@@ -92,7 +94,7 @@ export default function Project1({ content }) {
                       </p>
                     </div>
                     <div className="project-link">
-                      <Link href={project.detailsLink}>
+                      <Link href={project.detailsLink || ""}>
                         <i className="fas fa-arrow-right" />
                       </Link>
                     </div>
