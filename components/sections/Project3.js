@@ -53,7 +53,7 @@ export default function Project3({ content }) {
           </div>
           <div className="learn-more-btn text-center mt-25">
             <Link
-              href={content.projectSection.learnMoreLink.link}
+              href={content.projectSection.learnMoreLink.link || ""}
               className="btn"
             >
               {content.projectSection.learnMoreLink.text}

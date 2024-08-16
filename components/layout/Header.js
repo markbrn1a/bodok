@@ -88,7 +88,7 @@ export default function Header({ headerCls, headerTop }) {
                     <li>
                       <i className="fas fa-phone-alt" />
                       <Link
-                        href={`tel:${
+                        href={`${
                           process.env.NEXT_PUBLIC_COMPANY_PHONE_LINK || ""
                         }`}
                       >

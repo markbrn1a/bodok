@@ -43,7 +43,7 @@ export default function BlogCard1({ item }) {
               <ul className="list-wrap">
                 <li>
                   <i className="far fa-user" /> By{" "}
-                  <Link href={`/blog/${item.id}`}>{item.author}</Link>
+                  <Link href={`/blog/${item.id}` || ""}>{item.author}</Link>
                 </li>
                 <li>
                   <i className="fas fa-calendar-alt" />
@@ -52,9 +52,9 @@ export default function BlogCard1({ item }) {
               </ul>
             </div>
             <h2 className="title">
-              <Link href={`/blog/${item.id}`}>{item.title}</Link>
+              <Link href={`/blog/${item.id}` || ""}>{item.title}</Link>
             </h2>
-            <Link href={`/blog/${item.id}`} className="link-btn">
+            <Link href={`/blog/${item.id}` || ""} className="link-btn">
               Read More
               <i className="fas fa-arrow-right" />
             </Link>

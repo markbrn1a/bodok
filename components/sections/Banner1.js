@@ -33,7 +33,7 @@ export default function Banner1({ content }) {
             {content.banner.description}
           </p>
           <Link
-            href={phoneLink}
+            href={phoneLink || ""}
             className="btn wow fadeInUp"
             data-wow-delay=".4s"
             onClick={phoneCall}

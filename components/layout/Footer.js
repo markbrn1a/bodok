@@ -115,7 +115,7 @@ export default function Footer1() {
                         <span>{content.footer.phoneText}</span>
                         <Link
                           onClick={phoneCall}
-                          href={`tel:${
+                          href={`${
                             process.env.NEXT_PUBLIC_COMPANY_PHONE_LINK || ""
                           }`}
                         >
@@ -160,7 +160,7 @@ export default function Footer1() {
                     <ul className="list-wrap">
                       {content.footer.footerMenu.map((menu, index) => (
                         <li key={index}>
-                          <Link href={menu.link}>{menu.title}</Link>
+                          <Link href={menu.link || ""}>{menu.title}</Link>
                         </li>
                       ))}
                     </ul>
