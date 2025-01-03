@@ -18,7 +18,6 @@ function sanitizeInput(input) {
     allowedAttributes: {},
   });
 }
-
 function validateInput(formData) {
   let errors = {};
 
