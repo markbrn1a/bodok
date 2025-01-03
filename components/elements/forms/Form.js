@@ -117,7 +117,7 @@ export default function Form() {
             <InputField id="honeypot" name="honeypot" type="text" />
           </div>
           <button className="btn" type="submit">
-            Send Message
+            Üzenet küldése
           </button>
         </form>
       )}

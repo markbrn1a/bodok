@@ -60,23 +60,16 @@ async function sendMail(formData) {
     sanitizedData[key] = sanitizeInput(value);
   }
 
-  // Print email content to console instead of sending it
-  console.log("From:", sanitizedData.name || "no-reply@weblabstudio.hu");
-  console.log("To: hello@weblabstudio.hu");
-  console.log("Subject: Árajánlatkérés");
-  console.log(
-    "Text:",
-    Object.entries(sanitizedData)
+  // Send email
+  const info = await transporter.sendMail({
+    from: sanitizedData.name || "noreply@bodok-tetofedo-mester.hu", // sender address
+    to: "info@bodok-tetofedo-mester.hu",
+    subject: "Árajánlatkérés", // Subject line
+    text: Object.entries(sanitizedData)
       .map(([key, value]) => `${key}: ${value}`)
-      .join(", ")
-  );
-  // // Send email
-  // const info = await transporter.sendMail({
-  //   from: sanitizedData.name || "no-reply@weblabstudio.hu", // sender address
-  //   to: "hello@weblabstudio.hu",
-  //   subject: "Árajánlatkérés", // Subject line
-  //   text: Object.entries(sanitizedData).map(([key, value]) => `${key}: ${value}`).join(', '), // plain text body
-  // });
+      .join(", "), // plain text body
+  });
+  console.log("Email sent: %s", info);
 }
 
 export default sendMail;
